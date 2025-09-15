@@ -1,0 +1,124 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e1]:
+  - paragraph [ref=e3]:
+    - link "TestifyStack" [ref=e4] [cursor=pointer]:
+      - /url: https://testifystack.com/
+    - text: "| Email, SMS, OTP and Webhooks Testing Stack for QA & Dev"
+    - link "REST API testing tools" [ref=e5] [cursor=pointer]:
+      - img [ref=e7] [cursor=pointer]
+      - generic [ref=e9] [cursor=pointer]: REST API testing tools
+    - link "Software testing services" [ref=e10] [cursor=pointer]:
+      - img [ref=e12] [cursor=pointer]
+      - generic [ref=e14] [cursor=pointer]: Software testing services
+  - banner [ref=e16]:
+    - navigation "Main navigation" [ref=e17]:
+      - link "SUT" [ref=e18] [cursor=pointer]:
+        - /url: /
+        - 'img "Best Website for Practice Automation Testing: Free UI and REST API Examples and Apps. Using Cypress, Playwright, Selenium, WebdriverIO and Postman." [ref=e19] [cursor=pointer]'
+        - text: Practice
+      - generic [ref=e20]:
+        - list [ref=e21]:
+          - listitem [ref=e22]:
+            - button "Demos" [ref=e23] [cursor=pointer]
+          - listitem [ref=e24]:
+            - link "Tools" [ref=e25] [cursor=pointer]:
+              - /url: /#tools
+          - listitem [ref=e26]:
+            - link "Tips" [ref=e27] [cursor=pointer]:
+              - /url: /tips
+          - listitem [ref=e28]:
+            - link "Test Cases" [ref=e29] [cursor=pointer]:
+              - /url: /test-cases
+          - listitem [ref=e30]:
+            - link "API Testing" [ref=e31] [cursor=pointer]:
+              - /url: /notes/api/api-docs/
+          - listitem [ref=e32]:
+            - link "About" [ref=e33] [cursor=pointer]:
+              - /url: /about
+        - list
+        - link "Free ISTQB Mock Exams" [ref=e34] [cursor=pointer]:
+          - /url: https://istqb.expandtesting.com/
+  - main [ref=e35]:
+    - insertion [ref=e39]:
+      - iframe [active] [ref=e41]:
+        - generic [active] [ref=f1e1]:
+          - generic [ref=f1e7]:
+            - generic [ref=f1e8]:
+              - link "Generate ai code in minutes" [ref=f1e10] [cursor=pointer]:
+                - /url: https://googleads.g.doubleclick.net/aclk?nis=4&sa=l&ai=CJmLWmELIaJbLF_Tz-cAPr-GLqA_o1dTngQHrh7LfxhT3ivX9CBABIJWUmaMBYKWWpIa0KKABo4zfxz7IAQGoAwHIA8MEqgT-AU_QUc325Au__9DUEGo4cXrcNGshLY6wVG5riM7JijEpgy15ZQgByGF7oIBOh43sYYIo7--ynaiDrqWyMpR9dcWCy2w3uI3VVti6inBTMu0k380zUHUCDm-poMWcfSkbQwYhww6P2zgJPg3A94H-W1oLoJMXq9J3cwXDQsWEA3hMQaYkDDFfsphWiScYcmox499myMq6E74IQMjdrMaYVOHhEQpUxClsDcQO3flGSAtfg29xgTHnust2lsRV38LESbmUpyDxKyfR5YC0FjzLL456YVKW1AX1bak1DBUHfDbMGVf05W2Uy37FxWnXiNfRcd6O-OCL9P-vKDmU7ddpwAShkJPJuAWIBc3Uo7NVoAZmgAejxK-nGagH4tixAqgHpr4bqAfMzrECqAfz0RuoB5bYG6gHqpuxAqgHjs4bqAeT2BuoB_DgG6gH7paxAqgH_p6xAqgHr76xAqgH1ckbqAfZtrECqAeaBqgH_56xAqgH35-xAqgHyqmxAqgH66WxAqgH6rGxAqgHmbWxAqgHvrexAqgH-MKxAqgH-8KxAtgHAdIIKQiAYRABGJ8BMgKKAjoNgECAwICAgICogAKoA0i9_cE6WIjfpdGb248DsQmpJKi7SmAvgoAKAZgLAcgLAaIMA5ABAdoMEQoLEPDr2dqR3oOAzQESAgEDqg0CVUHIDQHqDRMIjvW00ZvbjwMV9HkeAh2v8AL18A0CiA4J2BMN0BUBmBYByhYCCgD4FgGAFwGyFw4YASoKNDk3MDIxMjIyMboXAjgBqhgXCQAAAAAg0QRBEgo0OTcwMjEyMjIxGAGyGAkSAuVZGGYiAQDQGAHCGQIIAQ&ae=1&ase=2&gclid=EAIaIQobChMIlvem0ZvbjwMV9HkeAh2v8AL1EAEYASAAEgKg4fD_BwE&num=1&cid=CAQSswEA2abss35Psvywk71QIcSL6de13yy-j0DiLPUnq3fnTNg8t63Md5FxxQR0egk5C9SQmYn-kt_TX7PcC6xI5Vhssj990jAlNs0uRI5Kujzif72cZN_OhRQrKUXtcvZiTLr739-sGaBuj2RiK_GI-wuvH4vRQz_mZpwtJyDxGzsG1LPScEG-bhqviO5lwMeMRfsMNR_STAbclkJA_d_hkJlz3Vj_JuSacg5sMY8Tl5AnjQbLaBgB&sig=AOD64_20DOZ3DLuZDXEK6sCN3NJnlfy9EA&client=ca-pub-1056034821646296&rf=1&nb=0&adurl=https://creao.ai/%3Futm_source%3Dtwitter%26gad_source%3D5%26gad_campaignid%3D22924552781%26gclid%3DEAIaIQobChMIlvem0ZvbjwMV9HkeAh2v8AL1EAEYASAAEgKg4fD_BwE
+              - link "ovable website builder alt" [ref=f1e12] [cursor=pointer]:
+                - /url: https://googleads.g.doubleclick.net/aclk?nis=4&sa=l&ai=CJmLWmELIaJbLF_Tz-cAPr-GLqA_o1dTngQHrh7LfxhT3ivX9CBABIJWUmaMBYKWWpIa0KKABo4zfxz7IAQGoAwHIA8MEqgT-AU_QUc325Au__9DUEGo4cXrcNGshLY6wVG5riM7JijEpgy15ZQgByGF7oIBOh43sYYIo7--ynaiDrqWyMpR9dcWCy2w3uI3VVti6inBTMu0k380zUHUCDm-poMWcfSkbQwYhww6P2zgJPg3A94H-W1oLoJMXq9J3cwXDQsWEA3hMQaYkDDFfsphWiScYcmox499myMq6E74IQMjdrMaYVOHhEQpUxClsDcQO3flGSAtfg29xgTHnust2lsRV38LESbmUpyDxKyfR5YC0FjzLL456YVKW1AX1bak1DBUHfDbMGVf05W2Uy37FxWnXiNfRcd6O-OCL9P-vKDmU7ddpwAShkJPJuAWIBc3Uo7NVoAZmgAejxK-nGagH4tixAqgHpr4bqAfMzrECqAfz0RuoB5bYG6gHqpuxAqgHjs4bqAeT2BuoB_DgG6gH7paxAqgH_p6xAqgHr76xAqgH1ckbqAfZtrECqAeaBqgH_56xAqgH35-xAqgHyqmxAqgH66WxAqgH6rGxAqgHmbWxAqgHvrexAqgH-MKxAqgH-8KxAtgHAdIIKQiAYRABGJ8BMgKKAjoNgECAwICAgICogAKoA0i9_cE6WIjfpdGb248DsQmpJKi7SmAvgoAKAZgLAcgLAaIMA5ABAdoMEQoLEPDr2dqR3oOAzQESAgEDqg0CVUHIDQHqDRMIjvW00ZvbjwMV9HkeAh2v8AL18A0CiA4J2BMN0BUBmBYByhYCCgD4FgGAFwGyFw4YASoKNDk3MDIxMjIyMboXAjgBqhgXCQAAAAAg0QRBEgo0OTcwMjEyMjIxGAGyGAkSAuVZGGYiAQDQGAHCGQIIAQ&ae=1&ase=2&gclid=EAIaIQobChMIlvem0ZvbjwMV9HkeAh2v8AL1EAEYASAAEgKg4fD_BwE&num=1&cid=CAQSswEA2abss35Psvywk71QIcSL6de13yy-j0DiLPUnq3fnTNg8t63Md5FxxQR0egk5C9SQmYn-kt_TX7PcC6xI5Vhssj990jAlNs0uRI5Kujzif72cZN_OhRQrKUXtcvZiTLr739-sGaBuj2RiK_GI-wuvH4vRQz_mZpwtJyDxGzsG1LPScEG-bhqviO5lwMeMRfsMNR_STAbclkJA_d_hkJlz3Vj_JuSacg5sMY8Tl5AnjQbLaBgB&sig=AOD64_20DOZ3DLuZDXEK6sCN3NJnlfy9EA&client=ca-pub-1056034821646296&rf=1&nb=0&adurl=https://creao.ai/%3Futm_source%3Dtwitter%26gad_source%3D5%26gad_campaignid%3D22924552781%26gclid%3DEAIaIQobChMIlvem0ZvbjwMV9HkeAh2v8AL1EAEYASAAEgKg4fD_BwE
+              - 'link "Website builder + AI coder: connect your stack and generate clean, production-ready code." [ref=f1e14] [cursor=pointer]':
+                - /url: https://googleads.g.doubleclick.net/aclk?nis=4&sa=l&ai=CJmLWmELIaJbLF_Tz-cAPr-GLqA_o1dTngQHrh7LfxhT3ivX9CBABIJWUmaMBYKWWpIa0KKABo4zfxz7IAQGoAwHIA8MEqgT-AU_QUc325Au__9DUEGo4cXrcNGshLY6wVG5riM7JijEpgy15ZQgByGF7oIBOh43sYYIo7--ynaiDrqWyMpR9dcWCy2w3uI3VVti6inBTMu0k380zUHUCDm-poMWcfSkbQwYhww6P2zgJPg3A94H-W1oLoJMXq9J3cwXDQsWEA3hMQaYkDDFfsphWiScYcmox499myMq6E74IQMjdrMaYVOHhEQpUxClsDcQO3flGSAtfg29xgTHnust2lsRV38LESbmUpyDxKyfR5YC0FjzLL456YVKW1AX1bak1DBUHfDbMGVf05W2Uy37FxWnXiNfRcd6O-OCL9P-vKDmU7ddpwAShkJPJuAWIBc3Uo7NVoAZmgAejxK-nGagH4tixAqgHpr4bqAfMzrECqAfz0RuoB5bYG6gHqpuxAqgHjs4bqAeT2BuoB_DgG6gH7paxAqgH_p6xAqgHr76xAqgH1ckbqAfZtrECqAeaBqgH_56xAqgH35-xAqgHyqmxAqgH66WxAqgH6rGxAqgHmbWxAqgHvrexAqgH-MKxAqgH-8KxAtgHAdIIKQiAYRABGJ8BMgKKAjoNgECAwICAgICogAKoA0i9_cE6WIjfpdGb248DsQmpJKi7SmAvgoAKAZgLAcgLAaIMA5ABAdoMEQoLEPDr2dqR3oOAzQESAgEDqg0CVUHIDQHqDRMIjvW00ZvbjwMV9HkeAh2v8AL18A0CiA4J2BMN0BUBmBYByhYCCgD4FgGAFwGyFw4YASoKNDk3MDIxMjIyMboXAjgBqhgXCQAAAAAg0QRBEgo0OTcwMjEyMjIxGAGyGAkSAuVZGGYiAQDQGAHCGQIIAQ&ae=1&ase=2&gclid=EAIaIQobChMIlvem0ZvbjwMV9HkeAh2v8AL1EAEYASAAEgKg4fD_BwE&num=1&cid=CAQSswEA2abss35Psvywk71QIcSL6de13yy-j0DiLPUnq3fnTNg8t63Md5FxxQR0egk5C9SQmYn-kt_TX7PcC6xI5Vhssj990jAlNs0uRI5Kujzif72cZN_OhRQrKUXtcvZiTLr739-sGaBuj2RiK_GI-wuvH4vRQz_mZpwtJyDxGzsG1LPScEG-bhqviO5lwMeMRfsMNR_STAbclkJA_d_hkJlz3Vj_JuSacg5sMY8Tl5AnjQbLaBgB&sig=AOD64_20DOZ3DLuZDXEK6sCN3NJnlfy9EA&client=ca-pub-1056034821646296&rf=1&nb=7&adurl=https://creao.ai/%3Futm_source%3Dtwitter%26gad_source%3D5%26gad_campaignid%3D22924552781%26gclid%3DEAIaIQobChMIlvem0ZvbjwMV9HkeAh2v8AL1EAEYASAAEgKg4fD_BwE
+            - generic [ref=f1e17]:
+              - link "creao.ai" [ref=f1e20] [cursor=pointer]:
+                - /url: https://googleads.g.doubleclick.net/aclk?nis=4&sa=l&ai=CJmLWmELIaJbLF_Tz-cAPr-GLqA_o1dTngQHrh7LfxhT3ivX9CBABIJWUmaMBYKWWpIa0KKABo4zfxz7IAQGoAwHIA8MEqgT-AU_QUc325Au__9DUEGo4cXrcNGshLY6wVG5riM7JijEpgy15ZQgByGF7oIBOh43sYYIo7--ynaiDrqWyMpR9dcWCy2w3uI3VVti6inBTMu0k380zUHUCDm-poMWcfSkbQwYhww6P2zgJPg3A94H-W1oLoJMXq9J3cwXDQsWEA3hMQaYkDDFfsphWiScYcmox499myMq6E74IQMjdrMaYVOHhEQpUxClsDcQO3flGSAtfg29xgTHnust2lsRV38LESbmUpyDxKyfR5YC0FjzLL456YVKW1AX1bak1DBUHfDbMGVf05W2Uy37FxWnXiNfRcd6O-OCL9P-vKDmU7ddpwAShkJPJuAWIBc3Uo7NVoAZmgAejxK-nGagH4tixAqgHpr4bqAfMzrECqAfz0RuoB5bYG6gHqpuxAqgHjs4bqAeT2BuoB_DgG6gH7paxAqgH_p6xAqgHr76xAqgH1ckbqAfZtrECqAeaBqgH_56xAqgH35-xAqgHyqmxAqgH66WxAqgH6rGxAqgHmbWxAqgHvrexAqgH-MKxAqgH-8KxAtgHAdIIKQiAYRABGJ8BMgKKAjoNgECAwICAgICogAKoA0i9_cE6WIjfpdGb248DsQmpJKi7SmAvgoAKAZgLAcgLAaIMA5ABAdoMEQoLEPDr2dqR3oOAzQESAgEDqg0CVUHIDQHqDRMIjvW00ZvbjwMV9HkeAh2v8AL18A0CiA4J2BMN0BUBmBYByhYCCgD4FgGAFwGyFw4YASoKNDk3MDIxMjIyMboXAjgBqhgXCQAAAAAg0QRBEgo0OTcwMjEyMjIxGAGyGAkSAuVZGGYiAQDQGAHCGQIIAQ&ae=1&ase=2&gclid=EAIaIQobChMIlvem0ZvbjwMV9HkeAh2v8AL1EAEYASAAEgKg4fD_BwE&num=1&cid=CAQSswEA2abss35Psvywk71QIcSL6de13yy-j0DiLPUnq3fnTNg8t63Md5FxxQR0egk5C9SQmYn-kt_TX7PcC6xI5Vhssj990jAlNs0uRI5Kujzif72cZN_OhRQrKUXtcvZiTLr739-sGaBuj2RiK_GI-wuvH4vRQz_mZpwtJyDxGzsG1LPScEG-bhqviO5lwMeMRfsMNR_STAbclkJA_d_hkJlz3Vj_JuSacg5sMY8Tl5AnjQbLaBgB&sig=AOD64_20DOZ3DLuZDXEK6sCN3NJnlfy9EA&client=ca-pub-1056034821646296&rf=1&nb=1&adurl=https://creao.ai/%3Futm_source%3Dtwitter%26gad_source%3D5%26gad_campaignid%3D22924552781%26gclid%3DEAIaIQobChMIlvem0ZvbjwMV9HkeAh2v8AL1EAEYASAAEgKg4fD_BwE
+              - link "OPEN" [ref=f1e23] [cursor=pointer]:
+                - /url: https://googleads.g.doubleclick.net/aclk?nis=4&sa=l&ai=CJmLWmELIaJbLF_Tz-cAPr-GLqA_o1dTngQHrh7LfxhT3ivX9CBABIJWUmaMBYKWWpIa0KKABo4zfxz7IAQGoAwHIA8MEqgT-AU_QUc325Au__9DUEGo4cXrcNGshLY6wVG5riM7JijEpgy15ZQgByGF7oIBOh43sYYIo7--ynaiDrqWyMpR9dcWCy2w3uI3VVti6inBTMu0k380zUHUCDm-poMWcfSkbQwYhww6P2zgJPg3A94H-W1oLoJMXq9J3cwXDQsWEA3hMQaYkDDFfsphWiScYcmox499myMq6E74IQMjdrMaYVOHhEQpUxClsDcQO3flGSAtfg29xgTHnust2lsRV38LESbmUpyDxKyfR5YC0FjzLL456YVKW1AX1bak1DBUHfDbMGVf05W2Uy37FxWnXiNfRcd6O-OCL9P-vKDmU7ddpwAShkJPJuAWIBc3Uo7NVoAZmgAejxK-nGagH4tixAqgHpr4bqAfMzrECqAfz0RuoB5bYG6gHqpuxAqgHjs4bqAeT2BuoB_DgG6gH7paxAqgH_p6xAqgHr76xAqgH1ckbqAfZtrECqAeaBqgH_56xAqgH35-xAqgHyqmxAqgH66WxAqgH6rGxAqgHmbWxAqgHvrexAqgH-MKxAqgH-8KxAtgHAdIIKQiAYRABGJ8BMgKKAjoNgECAwICAgICogAKoA0i9_cE6WIjfpdGb248DsQmpJKi7SmAvgoAKAZgLAcgLAaIMA5ABAdoMEQoLEPDr2dqR3oOAzQESAgEDqg0CVUHIDQHqDRMIjvW00ZvbjwMV9HkeAh2v8AL18A0CiA4J2BMN0BUBmBYByhYCCgD4FgGAFwGyFw4YASoKNDk3MDIxMjIyMboXAjgBqhgXCQAAAAAg0QRBEgo0OTcwMjEyMjIxGAGyGAkSAuVZGGYiAQDQGAHCGQIIAQ&ae=1&ase=2&gclid=EAIaIQobChMIlvem0ZvbjwMV9HkeAh2v8AL1EAEYASAAEgKg4fD_BwE&num=1&cid=CAQSswEA2abss35Psvywk71QIcSL6de13yy-j0DiLPUnq3fnTNg8t63Md5FxxQR0egk5C9SQmYn-kt_TX7PcC6xI5Vhssj990jAlNs0uRI5Kujzif72cZN_OhRQrKUXtcvZiTLr739-sGaBuj2RiK_GI-wuvH4vRQz_mZpwtJyDxGzsG1LPScEG-bhqviO5lwMeMRfsMNR_STAbclkJA_d_hkJlz3Vj_JuSacg5sMY8Tl5AnjQbLaBgB&sig=AOD64_20DOZ3DLuZDXEK6sCN3NJnlfy9EA&client=ca-pub-1056034821646296&rf=1&nb=8&adurl=https://creao.ai/%3Futm_source%3Dtwitter%26gad_source%3D5%26gad_campaignid%3D22924552781%26gclid%3DEAIaIQobChMIlvem0ZvbjwMV9HkeAh2v8AL1EAEYASAAEgKg4fD_BwE
+                - generic [ref=f1e26] [cursor=pointer]:
+                  - generic [ref=f1e28] [cursor=pointer]: OPEN
+                  - img [ref=f1e29] [cursor=pointer]
+          - img [ref=f1e34] [cursor=pointer]
+          - button [ref=f1e36] [cursor=pointer]:
+            - img [ref=f1e37] [cursor=pointer]
+          - iframe
+    - paragraph [ref=e43]:
+      - text: Do you enjoy this platform? ❤️
+      - link "Buy us a coffee" [ref=e44] [cursor=pointer]:
+        - /url: https://www.buymeacoffee.com/expandtesting
+    - generic [ref=e48]:
+      - navigation "breadcrumb mb-2" [ref=e49]:
+        - list [ref=e50]:
+          - listitem [ref=e51]:
+            - link "Home" [ref=e52] [cursor=pointer]:
+              - /url: /
+          - listitem [ref=e53]: / Register Page
+      - heading "Test Register page for Automation Testing Practice" [level=1] [ref=e54]
+      - generic [ref=e56]:
+        - paragraph [ref=e57]:
+          - text: This
+          - generic [ref=e58]: Test Register page
+          - text: is designed for automation testing practice. Test various positive and negative register scenarios in a testing environment.
+        - paragraph [ref=e59]: You can use this register page for practicing with Selenium or other tools like Playwright, Cypress, etc.
+      - generic [ref=e63]:
+        - generic [ref=e64]:
+          - generic [ref=e65]:
+            - generic [ref=e66]:
+              - generic [ref=e67]: Username
+              - textbox "Username" [ref=e68]: user1757954710823
+            - generic [ref=e69]:
+              - generic [ref=e70]: Password
+              - textbox "Password" [ref=e71]: "12"
+            - generic [ref=e72]:
+              - generic [ref=e73]: Confirm Password
+              - textbox "Confirm Password" [ref=e74]: "12"
+          - button "Register" [ref=e75] [cursor=pointer]
+        - link "REST API testing tools" [ref=e76] [cursor=pointer]:
+          - img [ref=e78] [cursor=pointer]
+          - generic [ref=e80] [cursor=pointer]: REST API testing tools
+        - link "Email verification service" [ref=e81] [cursor=pointer]:
+          - img [ref=e83] [cursor=pointer]
+          - generic [ref=e85] [cursor=pointer]: Email verification service
+  - contentinfo [ref=e86]:
+    - generic [ref=e91]:
+      - heading "Practice Test Automation WebSite for Web UI and Rest API" [level=4] [ref=e92]
+      - paragraph [ref=e93]:
+        - text: "Version: 935c019b | Copyright"
+        - link "Expand Testing" [ref=e94] [cursor=pointer]:
+          - /url: https://expandtesting.com/
+        - text: "2025"
+  - img [ref=e96] [cursor=pointer]
+  - insertion [ref=e98]:
+    - iframe [ref=e101]:
+      - generic [active] [ref=f2e1]:
+        - link "Advertisement" [ref=f2e6] [cursor=pointer]:
+          - /url: https://adclick.g.doubleclick.net/aclk?nis=4&sa=l&ai=Ckok9mELIaLfTFK7Z-cAP1v6U0Q_zwM7SgQGpiO7etxTb2R4QASCVlJmjAWCllqSGtCigAYCR57wByAEJqQLkJoqEfx9aPqgDAcgDSKoE6wFP0NGxpds3dDVdsZ9MboDY13dZfShzg4emB3svi1jeGYAW3-nRq6w_18ZMAm0-xnKdZ8btGLK9qAIJES4H5kBHSWZPUZo_dHocWPx_L-QQiUbdOUC6y0U3Y2qJBqNCzs-CFRpKQzyzvMQrH-rcj8oxJZwEQp2Ccszrs_duJX53H_jV2rMOqSZFtvL0OQ9DC9XfoKkmmyEHiARqow5OTi18iMTxYVNOuZryiYyDrzbAe0QtCUb7UDO33Lju_9-1AJ-dpK5mIzKyAL7G3QutOq6h3psHT443FK62UeUO9P2_T7Dc7UzfC-KMysNdwASvmcTboAWIBaH15t5UoAYugAfo7pjDAqgH4tixAqgHpr4bqAfMzrECqAfz0RuoB5bYG6gHqpuxAqgHjs4bqAeT2BuoB_DgG6gH7paxAqgH_p6xAqgHr76xAqgH1ckbqAfZtrECqAeaBqgH_56xAqgH35-xAqgHyqmxAqgH66WxAqgH6rGxAqgHmbWxAqgHvrexAqgH-MKxAqgH-8KxAqgHwsixAtgHANIIKQiAYRABGJ8BMgKKAjoNgECAwICAgICogAKoA0i9_cE6WMfpotGb248Dmgk3aHR0cHM6Ly90YWJsZXRraS51YS91ay8lRDAlOUQlRDAlQkUtJUQxJTg4JUQwJUJGJUQwJUIwL7EJ2nKxODME6kSACgHICwHgCwGADAGiDAOQAQHaDBAKChCwlfHxg4fozFUSAgEDqg0CVUHIDQHqDRMIoO7I0ZvbjwMVrmweAh1WPyX6iA4J2BMK0BUBmBYByhYCCgD4FgGAFwGyFwIYAbIYCRIC_VsYLiIBAOgYAbIZAS_CGQIIAQ&ase=2&gclid=EAIaIQobChMIt_-j0ZvbjwMVrmweAh1WPyX6EAEYASAAEgIKCvD_BwE&num=1&cid=CAQSswEA2abssxmG1r4_GE2DMW3AO4KQiPxjNVSYTI4wbtfw66SO6GSuueXOJNENPAEGEUaEuKpjbcukFl_QOUi2idRP8w2ZmMzT2ako6d2gL6murOmM8Q_zDSZH49dAHw2cmGjXsSyX9eQ56InMUQJUsptPlpR4r2ts76bV8m-kWdUTcBjUvK_HycfbxFw1umGPspqXjPlaD-14-ouYExkauDTMceBhoM0DN1xRwD8Sxb4zMK_CAxgB&sig=AOD64_2uhhz62JC_Zk7NjRLth3KFQBSzAg&client=ca-pub-1056034821646296&rf=1&nb=25&adurl=https://ad.doubleclick.net/ddm/trackclk/N503804.3490709GDN-UA/B33750971.425032152%3Bdc_trk_aid%3D617538577%3Bdc_trk_cid%3D237729796%3Bdc_lat%3D%3Bdc_rdid%3D%3Btag_for_child_directed_treatment%3D%3Btfua%3D%3Bgdpr%3D%24%7BGDPR%7D%3Bgdpr_consent%3D%24%7BGDPR_CONSENT_755%7D%3Bltd%3D%3Bdc_tdv%3D1%3Fgad_campaignid%3D22747396769
+          - iframe [ref=f2e9] [cursor=pointer]:
+            
+        - img [ref=f2e13] [cursor=pointer]
+        - button [ref=f2e15] [cursor=pointer]:
+          - img [ref=f2e16] [cursor=pointer]
+        - iframe
+```
