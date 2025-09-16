@@ -1,0 +1,414 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - paragraph [ref=e3]: Безоплатно доставляємо замовлення від 1800 ₴ ❤️
+  - banner [ref=e4]:
+    - generic [ref=e6]:
+      - link "Купити нижню жіночу білизну ❤️ brabrabra ❤️ Київ та Україна" [ref=e9] [cursor=pointer]:
+        - /url: /ua/
+        - img [ref=e10] [cursor=pointer]
+        - generic [ref=e12] [cursor=pointer]: Купити нижню жіночу білизну ❤️ brabrabra ❤️ Київ та Україна
+      - button [ref=e14]:
+        - img [ref=e15]
+      - button "ua" [ref=e20] [cursor=pointer]:
+        - generic [ref=e21] [cursor=pointer]: ua
+        - img [ref=e22] [cursor=pointer]
+      - button [ref=e25] [cursor=pointer]:
+        - img [ref=e26] [cursor=pointer]
+      - link [ref=e29] [cursor=pointer]:
+        - /url: /ua/my/favourite/
+        - img [ref=e30] [cursor=pointer]
+      - button [ref=e33] [cursor=pointer]:
+        - img [ref=e34] [cursor=pointer]
+  - navigation [ref=e36]:
+    - list [ref=e39]:
+      - listitem [ref=e40]:
+        - link "Бра" [ref=e42] [cursor=pointer]:
+          - /url: /ua/byustgaltery/
+      - listitem [ref=e43]:
+        - link "Трусики" [ref=e45] [cursor=pointer]:
+          - /url: /ua/trusy/
+      - listitem [ref=e46]:
+        - link "Купальники" [ref=e48] [cursor=pointer]:
+          - /url: /ua/kupalniki/
+      - listitem [ref=e49]:
+        - link "Одяг" [ref=e51] [cursor=pointer]:
+          - /url: /ua/postelnoe-bele/
+      - listitem [ref=e52]:
+        - link "Аксесуари" [ref=e54] [cursor=pointer]:
+          - /url: /ua/aksessuary-/
+      - listitem [ref=e55]:
+        - link "Outlet" [ref=e57] [cursor=pointer]:
+          - /url: /ua/outlet/
+      - listitem [ref=e58]:
+        - link "Останній розмір" [ref=e60] [cursor=pointer]:
+          - /url: /ua/final-price/
+      - listitem [ref=e61]:
+        - link "Подарунки" [ref=e63] [cursor=pointer]:
+          - /url: /ua/podarki/
+      - listitem [ref=e64]:
+        - link "Абонементи" [ref=e66] [cursor=pointer]:
+          - /url: /ua/subscription/
+      - listitem [ref=e67]:
+        - link "Знайди свій розмір" [ref=e69] [cursor=pointer]:
+          - /url: /ua/bra-tripple-service/
+  - generic [ref=e70]:
+    - generic [ref=e71]:
+      - heading "DENIM DREAM - спільна колекція brabrabra х KSENIASCHNAIDER" [level=1]
+      - img "DENIM DREAM - спільна колекція brabrabra х KSENIASCHNAIDER" [ref=e73]
+    - navigation [ref=e74]:
+      - generic [ref=e76]:
+        - link "Замовити" [ref=e77] [cursor=pointer]:
+          - /url: /ua/new/collection-is-denim-dream/?utm_source=landing&utm_medium=button&utm_campaign=denim-dream
+        - link "Особливості" [ref=e78] [cursor=pointer]:
+          - /url: "#features"
+        - link "Натхнення" [ref=e79] [cursor=pointer]:
+          - /url: "#video"
+        - link "Наш підхід" [ref=e80] [cursor=pointer]:
+          - /url: "#approach"
+        - link "Асортимент" [ref=e81] [cursor=pointer]:
+          - /url: "#collection"
+    - generic [ref=e83]:
+      - generic [ref=e84]:
+        - strong [ref=e85]: DENIM DREAM
+        - text: – це джинсова естетика
+        - strong [ref=e86]: KSENIASCHNAIDER
+        - text: та чутливий підхід до тіла від
+        - strong [ref=e87]: brabrabra
+      - generic [ref=e88]: "До колекції увійшли:"
+      - list [ref=e89]:
+        - listitem [ref=e90]: Сет білизни кольору айворі з топом і розслабленими трусиками, в розмірі від XS до L
+        - listitem [ref=e91]: "Два комплекти одягу з джинсовим принтом: сорочка з штанами та футболка з шортами, в розмірі від XS до XL"
+    - img [ref=e93]
+    - generic [ref=e95]:
+      - generic [ref=e98]: Особливості колекції
+      - generic [ref=e99]:
+        - generic [ref=e100]:
+          - img "Легкий Комфорт Pro" [ref=e103]
+          - generic [ref=e105]:
+            - generic [ref=e106]: Колір
+            - paragraph [ref=e107]:
+              - text: Білизна – айворі.
+              - text: Одяг – з джинсовим принтом у стилі печворк. Такий принт поєднує в собі джинсову естетику з легкістю та м’якістю основного полотна.
+        - generic [ref=e108]:
+          - img "Легкий Комфорт Pro" [ref=e111]
+          - generic [ref=e113]:
+            - generic [ref=e114]: Полотно
+            - paragraph [ref=e115]: Топ та трусики із тонкої 100% бавовни. Футболка з бавовни 96% та незначної кількості еластану 4%. Для шортів, сорочки та штанів використали екологічну для тіла віскозу.
+        - generic [ref=e116]:
+          - img "Легкий Комфорт Pro" [ref=e119]
+          - generic [ref=e121]:
+            - generic [ref=e122]: Пояс та кишені
+            - paragraph [ref=e123]: Топ, трусики, шорти та штани мають вшиту в пояс широку еластичну резинку помірної щільності. Резинка зафіксована, тому не перекручується, гарантує м’яку та надійну фіксацію без перетискань.
+            - paragraph [ref=e124]: Штани та шорти мають вшиті кишені, накладні – на задніх деталях, плюс на грудях футболки та сорочки.
+        - generic [ref=e125]:
+          - img "Легкий Комфорт Pro" [ref=e128]
+          - generic [ref=e130]:
+            - generic [ref=e131]: Логотип та принт-цінник
+            - paragraph [ref=e132]: Принт-цінник від KSENIASCHNAIDER – це своєрідна гра з темою споживання та моди, він не маркер вартості, а стилістичний акцент.
+    - img [ref=e134]
+    - link "Легкий комфорт" [ref=e138] [cursor=pointer]:
+      - /url: https://youtu.be/vnPJRVKNv9w&autoplay=1
+      - img "Легкий комфорт" [ref=e139] [cursor=pointer]
+    - img [ref=e143]
+    - generic [ref=e146]:
+      - generic [ref=e147]:
+        - img "Легкий комфорт" [ref=e150]
+        - img "Легкий комфорт" [ref=e153]
+      - generic [ref=e154]:
+        - strong [ref=e155]: brabrabra
+        - text: і
+        - strong [ref=e156]: KSENIASCHNAIDER
+        - text: об’єднала спільна позиція
+      - list [ref=e157]:
+        - listitem [ref=e158]: Повага до краси та самобутності кожної жінки
+        - listitem [ref=e159]: Турбота про довкілля
+        - listitem [ref=e160]: Прагнення створювати речі, що дозволяють жінкам проявляти себе так, як вони цього хочуть
+      - generic [ref=e161]: Обирай одночасно зухвалу і шалено зручну колекцію, що дарує абсолютний комфорт і стильну свободу.
+    - img [ref=e163]
+    - generic [ref=e165]:
+      - generic [ref=e167]:
+        - generic [ref=e168]: Асортимент Denim Dream
+        - generic [ref=e169]: Прямуй за мрією – обирай нову колекцію!
+      - generic [ref=e170]:
+        - generic [ref=e171]:
+          - generic:
+            - generic:
+              - generic:
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic: Новинка
+                  - generic:
+                    - generic:
+                      - img
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - figure
+                        - generic:
+                          - figure
+                        - generic:
+                          - figure
+                        - generic:
+                          - figure
+                        - generic:
+                          - figure
+                    - button "Next slide" [ref=e172] [cursor=pointer]:
+                      - img
+                - generic:
+                  - generic:
+                    - link "DENIM DREAM":
+                      - /url: /ua/product/hom2529041-futbolka-biliy.html
+                  - generic: Футболка 041DD біла
+              - generic:
+                - generic:
+                  - generic:
+                    - generic:
+                      - text: 1 499
+                      - generic: ₴
+                - generic:
+                  - generic:
+                    - button:
+                      - img
+          - generic:
+            - generic:
+              - generic:
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic: Новинка
+                  - generic:
+                    - generic:
+                      - img
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - figure
+                        - generic:
+                          - figure
+                        - generic:
+                          - figure
+                        - generic:
+                          - figure
+                        - generic:
+                          - figure
+                        - generic:
+                          - figure
+                    - button "Next slide" [ref=e173] [cursor=pointer]:
+                      - img
+                - generic:
+                  - generic:
+                    - link "DENIM DREAM":
+                      - /url: /ua/product/hom2529010-shtani-denim.html
+                  - generic: Штани 010DD денім
+              - generic:
+                - generic:
+                  - generic:
+                    - generic:
+                      - text: 2 999
+                      - generic: ₴
+                - generic:
+                  - generic:
+                    - button:
+                      - img
+          - generic:
+            - generic:
+              - generic:
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic: Новинка
+                  - generic:
+                    - generic:
+                      - img
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - figure
+                        - generic:
+                          - figure
+                        - generic:
+                          - figure
+                        - generic:
+                          - figure
+                        - generic:
+                          - figure
+                        - generic:
+                          - figure
+                    - button "Next slide" [ref=e174] [cursor=pointer]:
+                      - img
+                - generic:
+                  - generic:
+                    - link "DENIM DREAM":
+                      - /url: /ua/product/hom2529004-sorochka-denim.html
+                  - generic: Сорочка 004DD денім
+              - generic:
+                - generic:
+                  - generic:
+                    - generic:
+                      - text: 2 999
+                      - generic: ₴
+                - generic:
+                  - generic:
+                    - button:
+                      - img
+          - generic:
+            - generic:
+              - generic:
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic: Новинка
+                  - generic:
+                    - generic:
+                      - img
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - figure
+                        - generic:
+                          - figure
+                        - generic:
+                          - figure
+                        - generic:
+                          - figure
+                        - generic:
+                          - figure
+                        - generic:
+                          - figure
+                    - button "Next slide" [ref=e175] [cursor=pointer]:
+                      - img
+                - generic:
+                  - generic:
+                    - link "DENIM DREAM":
+                      - /url: /ua/product/hom2529003-top-biliy.html
+                  - generic: Топ 003DD білий
+              - generic:
+                - generic:
+                  - generic:
+                    - generic:
+                      - text: 1 399
+                      - generic: ₴
+                - generic:
+                  - generic:
+                    - button:
+                      - img
+        - link "Всі моделі" [ref=e177] [cursor=pointer]:
+          - /url: /ua/new/collection-is-denim-dream/
+    - img [ref=e179]
+    - generic [ref=e181]:
+      - generic [ref=e184]: Де придбати?
+      - generic [ref=e185]:
+        - paragraph [ref=e186]:
+          - text: Колекція представлена у всіх
+          - link "студіях комфортної білизни у Києві" [ref=e187] [cursor=pointer]:
+            - /url: /ua/shop/kiev/
+          - text: "та в наступних містах:"
+        - list [ref=e188]:
+          - listitem [ref=e189]: Одеса, ТРЦ «City Center»
+          - listitem [ref=e190]: Дніпро, ТРК «Міст-Сіті Центр»
+          - listitem [ref=e191]: Ужгород, ТРЦ «Pannonia»
+          - listitem [ref=e192]: Чернівці, ТЦ «Майдан»
+          - listitem [ref=e193]: Львів, ТЦ «Victoria Gardens»
+          - listitem [ref=e194]: Харків, ТРЦ «Нікольський»
+  - img [ref=e198] [cursor=pointer]
+  - contentinfo [ref=e205]:
+    - generic [ref=e207]:
+      - generic [ref=e208]:
+        - generic [ref=e209]:
+          - img [ref=e210]
+          - paragraph [ref=e212]:
+            - text: Бренд жіночої комфортної білизни
+            - generic [ref=e213]: © 2025. Всі права захищені.
+        - generic [ref=e214]:
+          - generic [ref=e215]: Відділ турботи
+          - link "050 580 00 88" [ref=e216] [cursor=pointer]:
+            - /url: tel:+380505800088
+          - link "info@brabrabra.ua" [ref=e218] [cursor=pointer]:
+            - /url: mailto:info@brabrabra.ua
+        - link "Для партнерів" [ref=e220] [cursor=pointer]:
+          - /url: /ua/partneram/
+        - generic [ref=e222] [cursor=pointer]: Публічна оферта
+      - generic [ref=e223]:
+        - generic [ref=e224]: Ми в соцмережах
+        - generic [ref=e225]:
+          - link "Facebook" [ref=e227] [cursor=pointer]:
+            - /url: //www.facebook.com/brabrabra.ukr
+            - img [ref=e228] [cursor=pointer]
+            - text: Facebook
+          - link "Instagram" [ref=e231] [cursor=pointer]:
+            - /url: //www.instagram.com/brabrabra.ua/
+            - img [ref=e232] [cursor=pointer]
+            - text: Instagram
+          - link "YouTube" [ref=e235] [cursor=pointer]:
+            - /url: //www.youtube.com/@brabrabra_ua/
+            - img [ref=e236] [cursor=pointer]
+            - text: YouTube
+          - link "Telegram" [ref=e239] [cursor=pointer]:
+            - /url: //t.me/brabrabra_your
+            - img [ref=e240] [cursor=pointer]
+            - text: Telegram
+          - link "TikTok" [ref=e243] [cursor=pointer]:
+            - /url: //www.tiktok.com/@brabrabra.ua
+            - img [ref=e244] [cursor=pointer]
+            - text: TikTok
+        - link "Студії brabrabra" [ref=e247] [cursor=pointer]:
+          - /url: /ua/shop/
+          - img [ref=e249] [cursor=pointer]
+          - generic [ref=e251] [cursor=pointer]: Студії brabrabra
+      - generic [ref=e252]:
+        - generic [ref=e253]:
+          - generic [ref=e254]: Допомога
+          - list [ref=e255]:
+            - listitem [ref=e256]:
+              - link "Контакти" [ref=e257] [cursor=pointer]:
+                - /url: /ua/shop/
+            - listitem [ref=e258]:
+              - link "Доставка та оплата" [ref=e259] [cursor=pointer]:
+                - /url: /ua/deliveries/
+            - listitem [ref=e260]:
+              - link "Питання та відповіді" [ref=e261] [cursor=pointer]:
+                - /url: /ua/faq/
+            - listitem [ref=e262]:
+              - link "Сервіси комфорту" [ref=e263] [cursor=pointer]:
+                - /url: /ua/bra-company-of-services/
+        - generic [ref=e264]:
+          - generic [ref=e265]: Сервіс
+          - list [ref=e266]:
+            - listitem [ref=e267]:
+              - link "Програма турботи" [ref=e268] [cursor=pointer]:
+                - /url: /ua/turbota/
+            - listitem [ref=e269]:
+              - link "Реферальна програма" [ref=e270] [cursor=pointer]:
+                - /url: /ua/referral/
+            - listitem [ref=e271]:
+              - link "Примірка вдома" [ref=e272] [cursor=pointer]:
+                - /url: /ua/prymirka-vdoma/
+            - listitem [ref=e273]:
+              - link "Повернення" [ref=e274] [cursor=pointer]:
+                - /url: /ua/servis-vozvrata/
+            - listitem [ref=e275]:
+              - link "Сертифікати" [ref=e276] [cursor=pointer]:
+                - /url: /ua/pravila-oborota-sertifikatov/
+            - listitem [ref=e277]:
+              - link "Утилізація весь рік" [ref=e278] [cursor=pointer]:
+                - /url: /ua/pt-utilization/
+        - generic [ref=e279]:
+          - generic [ref=e280]: Слідкуй за нами
+          - list [ref=e281]:
+            - listitem [ref=e282]:
+              - link "Про brabrabra" [ref=e283] [cursor=pointer]:
+                - /url: /ua/about/
+            - listitem [ref=e284]:
+              - link "Новини" [ref=e285] [cursor=pointer]:
+                - /url: /ua/news/
+            - listitem [ref=e286]:
+              - link "Акції" [ref=e287] [cursor=pointer]:
+                - /url: /ua/sale/
+```
