@@ -1,414 +1,152 @@
 # Page snapshot
 
 ```yaml
-- generic [active] [ref=e1]:
-  - paragraph [ref=e3]: Безоплатно доставляємо замовлення від 1800 ₴ ❤️
-  - banner [ref=e4]:
-    - generic [ref=e6]:
-      - link "Купити нижню жіночу білизну ❤️ brabrabra ❤️ Київ та Україна" [ref=e9] [cursor=pointer]:
-        - /url: /ua/
-        - img [ref=e10] [cursor=pointer]
-        - generic [ref=e12] [cursor=pointer]: Купити нижню жіночу білизну ❤️ brabrabra ❤️ Київ та Україна
-      - button [ref=e14]:
-        - img [ref=e15]
-      - button "ua" [ref=e20] [cursor=pointer]:
-        - generic [ref=e21] [cursor=pointer]: ua
-        - img [ref=e22] [cursor=pointer]
-      - button [ref=e25] [cursor=pointer]:
-        - img [ref=e26] [cursor=pointer]
-      - link [ref=e29] [cursor=pointer]:
-        - /url: /ua/my/favourite/
-        - img [ref=e30] [cursor=pointer]
-      - button [ref=e33] [cursor=pointer]:
-        - img [ref=e34] [cursor=pointer]
-  - navigation [ref=e36]:
-    - list [ref=e39]:
-      - listitem [ref=e40]:
-        - link "Бра" [ref=e42] [cursor=pointer]:
-          - /url: /ua/byustgaltery/
-      - listitem [ref=e43]:
-        - link "Трусики" [ref=e45] [cursor=pointer]:
-          - /url: /ua/trusy/
-      - listitem [ref=e46]:
-        - link "Купальники" [ref=e48] [cursor=pointer]:
-          - /url: /ua/kupalniki/
-      - listitem [ref=e49]:
-        - link "Одяг" [ref=e51] [cursor=pointer]:
-          - /url: /ua/postelnoe-bele/
-      - listitem [ref=e52]:
-        - link "Аксесуари" [ref=e54] [cursor=pointer]:
-          - /url: /ua/aksessuary-/
-      - listitem [ref=e55]:
-        - link "Outlet" [ref=e57] [cursor=pointer]:
-          - /url: /ua/outlet/
-      - listitem [ref=e58]:
-        - link "Останній розмір" [ref=e60] [cursor=pointer]:
-          - /url: /ua/final-price/
-      - listitem [ref=e61]:
-        - link "Подарунки" [ref=e63] [cursor=pointer]:
-          - /url: /ua/podarki/
-      - listitem [ref=e64]:
-        - link "Абонементи" [ref=e66] [cursor=pointer]:
-          - /url: /ua/subscription/
-      - listitem [ref=e67]:
-        - link "Знайди свій розмір" [ref=e69] [cursor=pointer]:
-          - /url: /ua/bra-tripple-service/
-  - generic [ref=e70]:
-    - generic [ref=e71]:
-      - heading "DENIM DREAM - спільна колекція brabrabra х KSENIASCHNAIDER" [level=1]
-      - img "DENIM DREAM - спільна колекція brabrabra х KSENIASCHNAIDER" [ref=e73]
-    - navigation [ref=e74]:
-      - generic [ref=e76]:
-        - link "Замовити" [ref=e77] [cursor=pointer]:
-          - /url: /ua/new/collection-is-denim-dream/?utm_source=landing&utm_medium=button&utm_campaign=denim-dream
-        - link "Особливості" [ref=e78] [cursor=pointer]:
-          - /url: "#features"
-        - link "Натхнення" [ref=e79] [cursor=pointer]:
-          - /url: "#video"
-        - link "Наш підхід" [ref=e80] [cursor=pointer]:
-          - /url: "#approach"
-        - link "Асортимент" [ref=e81] [cursor=pointer]:
-          - /url: "#collection"
-    - generic [ref=e83]:
-      - generic [ref=e84]:
-        - strong [ref=e85]: DENIM DREAM
-        - text: – це джинсова естетика
-        - strong [ref=e86]: KSENIASCHNAIDER
-        - text: та чутливий підхід до тіла від
-        - strong [ref=e87]: brabrabra
-      - generic [ref=e88]: "До колекції увійшли:"
-      - list [ref=e89]:
-        - listitem [ref=e90]: Сет білизни кольору айворі з топом і розслабленими трусиками, в розмірі від XS до L
-        - listitem [ref=e91]: "Два комплекти одягу з джинсовим принтом: сорочка з штанами та футболка з шортами, в розмірі від XS до XL"
-    - img [ref=e93]
-    - generic [ref=e95]:
-      - generic [ref=e98]: Особливості колекції
-      - generic [ref=e99]:
-        - generic [ref=e100]:
-          - img "Легкий Комфорт Pro" [ref=e103]
-          - generic [ref=e105]:
-            - generic [ref=e106]: Колір
-            - paragraph [ref=e107]:
-              - text: Білизна – айворі.
-              - text: Одяг – з джинсовим принтом у стилі печворк. Такий принт поєднує в собі джинсову естетику з легкістю та м’якістю основного полотна.
-        - generic [ref=e108]:
-          - img "Легкий Комфорт Pro" [ref=e111]
-          - generic [ref=e113]:
-            - generic [ref=e114]: Полотно
-            - paragraph [ref=e115]: Топ та трусики із тонкої 100% бавовни. Футболка з бавовни 96% та незначної кількості еластану 4%. Для шортів, сорочки та штанів використали екологічну для тіла віскозу.
-        - generic [ref=e116]:
-          - img "Легкий Комфорт Pro" [ref=e119]
-          - generic [ref=e121]:
-            - generic [ref=e122]: Пояс та кишені
-            - paragraph [ref=e123]: Топ, трусики, шорти та штани мають вшиту в пояс широку еластичну резинку помірної щільності. Резинка зафіксована, тому не перекручується, гарантує м’яку та надійну фіксацію без перетискань.
-            - paragraph [ref=e124]: Штани та шорти мають вшиті кишені, накладні – на задніх деталях, плюс на грудях футболки та сорочки.
-        - generic [ref=e125]:
-          - img "Легкий Комфорт Pro" [ref=e128]
-          - generic [ref=e130]:
-            - generic [ref=e131]: Логотип та принт-цінник
-            - paragraph [ref=e132]: Принт-цінник від KSENIASCHNAIDER – це своєрідна гра з темою споживання та моди, він не маркер вартості, а стилістичний акцент.
-    - img [ref=e134]
-    - link "Легкий комфорт" [ref=e138] [cursor=pointer]:
-      - /url: https://youtu.be/vnPJRVKNv9w&autoplay=1
-      - img "Легкий комфорт" [ref=e139] [cursor=pointer]
-    - img [ref=e143]
-    - generic [ref=e146]:
-      - generic [ref=e147]:
-        - img "Легкий комфорт" [ref=e150]
-        - img "Легкий комфорт" [ref=e153]
-      - generic [ref=e154]:
-        - strong [ref=e155]: brabrabra
-        - text: і
-        - strong [ref=e156]: KSENIASCHNAIDER
-        - text: об’єднала спільна позиція
-      - list [ref=e157]:
-        - listitem [ref=e158]: Повага до краси та самобутності кожної жінки
-        - listitem [ref=e159]: Турбота про довкілля
-        - listitem [ref=e160]: Прагнення створювати речі, що дозволяють жінкам проявляти себе так, як вони цього хочуть
-      - generic [ref=e161]: Обирай одночасно зухвалу і шалено зручну колекцію, що дарує абсолютний комфорт і стильну свободу.
-    - img [ref=e163]
-    - generic [ref=e165]:
-      - generic [ref=e167]:
-        - generic [ref=e168]: Асортимент Denim Dream
-        - generic [ref=e169]: Прямуй за мрією – обирай нову колекцію!
-      - generic [ref=e170]:
-        - generic [ref=e171]:
-          - generic:
-            - generic:
-              - generic:
-                - generic:
-                  - generic:
-                    - generic:
-                      - generic: Новинка
-                  - generic:
-                    - generic:
-                      - img
-                  - generic:
-                    - generic:
-                      - generic:
-                        - generic:
-                          - figure
-                        - generic:
-                          - figure
-                        - generic:
-                          - figure
-                        - generic:
-                          - figure
-                        - generic:
-                          - figure
-                    - button "Next slide" [ref=e172] [cursor=pointer]:
-                      - img
-                - generic:
-                  - generic:
-                    - link "DENIM DREAM":
-                      - /url: /ua/product/hom2529041-futbolka-biliy.html
-                  - generic: Футболка 041DD біла
-              - generic:
-                - generic:
-                  - generic:
-                    - generic:
-                      - text: 1 499
-                      - generic: ₴
-                - generic:
-                  - generic:
-                    - button:
-                      - img
-          - generic:
-            - generic:
-              - generic:
-                - generic:
-                  - generic:
-                    - generic:
-                      - generic: Новинка
-                  - generic:
-                    - generic:
-                      - img
-                  - generic:
-                    - generic:
-                      - generic:
-                        - generic:
-                          - figure
-                        - generic:
-                          - figure
-                        - generic:
-                          - figure
-                        - generic:
-                          - figure
-                        - generic:
-                          - figure
-                        - generic:
-                          - figure
-                    - button "Next slide" [ref=e173] [cursor=pointer]:
-                      - img
-                - generic:
-                  - generic:
-                    - link "DENIM DREAM":
-                      - /url: /ua/product/hom2529010-shtani-denim.html
-                  - generic: Штани 010DD денім
-              - generic:
-                - generic:
-                  - generic:
-                    - generic:
-                      - text: 2 999
-                      - generic: ₴
-                - generic:
-                  - generic:
-                    - button:
-                      - img
-          - generic:
-            - generic:
-              - generic:
-                - generic:
-                  - generic:
-                    - generic:
-                      - generic: Новинка
-                  - generic:
-                    - generic:
-                      - img
-                  - generic:
-                    - generic:
-                      - generic:
-                        - generic:
-                          - figure
-                        - generic:
-                          - figure
-                        - generic:
-                          - figure
-                        - generic:
-                          - figure
-                        - generic:
-                          - figure
-                        - generic:
-                          - figure
-                    - button "Next slide" [ref=e174] [cursor=pointer]:
-                      - img
-                - generic:
-                  - generic:
-                    - link "DENIM DREAM":
-                      - /url: /ua/product/hom2529004-sorochka-denim.html
-                  - generic: Сорочка 004DD денім
-              - generic:
-                - generic:
-                  - generic:
-                    - generic:
-                      - text: 2 999
-                      - generic: ₴
-                - generic:
-                  - generic:
-                    - button:
-                      - img
-          - generic:
-            - generic:
-              - generic:
-                - generic:
-                  - generic:
-                    - generic:
-                      - generic: Новинка
-                  - generic:
-                    - generic:
-                      - img
-                  - generic:
-                    - generic:
-                      - generic:
-                        - generic:
-                          - figure
-                        - generic:
-                          - figure
-                        - generic:
-                          - figure
-                        - generic:
-                          - figure
-                        - generic:
-                          - figure
-                        - generic:
-                          - figure
-                    - button "Next slide" [ref=e175] [cursor=pointer]:
-                      - img
-                - generic:
-                  - generic:
-                    - link "DENIM DREAM":
-                      - /url: /ua/product/hom2529003-top-biliy.html
-                  - generic: Топ 003DD білий
-              - generic:
-                - generic:
-                  - generic:
-                    - generic:
-                      - text: 1 399
-                      - generic: ₴
-                - generic:
-                  - generic:
-                    - button:
-                      - img
-        - link "Всі моделі" [ref=e177] [cursor=pointer]:
-          - /url: /ua/new/collection-is-denim-dream/
-    - img [ref=e179]
-    - generic [ref=e181]:
-      - generic [ref=e184]: Де придбати?
-      - generic [ref=e185]:
-        - paragraph [ref=e186]:
-          - text: Колекція представлена у всіх
-          - link "студіях комфортної білизни у Києві" [ref=e187] [cursor=pointer]:
-            - /url: /ua/shop/kiev/
-          - text: "та в наступних містах:"
-        - list [ref=e188]:
-          - listitem [ref=e189]: Одеса, ТРЦ «City Center»
-          - listitem [ref=e190]: Дніпро, ТРК «Міст-Сіті Центр»
-          - listitem [ref=e191]: Ужгород, ТРЦ «Pannonia»
-          - listitem [ref=e192]: Чернівці, ТЦ «Майдан»
-          - listitem [ref=e193]: Львів, ТЦ «Victoria Gardens»
-          - listitem [ref=e194]: Харків, ТРЦ «Нікольський»
-  - img [ref=e198] [cursor=pointer]
-  - contentinfo [ref=e205]:
-    - generic [ref=e207]:
-      - generic [ref=e208]:
-        - generic [ref=e209]:
-          - img [ref=e210]
-          - paragraph [ref=e212]:
-            - text: Бренд жіночої комфортної білизни
-            - generic [ref=e213]: © 2025. Всі права захищені.
-        - generic [ref=e214]:
-          - generic [ref=e215]: Відділ турботи
-          - link "050 580 00 88" [ref=e216] [cursor=pointer]:
-            - /url: tel:+380505800088
-          - link "info@brabrabra.ua" [ref=e218] [cursor=pointer]:
-            - /url: mailto:info@brabrabra.ua
-        - link "Для партнерів" [ref=e220] [cursor=pointer]:
-          - /url: /ua/partneram/
-        - generic [ref=e222] [cursor=pointer]: Публічна оферта
-      - generic [ref=e223]:
-        - generic [ref=e224]: Ми в соцмережах
-        - generic [ref=e225]:
-          - link "Facebook" [ref=e227] [cursor=pointer]:
-            - /url: //www.facebook.com/brabrabra.ukr
-            - img [ref=e228] [cursor=pointer]
-            - text: Facebook
-          - link "Instagram" [ref=e231] [cursor=pointer]:
-            - /url: //www.instagram.com/brabrabra.ua/
-            - img [ref=e232] [cursor=pointer]
-            - text: Instagram
-          - link "YouTube" [ref=e235] [cursor=pointer]:
-            - /url: //www.youtube.com/@brabrabra_ua/
-            - img [ref=e236] [cursor=pointer]
-            - text: YouTube
-          - link "Telegram" [ref=e239] [cursor=pointer]:
-            - /url: //t.me/brabrabra_your
-            - img [ref=e240] [cursor=pointer]
-            - text: Telegram
-          - link "TikTok" [ref=e243] [cursor=pointer]:
-            - /url: //www.tiktok.com/@brabrabra.ua
-            - img [ref=e244] [cursor=pointer]
-            - text: TikTok
-        - link "Студії brabrabra" [ref=e247] [cursor=pointer]:
-          - /url: /ua/shop/
-          - img [ref=e249] [cursor=pointer]
-          - generic [ref=e251] [cursor=pointer]: Студії brabrabra
-      - generic [ref=e252]:
-        - generic [ref=e253]:
-          - generic [ref=e254]: Допомога
-          - list [ref=e255]:
-            - listitem [ref=e256]:
-              - link "Контакти" [ref=e257] [cursor=pointer]:
-                - /url: /ua/shop/
-            - listitem [ref=e258]:
-              - link "Доставка та оплата" [ref=e259] [cursor=pointer]:
-                - /url: /ua/deliveries/
-            - listitem [ref=e260]:
-              - link "Питання та відповіді" [ref=e261] [cursor=pointer]:
-                - /url: /ua/faq/
-            - listitem [ref=e262]:
-              - link "Сервіси комфорту" [ref=e263] [cursor=pointer]:
-                - /url: /ua/bra-company-of-services/
-        - generic [ref=e264]:
-          - generic [ref=e265]: Сервіс
-          - list [ref=e266]:
-            - listitem [ref=e267]:
-              - link "Програма турботи" [ref=e268] [cursor=pointer]:
-                - /url: /ua/turbota/
-            - listitem [ref=e269]:
-              - link "Реферальна програма" [ref=e270] [cursor=pointer]:
-                - /url: /ua/referral/
-            - listitem [ref=e271]:
-              - link "Примірка вдома" [ref=e272] [cursor=pointer]:
-                - /url: /ua/prymirka-vdoma/
-            - listitem [ref=e273]:
-              - link "Повернення" [ref=e274] [cursor=pointer]:
-                - /url: /ua/servis-vozvrata/
-            - listitem [ref=e275]:
-              - link "Сертифікати" [ref=e276] [cursor=pointer]:
-                - /url: /ua/pravila-oborota-sertifikatov/
-            - listitem [ref=e277]:
-              - link "Утилізація весь рік" [ref=e278] [cursor=pointer]:
-                - /url: /ua/pt-utilization/
-        - generic [ref=e279]:
-          - generic [ref=e280]: Слідкуй за нами
-          - list [ref=e281]:
-            - listitem [ref=e282]:
-              - link "Про brabrabra" [ref=e283] [cursor=pointer]:
-                - /url: /ua/about/
-            - listitem [ref=e284]:
-              - link "Новини" [ref=e285] [cursor=pointer]:
-                - /url: /ua/news/
-            - listitem [ref=e286]:
-              - link "Акції" [ref=e287] [cursor=pointer]:
-                - /url: /ua/sale/
+- generic [ref=e1]:
+  - paragraph [ref=e3]:
+    - link "TestifyStack" [ref=e4] [cursor=pointer]:
+      - /url: https://testifystack.com/
+    - text: "| Email, SMS, OTP and Webhooks Testing Stack for QA & Dev"
+    - link "Software testing books" [ref=e5] [cursor=pointer]:
+      - img [ref=e7] [cursor=pointer]
+      - generic [ref=e9] [cursor=pointer]: Software testing books
+    - link "QA testing services" [ref=e10] [cursor=pointer]:
+      - img [ref=e12] [cursor=pointer]
+      - generic [ref=e14] [cursor=pointer]: QA testing services
+  - banner [ref=e16]:
+    - navigation "Main navigation" [ref=e17]:
+      - link "SUT" [ref=e18] [cursor=pointer]:
+        - /url: /
+        - 'img "Best Website for Practice Automation Testing: Free UI and REST API Examples and Apps. Using Cypress, Playwright, Selenium, WebdriverIO and Postman." [ref=e19] [cursor=pointer]'
+        - text: Practice
+      - generic [ref=e20]:
+        - list [ref=e21]:
+          - listitem [ref=e22]:
+            - button "Demos" [ref=e23] [cursor=pointer]
+          - listitem [ref=e24]:
+            - link "Tools" [ref=e25] [cursor=pointer]:
+              - /url: /#tools
+          - listitem [ref=e26]:
+            - link "Tips" [ref=e27] [cursor=pointer]:
+              - /url: /tips
+          - listitem [ref=e28]:
+            - link "Test Cases" [ref=e29] [cursor=pointer]:
+              - /url: /test-cases
+          - listitem [ref=e30]:
+            - link "API Testing" [ref=e31] [cursor=pointer]:
+              - /url: /notes/api/api-docs/
+          - listitem [ref=e32]:
+            - link "About" [ref=e33] [cursor=pointer]:
+              - /url: /about
+        - list
+        - link "Free ISTQB Mock Exams" [ref=e34] [cursor=pointer]:
+          - /url: https://istqb.expandtesting.com/
+  - main [ref=e35]:
+    - insertion [ref=e39]:
+      - iframe [active] [ref=e41]:
+        - generic [active] [ref=f1e1]:
+          - generic [ref=f1e7]:
+            - generic [ref=f1e8]:
+              - link "Подаруй сертифікат" [ref=f1e11] [cursor=pointer]:
+                - /url: https://googleads.g.doubleclick.net/aclk?nis=4&sa=l&ai=C1ySOgCzeaJLUGtmO9u8PpbPo8Aq5z7GdggHT9bGA3RTb2R4QASCVlJmjAWCllqSGtCigAZLw0osDyAEBqQIB8Ya-CgpaPqgDAcgDywSqBOoBT9BR3A5DwmElVPGYf5Vn1hR5eolrRFY7jr2p8BfOpF9-2a_id9UkIehXZa4k-GCNLYdj9jhSvb7cVVgyWxu2s-jlTOM5KVmON-vNzsEEvsltA5qVxpEfRlmvqa4gMAUcIXgnRVnzYD0W9yfInmHfvDT8F6W-DMzYo_WsW9suy05QxfO_pRRzdp4pn6zGVKrMU24IWM9ON_nevCA7HMW2p7gg-1f50qq0AktH3JSNXh-QbGSf7RJFS2xlufiXpPEeclaA1NCY4zKe1Ivg9r-4S4eg6aylZonaOidoJYEEFyBvsCSpk5DmB2vGwASB99_ovwWIBaL75PVVgAfBno3DAqgH4tixAqgHpr4bqAfMzrECqAfz0RuoB5bYG6gHqpuxAqgHjs4bqAeT2BuoB_DgG6gH7paxAqgH_p6xAqgHr76xAqgH1ckbqAfZtrECqAeaBqgH_56xAqgH35-xAqgHyqmxAqgH66WxAqgH6rGxAqgHmbWxAqgHvrexAqgH-MKxAqgH-8KxAtgHAdIIKQiAYRABGJ8BMgKKAjoNgECAwICAgICogAKoA0i9_cE6WPD2qtSBhZADsQkrz9vhr7haTIAKAZgLAcgLAaIMA5ABAdoMEQoLEMDVhLO5nO-PqQESAgEDqg0CVUHIDQHqDRMIrJ7H1IGFkAMVWYf9Bx2lGRqu8A0CiA4J2BMD0BUBmBYByhYCCgD4FgGAFwGyFw4YASoKNDk3MDIxMjIyMboXAjgBqhgXCQAAAAAA7PNAEgo0OTcwMjEyMjIxGAGyGAkSAsZOGAEiAQDQGAHoGAHCGQIIAQ&ae=1&ase=2&gclid=EAIaIQobChMIkpSr1IGFkAMVWYf9Bx2lGRquEAEYASAAEgLw8fD_BwE&num=1&cid=CAQSswEAwksa0SQNjryMfhnzH31S1oZ5kbfNepdDztMk-p2aTuJ0MWXF3TZoE6t4SXZFHKg8KiZpmNW6hPSv1yThP1Wo9I4HnA6gUMNhA4zhAGpOzKFTBvZuLs85VThDeulxSaHVb2PRFVrpdiO47Ca28JFk08tw3fFyAgqinnB63jR-o-Joht80bMTR6wo3bTg0uupAZrSuQPLa6FfarZto7NaXNsanNVSXBijGWKTHi0gYOIETjhgB&sig=AOD64_1DDKHOFxCqXAiKts_7XhPAv709xw&client=ca-pub-1056034821646296&rf=1&nb=0&adurl=https://www.brocard.ua/ua/e-card%3Fgad_source%3D5%26gad_campaignid%3D23064034722%26gclid%3DEAIaIQobChMIkpSr1IGFkAMVWYf9Bx2lGRquEAEYASAAEgLw8fD_BwE
+              - link "Купуй електронний сертифікат від BROCARD у подарунок на сайті та в застосунку" [ref=f1e14] [cursor=pointer]:
+                - /url: https://googleads.g.doubleclick.net/aclk?nis=4&sa=l&ai=C1ySOgCzeaJLUGtmO9u8PpbPo8Aq5z7GdggHT9bGA3RTb2R4QASCVlJmjAWCllqSGtCigAZLw0osDyAEBqQIB8Ya-CgpaPqgDAcgDywSqBOoBT9BR3A5DwmElVPGYf5Vn1hR5eolrRFY7jr2p8BfOpF9-2a_id9UkIehXZa4k-GCNLYdj9jhSvb7cVVgyWxu2s-jlTOM5KVmON-vNzsEEvsltA5qVxpEfRlmvqa4gMAUcIXgnRVnzYD0W9yfInmHfvDT8F6W-DMzYo_WsW9suy05QxfO_pRRzdp4pn6zGVKrMU24IWM9ON_nevCA7HMW2p7gg-1f50qq0AktH3JSNXh-QbGSf7RJFS2xlufiXpPEeclaA1NCY4zKe1Ivg9r-4S4eg6aylZonaOidoJYEEFyBvsCSpk5DmB2vGwASB99_ovwWIBaL75PVVgAfBno3DAqgH4tixAqgHpr4bqAfMzrECqAfz0RuoB5bYG6gHqpuxAqgHjs4bqAeT2BuoB_DgG6gH7paxAqgH_p6xAqgHr76xAqgH1ckbqAfZtrECqAeaBqgH_56xAqgH35-xAqgHyqmxAqgH66WxAqgH6rGxAqgHmbWxAqgHvrexAqgH-MKxAqgH-8KxAtgHAdIIKQiAYRABGJ8BMgKKAjoNgECAwICAgICogAKoA0i9_cE6WPD2qtSBhZADsQkrz9vhr7haTIAKAZgLAcgLAaIMA5ABAdoMEQoLEMDVhLO5nO-PqQESAgEDqg0CVUHIDQHqDRMIrJ7H1IGFkAMVWYf9Bx2lGRqu8A0CiA4J2BMD0BUBmBYByhYCCgD4FgGAFwGyFw4YASoKNDk3MDIxMjIyMboXAjgBqhgXCQAAAAAA7PNAEgo0OTcwMjEyMjIxGAGyGAkSAsZOGAEiAQDQGAHoGAHCGQIIAQ&ae=1&ase=2&gclid=EAIaIQobChMIkpSr1IGFkAMVWYf9Bx2lGRquEAEYASAAEgLw8fD_BwE&num=1&cid=CAQSswEAwksa0SQNjryMfhnzH31S1oZ5kbfNepdDztMk-p2aTuJ0MWXF3TZoE6t4SXZFHKg8KiZpmNW6hPSv1yThP1Wo9I4HnA6gUMNhA4zhAGpOzKFTBvZuLs85VThDeulxSaHVb2PRFVrpdiO47Ca28JFk08tw3fFyAgqinnB63jR-o-Joht80bMTR6wo3bTg0uupAZrSuQPLa6FfarZto7NaXNsanNVSXBijGWKTHi0gYOIETjhgB&sig=AOD64_1DDKHOFxCqXAiKts_7XhPAv709xw&client=ca-pub-1056034821646296&rf=1&nb=7&adurl=https://www.brocard.ua/ua/e-card%3Fgad_source%3D5%26gad_campaignid%3D23064034722%26gclid%3DEAIaIQobChMIkpSr1IGFkAMVWYf9Bx2lGRquEAEYASAAEgLw8fD_BwE
+            - generic [ref=f1e17]:
+              - link "BROCARD" [ref=f1e20] [cursor=pointer]:
+                - /url: https://googleads.g.doubleclick.net/aclk?nis=4&sa=l&ai=C1ySOgCzeaJLUGtmO9u8PpbPo8Aq5z7GdggHT9bGA3RTb2R4QASCVlJmjAWCllqSGtCigAZLw0osDyAEBqQIB8Ya-CgpaPqgDAcgDywSqBOoBT9BR3A5DwmElVPGYf5Vn1hR5eolrRFY7jr2p8BfOpF9-2a_id9UkIehXZa4k-GCNLYdj9jhSvb7cVVgyWxu2s-jlTOM5KVmON-vNzsEEvsltA5qVxpEfRlmvqa4gMAUcIXgnRVnzYD0W9yfInmHfvDT8F6W-DMzYo_WsW9suy05QxfO_pRRzdp4pn6zGVKrMU24IWM9ON_nevCA7HMW2p7gg-1f50qq0AktH3JSNXh-QbGSf7RJFS2xlufiXpPEeclaA1NCY4zKe1Ivg9r-4S4eg6aylZonaOidoJYEEFyBvsCSpk5DmB2vGwASB99_ovwWIBaL75PVVgAfBno3DAqgH4tixAqgHpr4bqAfMzrECqAfz0RuoB5bYG6gHqpuxAqgHjs4bqAeT2BuoB_DgG6gH7paxAqgH_p6xAqgHr76xAqgH1ckbqAfZtrECqAeaBqgH_56xAqgH35-xAqgHyqmxAqgH66WxAqgH6rGxAqgHmbWxAqgHvrexAqgH-MKxAqgH-8KxAtgHAdIIKQiAYRABGJ8BMgKKAjoNgECAwICAgICogAKoA0i9_cE6WPD2qtSBhZADsQkrz9vhr7haTIAKAZgLAcgLAaIMA5ABAdoMEQoLEMDVhLO5nO-PqQESAgEDqg0CVUHIDQHqDRMIrJ7H1IGFkAMVWYf9Bx2lGRqu8A0CiA4J2BMD0BUBmBYByhYCCgD4FgGAFwGyFw4YASoKNDk3MDIxMjIyMboXAjgBqhgXCQAAAAAA7PNAEgo0OTcwMjEyMjIxGAGyGAkSAsZOGAEiAQDQGAHoGAHCGQIIAQ&ae=1&ase=2&gclid=EAIaIQobChMIkpSr1IGFkAMVWYf9Bx2lGRquEAEYASAAEgLw8fD_BwE&num=1&cid=CAQSswEAwksa0SQNjryMfhnzH31S1oZ5kbfNepdDztMk-p2aTuJ0MWXF3TZoE6t4SXZFHKg8KiZpmNW6hPSv1yThP1Wo9I4HnA6gUMNhA4zhAGpOzKFTBvZuLs85VThDeulxSaHVb2PRFVrpdiO47Ca28JFk08tw3fFyAgqinnB63jR-o-Joht80bMTR6wo3bTg0uupAZrSuQPLa6FfarZto7NaXNsanNVSXBijGWKTHi0gYOIETjhgB&sig=AOD64_1DDKHOFxCqXAiKts_7XhPAv709xw&client=ca-pub-1056034821646296&rf=1&nb=1&adurl=https://www.brocard.ua/ua/e-card%3Fgad_source%3D5%26gad_campaignid%3D23064034722%26gclid%3DEAIaIQobChMIkpSr1IGFkAMVWYf9Bx2lGRquEAEYASAAEgLw8fD_BwE
+              - link "Купуйте зараз" [ref=f1e24] [cursor=pointer]:
+                - /url: https://googleads.g.doubleclick.net/aclk?nis=4&sa=l&ai=C1ySOgCzeaJLUGtmO9u8PpbPo8Aq5z7GdggHT9bGA3RTb2R4QASCVlJmjAWCllqSGtCigAZLw0osDyAEBqQIB8Ya-CgpaPqgDAcgDywSqBOoBT9BR3A5DwmElVPGYf5Vn1hR5eolrRFY7jr2p8BfOpF9-2a_id9UkIehXZa4k-GCNLYdj9jhSvb7cVVgyWxu2s-jlTOM5KVmON-vNzsEEvsltA5qVxpEfRlmvqa4gMAUcIXgnRVnzYD0W9yfInmHfvDT8F6W-DMzYo_WsW9suy05QxfO_pRRzdp4pn6zGVKrMU24IWM9ON_nevCA7HMW2p7gg-1f50qq0AktH3JSNXh-QbGSf7RJFS2xlufiXpPEeclaA1NCY4zKe1Ivg9r-4S4eg6aylZonaOidoJYEEFyBvsCSpk5DmB2vGwASB99_ovwWIBaL75PVVgAfBno3DAqgH4tixAqgHpr4bqAfMzrECqAfz0RuoB5bYG6gHqpuxAqgHjs4bqAeT2BuoB_DgG6gH7paxAqgH_p6xAqgHr76xAqgH1ckbqAfZtrECqAeaBqgH_56xAqgH35-xAqgHyqmxAqgH66WxAqgH6rGxAqgHmbWxAqgHvrexAqgH-MKxAqgH-8KxAtgHAdIIKQiAYRABGJ8BMgKKAjoNgECAwICAgICogAKoA0i9_cE6WPD2qtSBhZADsQkrz9vhr7haTIAKAZgLAcgLAaIMA5ABAdoMEQoLEMDVhLO5nO-PqQESAgEDqg0CVUHIDQHqDRMIrJ7H1IGFkAMVWYf9Bx2lGRqu8A0CiA4J2BMD0BUBmBYByhYCCgD4FgGAFwGyFw4YASoKNDk3MDIxMjIyMboXAjgBqhgXCQAAAAAA7PNAEgo0OTcwMjEyMjIxGAGyGAkSAsZOGAEiAQDQGAHoGAHCGQIIAQ&ae=1&ase=2&gclid=EAIaIQobChMIkpSr1IGFkAMVWYf9Bx2lGRquEAEYASAAEgLw8fD_BwE&num=1&cid=CAQSswEAwksa0SQNjryMfhnzH31S1oZ5kbfNepdDztMk-p2aTuJ0MWXF3TZoE6t4SXZFHKg8KiZpmNW6hPSv1yThP1Wo9I4HnA6gUMNhA4zhAGpOzKFTBvZuLs85VThDeulxSaHVb2PRFVrpdiO47Ca28JFk08tw3fFyAgqinnB63jR-o-Joht80bMTR6wo3bTg0uupAZrSuQPLa6FfarZto7NaXNsanNVSXBijGWKTHi0gYOIETjhgB&sig=AOD64_1DDKHOFxCqXAiKts_7XhPAv709xw&client=ca-pub-1056034821646296&rf=1&nb=8&adurl=https://www.brocard.ua/ua/e-card%3Fgad_source%3D5%26gad_campaignid%3D23064034722%26gclid%3DEAIaIQobChMIkpSr1IGFkAMVWYf9Bx2lGRquEAEYASAAEgLw8fD_BwE
+                - generic [ref=f1e28] [cursor=pointer]:
+                  - generic [ref=f1e30] [cursor=pointer]: Купуйте зараз
+                  - img [ref=f1e31] [cursor=pointer]
+          - img [ref=f1e36] [cursor=pointer]
+          - button [ref=f1e38] [cursor=pointer]:
+            - img [ref=f1e39] [cursor=pointer]
+          - iframe
+    - paragraph [ref=e43]:
+      - text: Do you enjoy this platform? ❤️
+      - link "Buy us a coffee" [ref=e44] [cursor=pointer]:
+        - /url: https://www.buymeacoffee.com/expandtesting
+    - generic [ref=e45]:
+      - insertion [ref=e47]:
+        - iframe [ref=e49]:
+          - generic [active] [ref=f2e1]:
+            - generic [ref=f2e3]:
+              - link:
+                - /url: https://googleads.g.doubleclick.net/aclk?nis=4&sa=l&ai=CE_yDgCzeaNnWHLOn9u8Ph9rVMY7ywaOCAeX5rKDeFKS75J3kCRABIJWUmaMBYKWWpIa0KKAB9ZWdpQHIAQKpAgHxhr4KClo-qAMByAPJBKoE6QFP0CAj5jMB9IOk5OtHi9XRMrGV7pphm-gN8XAJf0KZWPZIR8kNf8_BzmCdCANVH8_u1TCX8cTh10exDM9bsZ7HBwd4_1mOylIspLxuBU2GFFm6x5RAxDINuuUFFwPhqD0jBTgzEpDSsTO3hPA8SBJBTdYjTRiPAR3a6-VTLaE3ruceWH6031brfqqypVs9ea7aqeuaQu8mnJQy6czYdK31R15JxMffY4AYnMFFis2EqN8_jRTnB3mTRIx4aigdodSYHEodyOU5IpunxcNKHJvtFzmYyav801bdgYZEvcnwRrP_BI1x1xD-isAElpjOjcQFiAWWydD1VaAGAoAH8-ni2gKoB-LYsQKoB6a-G6gHzM6xAqgH89EbqAeW2BuoB6qbsQKoB47OG6gHk9gbqAfw4BuoB-6WsQKoB_6esQKoB6--sQKoB9XJG6gH2baxAqgHmgaoB_-esQKoB9-fsQKoB8qpsQKoB-ulsQKoB-qxsQKoB5m1sQKoB763sQKoB_jCsQKoB_vCsQLYBwHSCCkIgGEQARifATICigI6DYBAgMCAgICAqIACqANIvf3BOljH9qzUgYWQA7EJ-IVu2wawBRKACgGKCv8EaHR0cHM6Ly90cmFjay50cmFmZmljZ3VhcmQuYWkvcm96ZXRrYV9hL2dvb2dsZS1hZHMvdjEvY2xpY2svP3Byb3BlcnR5X2lkPXRnLTAxNzEwNC0wMDEmc291cmNlX2lkPWQmY3JlYXRpdmVfaWQ9Nzc2NjM0Njc1MjkzJmNhbXBhaWduX2lkPTIzMDYzNzAwNjMwJmNyZWF0aXZlX3NldF9pZD0xOTAwODA4NDY4NzAmcGxhY2VtZW50X2lkPXByYWN0aWNlLmV4cGFuZHRlc3RpbmcuY29tJmtleXdvcmQ9JnNlc3Npb25faWQ9e2djbGlkfSZmZWVkaXRlbWlkPSZ0YXJnZXRpZD0mbG9jX2ludGVyZXN0X21zPSZsb2NfcGh5c2ljYWxfbXM9MTAxMjg2NSZtYXRjaHR5cGU9JmRldmljZT1jJmRldmljZW1vZGVsPSZpZm1vYmlsZT0maWZub3Rtb2JpbGU9MSZpZnNlYXJjaD0maWZjb250ZW50PTEmdGFyZ2V0PSZwYXJhbTE9JnBhcmFtMj0mcmFuZG9tPTUwMzAwNDk3MjE1MDg5Mjk4MTImYWRwb3NpdGlvbj0mZ2Ffc291cmNlaWQ9e3NvdXJjZWlkfSZnYV9hZHR5cGU9JmdhX21lcmNoYW50X2lkPSZnYV9wcm9kdWN0X2NoYW5uZWw9JmdhX3Byb2R1Y3RfaWQ9JmdhX3Byb2R1Y3RfY291bnRyeT0mZ2FfcHJvZHVjdF9sYW5ndWFnZT0mZ2FfcHJvZHVjdF9wYXJ0aXRpb25faWQ9JmdhX3N0b3JlX2NvZGU9JmRlc3RpbmF0aW9uX3VybD17bHB1cmx9mAsByAsB4AsBogwDkAEB2gwQCgoQkLLt37WVhu81EgIBA6oNAlVByA0B6g0TCLPhwtSBhZADFbOT_QcdB201BvANAogOCdgTA9AVAZgWAcoWAgoA-BYBgBcBshcOGAEqCjI0MDYzMzU3NDO6FwI4AaoYFwkAAAAAAOzzQBIKMjQwNjMzNTc0MxgBshgJEgKTVRgCIgEA0BgB6BgBwhkCCAE&ae=1&ase=2&gclid=EAIaIQobChMI2Zat1IGFkAMVs5P9Bx0HbTUGEAEYASAAEgKOvfD_BwE&num=1&cid=CAQSsgEAwksa0f--1wFyltEZ1HT3Dmb4vgfEfEdyt8MCSCR1TrfNV6D4kxLTYGXw6FdXEcyhog6RmqwH4dPyu6Hls9_qBP2WBFAJ1kL_9gVn4DsKTLyn5EccAChL26Tj_sO1nPlbXFXBqlPdPTwHuvvkzlNC5kuxKxfJ2fQO8UryW5q6NbPJ23A5a1JFCB027cQCfcHlmFkBJOAXpgbwX0woVV1y2QrxkO3c6R6vm6Kh_g8I1NCHGAE&sig=AOD64_3ZqQ6c8fxuq0QWehnfHl_mgXuPWQ&client=ca-pub-1056034821646296&rf=2&nb=2&adurl=https://rozetka.com.ua/ua/promo/banner_rozetkadays/%3Fgad_source%3D5%26gad_campaignid%3D23063700630%26gclid%3DEAIaIQobChMI2Zat1IGFkAMVs5P9Bx0HbTUGEAEYASAAEgKOvfD_BwE
+              - img [ref=f2e7] [cursor=pointer]
+              - button [ref=f2e9] [cursor=pointer]:
+                - img [ref=f2e10] [cursor=pointer]
+            - iframe
+      - generic [ref=e52]:
+        - navigation "breadcrumb mb-2" [ref=e53]:
+          - list [ref=e54]:
+            - listitem [ref=e55]:
+              - link "Home" [ref=e56] [cursor=pointer]:
+                - /url: /
+            - listitem [ref=e57]: / Register Page
+        - heading "Test Register page for Automation Testing Practice" [level=1] [ref=e58]
+        - generic [ref=e60]:
+          - paragraph [ref=e61]:
+            - text: This
+            - generic [ref=e62]: Test Register page
+            - text: is designed for automation testing practice. Test various positive and negative register scenarios in a testing environment.
+            - link "Software testing books" [ref=e63] [cursor=pointer]:
+              - img [ref=e65] [cursor=pointer]
+              - generic [ref=e67] [cursor=pointer]: Software testing books
+            - link "API testing tools" [ref=e68] [cursor=pointer]:
+              - img [ref=e70] [cursor=pointer]
+              - generic [ref=e72] [cursor=pointer]: API testing tools
+          - paragraph [ref=e73]: You can use this register page for practicing with Selenium or other tools like Playwright, Cypress, etc.
+        - generic [ref=e77]:
+          - generic [ref=e78]:
+            - generic [ref=e79]:
+              - generic [ref=e80]:
+                - generic [ref=e81]: Username
+                - textbox "Username" [ref=e82]: "0123456789012345678901234567890123456789"
+              - generic [ref=e83]:
+                - generic [ref=e84]: Password
+                - textbox "Password" [ref=e85]: Qual1ty!!!
+              - generic [ref=e86]:
+                - generic [ref=e87]: Confirm Password
+                - textbox "Confirm Password" [ref=e88]: Qual1ty!!!
+            - button "Register" [ref=e89] [cursor=pointer]
+          - link "Selenium testing course" [ref=e90] [cursor=pointer]:
+            - img [ref=e92] [cursor=pointer]
+            - generic [ref=e94] [cursor=pointer]: Selenium testing course
+          - link "Cypress testing course" [ref=e95] [cursor=pointer]:
+            - img [ref=e97] [cursor=pointer]
+            - generic [ref=e99] [cursor=pointer]: Cypress testing course
+    - insertion [ref=e101]:
+      - iframe [ref=e103]:
+        - generic [active] [ref=f3e1]:
+          - generic [ref=f3e3]:
+            - link:
+              - /url: https://googleads.g.doubleclick.net/aclk?nis=4&sa=l&ai=Cp7dlgCzeaMuSHoum9u8P9Y7uyAmO8sGjggHs5sbz-BSku-Sd5AkQASCVlJmjAWCllqSGtCigAfWVnaUByAECqQIB8Ya-CgpaPqgDAcgDyQSqBOkBT9BqENs2hjNXlFW4jomNtCu6j2KpK4nYegzHs0rsquvIPz_bvnIpiJCvRelrQbtoBZk37DPkQ3Cg-os6hxkKm7sGsljVZ2LoM8KdLjN4RCrUT-II48aYcm9iWOhSVfTjuWARCYjMsIkPO-S4Peyn3lItyuBcUOl-KMwQy6cuhBRTUSzyE1S8NhEtBIlFFHFILR8rpyS_0XieQVdqDpQaDLsDQCWAO2ScN8nk1gCyV2919MM48COUOpzJANMWxP3fzrYXiNG4FFGv_PKMZV-QRUnOzlwmXKoL0bdvTXi8s1Pkpkb6H-1l0oDABJaYzo3EBYgFlsnQ9VWgBgKAB_Pp4toCqAfi2LECqAemvhuoB8zOsQKoB_PRG6gHltgbqAeqm7ECqAeOzhuoB5PYG6gH8OAbqAfulrECqAf-nrECqAevvrECqAfVyRuoB9m2sQKoB5oGqAf_nrECqAffn7ECqAfKqbECqAfrpbECqAfqsbECqAeZtbECqAe-t7ECqAf4wrECqAf7wrEC2AcB0ggpCIBhEAEYnwEyAooCOg2AQIDAgICAgKiAAqgDSL39wTpYu7Cu1IGFkAOxCfiFbtsGsAUSgAoBigr-BGh0dHBzOi8vdHJhY2sudHJhZmZpY2d1YXJkLmFpL3JvemV0a2FfYS9nb29nbGUtYWRzL3YxL2NsaWNrLz9wcm9wZXJ0eV9pZD10Zy0wMTcxMDQtMDAxJnNvdXJjZV9pZD1kJmNyZWF0aXZlX2lkPTc3NjYzNDY4MzI3MCZjYW1wYWlnbl9pZD0yMzA2MzcwMDYzMCZjcmVhdGl2ZV9zZXRfaWQ9MTkwMDgwODQ2ODcwJnBsYWNlbWVudF9pZD1wcmFjdGljZS5leHBhbmR0ZXN0aW5nLmNvbSZrZXl3b3JkPSZzZXNzaW9uX2lkPXtnY2xpZH0mZmVlZGl0ZW1pZD0mdGFyZ2V0aWQ9JmxvY19pbnRlcmVzdF9tcz0mbG9jX3BoeXNpY2FsX21zPTEwMTI4NjUmbWF0Y2h0eXBlPSZkZXZpY2U9YyZkZXZpY2Vtb2RlbD0maWZtb2JpbGU9Jmlmbm90bW9iaWxlPTEmaWZzZWFyY2g9JmlmY29udGVudD0xJnRhcmdldD0mcGFyYW0xPSZwYXJhbTI9JnJhbmRvbT0zMzU1NzI3MTU2Nzg1NjM5ODMmYWRwb3NpdGlvbj0mZ2Ffc291cmNlaWQ9e3NvdXJjZWlkfSZnYV9hZHR5cGU9JmdhX21lcmNoYW50X2lkPSZnYV9wcm9kdWN0X2NoYW5uZWw9JmdhX3Byb2R1Y3RfaWQ9JmdhX3Byb2R1Y3RfY291bnRyeT0mZ2FfcHJvZHVjdF9sYW5ndWFnZT0mZ2FfcHJvZHVjdF9wYXJ0aXRpb25faWQ9JmdhX3N0b3JlX2NvZGU9JmRlc3RpbmF0aW9uX3VybD17bHB1cmx9mAsByAsB4AsBogwDkAEB2gwQCgoQoJG5yMT2lNQsEgIBA6oNAlVByA0B6g0TCLekvtSBhZADFQuT_QcddYcbmfANAogOCdgTA9AVAZgWAcoWAgoA-BYBgBcBshcOGAEqCjI0MDYzMzU3NDO6FwI4AaoYFwkAAAAAcC_0QBIKMjQwNjMzNTc0MxgBshgJEgKTVRgCIgEA0BgB6BgBwhkCCAE&ae=1&ase=2&gclid=EAIaIQobChMIy9Ku1IGFkAMVC5P9Bx11hxuZEAEYASAAEgKeVPD_BwE&num=1&cid=CAQSswEAwksa0UMIndr3ToS9AS0Ww8R22FjR_KAzs8YKtxWaiSTik9h_U5ARLzQK2ldJlTKiepqVC-rViuqpJacs5Im0ie7V06llLsEI91LmOCqCxCYq9bnJyWUuBV1JlRxowehEzsH4En9ZFSUateBXKQ-RsfcgZGBVsybwzdPK2x69AFvuJ2bE6tD6C4b7S5mRuYn-hg2Uly1iIYre86VE1CnlUmauipEpu_4HhOkpwY4QKRW0CxgB&sig=AOD64_17HI4uWdGF4qU4OxuLjOdyqY7OUw&client=ca-pub-1056034821646296&rf=2&nb=2&adurl=https://rozetka.com.ua/ua/promo/banner_rozetkadays/%3Fgad_source%3D5%26gad_campaignid%3D23063700630%26gclid%3DEAIaIQobChMIy9Ku1IGFkAMVC5P9Bx11hxuZEAEYASAAEgKeVPD_BwE
+            - img [ref=f3e7] [cursor=pointer]
+            - button [ref=f3e9] [cursor=pointer]:
+              - img [ref=f3e10] [cursor=pointer]
+          - iframe
+  - contentinfo [ref=e104]:
+    - generic [ref=e109]:
+      - heading "Practice Test Automation WebSite for Web UI and Rest API" [level=4] [ref=e110]
+      - paragraph [ref=e111]:
+        - text: "Version: 935c019b | Copyright"
+        - link "Expand Testing" [ref=e112] [cursor=pointer]:
+          - /url: https://expandtesting.com/
+        - text: "2025"
+  - img [ref=e114] [cursor=pointer]
+  - insertion [ref=e116]:
+    - iframe [ref=e119]:
+      - iframe [ref=f4e1]:
+        - generic [active] [ref=f5e1]:
+          - link "Advertisement" [ref=f5e6] [cursor=pointer]:
+            - /url: https://adclick.g.doubleclick.net/aclk?nis=4&sa=l&ai=CWJb2gCzeaK-QGYaE9u8PuLX48AjDnuKNggHMx5rk4RTy3dLgsgEQASCVlJmjAWCllqSGtCigAfWut8gCyAEJqQIB8Ya-CgpaPqgDAcgDSKoE-wFP0NayW5ZeaF2cDgLxbXcAPvgy4g6S6QA9ElmoUIaeGfjncqT56om4qH1Ipe4J7pq2cH8wbx9V1BjmwG4E70r0ugQU5vYXGzErHK5eZAFvshO__zcn8HMR5Ci-tyHbb5w8C-T1M4iNfrAupZAbTqQTyTvkW6_l7q8piGuX09s8VHAXfIz-lH2RJihHtcezvf-M_a6l1Oe-OgH2F2f443u-n1YT68WsVR9Av_zRgRvLsJaxRtm7sZ-Y0iDjnVdPzDNuLDLBx11khFfJtJhdtpwGJmVYXl0gprVHjaXE7R53RXr0GNM8uwQH5WNdIvlGAF5pKhNUsAAZqQa9-8AEu_H9lrMFiAWnvbvvVaAGLoAH_siXzRmoB6a-G6gHzM6xAqgH89EbqAeW2BuoB6qbsQKoB47OG6gHk9gbqAfw4BuoB-6WsQKoB_6esQKoB6--sQKoB9XJG6gH2baxAqgHmgaoB_-esQKoB9-fsQKoB8qpsQKoB-ulsQKoB-qxsQKoB5m1sQKoB763sQKoB_jCsQKoB_vCsQLYBwDSCCkIgGEQARifATICigI6DYBAgMCAgICAqIACqANIvf3BOlipiKnUgYWQA7EJIsHZ56kJulyACgGYCwHICwGADAHaDBEKCxCg16Cm0ZyvmeIBEgIBA6oNAlVByA0B6g0TCJajxNSBhZADFQaC_QcduBoejvANAogOCdgTCtAVAcoWAgoA-BYBgBcBshcCGAG6FwI4AbIYCRICqE4YLiIBANAYAegYAcIZAggB&ae=1&ase=2&gclid=EAIaIQobChMIr9Cp1IGFkAMVBoL9Bx24Gh6OEAEYASAAEgKeS_D_BwE&num=1&cid=CAQSsgEAwksa0Y4Ui-7OjoWfTvRZ-8kEDGClOEXGVoQsosAgxqtPqkG91vHUhaqNsm2PdKbixYa5altuV_axQWOKZ81Dq2f7bp9D5FOJOpyH5gATLwkxnV2Kkx48PLdb_c9JxEjY938TJu1X-HEbyVxpM8fcRG4SazqomODUX7bwqCzcQe8kRdmM5lHJGWFkvtjVbE9rKoRSCnuf2nPDvL570SvnC066CIf9jb6L0HwAu63huKM_GAE&sig=AOD64_0VpfXCE6XnFeWvPwH8hEzaAXpuLA&client=ca-pub-1056034821646296&rf=1&nb=25&adurl=https://auto.ria.com/uk/newauto/marka-mazda/model-cx-60/%3Fr_source%3Dg_ads%26r_medium%3Dgdn%26r_campaign%3Dmazda_cx_60%26r_options%3Dspec_mazda_cx_60%26r_audience%3Dppc_buyers_newauto%26gad_source%3D5%26gad_campaignid%3D23050772135%26gclid%3DEAIaIQobChMIr9Cp1IGFkAMVBoL9Bx24Gh6OEAEYASAAEgKeS_D_BwE
+            - iframe [ref=f5e9] [cursor=pointer]:
+              - generic [ref=f6e1] [cursor=pointer]:
+                - link:
+                  - /url: javascript:window.open(window.clickTag)
+          - img [ref=f5e13] [cursor=pointer]
+          - button [ref=f5e15] [cursor=pointer]:
+            - img [ref=f5e16] [cursor=pointer]
+          - iframe
 ```

@@ -1,131 +1,271 @@
 # Page snapshot
 
 ```yaml
-- generic [ref=e1]:
-  - paragraph [ref=e3]:
-    - link "TestifyStack" [ref=e4] [cursor=pointer]:
-      - /url: https://testifystack.com/
-    - text: "| Email, SMS, OTP and Webhooks Testing Stack for QA & Dev"
-    - link "REST API testing tools" [ref=e5] [cursor=pointer]:
-      - img [ref=e7] [cursor=pointer]
-      - generic [ref=e9] [cursor=pointer]: REST API testing tools
-    - link "Software testing services" [ref=e10] [cursor=pointer]:
-      - img [ref=e12] [cursor=pointer]
-      - generic [ref=e14] [cursor=pointer]: Software testing services
-  - banner [ref=e16]:
-    - navigation "Main navigation" [ref=e17]:
-      - link "SUT" [ref=e18] [cursor=pointer]:
-        - /url: /
-        - 'img "Best Website for Practice Automation Testing: Free UI and REST API Examples and Apps. Using Cypress, Playwright, Selenium, WebdriverIO and Postman." [ref=e19] [cursor=pointer]'
-        - text: Practice
-      - generic [ref=e20]:
-        - list [ref=e21]:
-          - listitem [ref=e22]:
-            - button "Demos" [ref=e23] [cursor=pointer]
-          - listitem [ref=e24]:
-            - link "Tools" [ref=e25] [cursor=pointer]:
-              - /url: /#tools
-          - listitem [ref=e26]:
-            - link "Tips" [ref=e27] [cursor=pointer]:
-              - /url: /tips
-          - listitem [ref=e28]:
-            - link "Test Cases" [ref=e29] [cursor=pointer]:
-              - /url: /test-cases
-          - listitem [ref=e30]:
-            - link "API Testing" [ref=e31] [cursor=pointer]:
-              - /url: /notes/api/api-docs/
-          - listitem [ref=e32]:
-            - link "About" [ref=e33] [cursor=pointer]:
-              - /url: /about
-        - list
-        - link "Free ISTQB Mock Exams" [ref=e34] [cursor=pointer]:
-          - /url: https://istqb.expandtesting.com/
-  - main [ref=e35]:
-    - insertion [ref=e39]:
-      - iframe [active] [ref=e41]:
-        - generic [active] [ref=f1e1]:
-          - generic [ref=f1e6]:
-            - link [ref=f1e7] [cursor=pointer]:
-              - /url: https://adclick.g.doubleclick.net/aclk?nis=4&sa=l&ai=CwG7VeELIaL3lCcqW78EP3IbM8Aba7M39gAGEufjxsBHb2R4QASCVlJmjAWCllqSGtCigAZ-piqoByAEJqQLt48W1LQ9aPqgDAcgDywSqBOgBT9BJ2HW9ZTpic4EIuctJOuDPJtLfITy1I5VDZhN8Tu7OGgDXZ9gCQaspyOluSocJ6VD9tYKEzeZ18kG6Bh8gC9jsYW6U7nhlhVhuDjEBeFwHjeSd1ys0v8xg3Zaid0bA9h2Ay36QUKJSQFU3StZQQmBL7iqCmSrZwy9AQFO2BhMYCxvaoLfjmOUKO-2BJkTFTGQeqSwCkOJIh6b88jbEWvPO1JdV1nfAygSQzvMqiQrY43amVNK7F8m4NtgoSrsATdZ6m6KgHsD_8w2YcBUCuYXe0E2phgvBNnN3jHnLOj5apS2ZYdAPW8AEsd3pnK8EiAWm7YS3SaAGLoAHydb11QKoB6fMsQKoB-LYsQKoB6a-G6gHzM6xAqgH89EbqAeW2BuoB6qbsQKoB47OG6gHk9gbqAfw4BuoB-6WsQKoB_6esQKoB6--sQKoB9XJG6gH2baxAqgHmgaoB_-esQKoB9-fsQKoB8qpsQKoB-ulsQKoB-qxsQKoB5m1sQKoB763sQKoB_jCsQKoB_vCsQLYBwDSCCkIgGEQARifATICigI6DYBAgMCAgICAqIACqANIvf3BOliE5fbBm9uPA7EJmEt0do0HKRaACgGYCwHICwGADAGiDAOQAQHaDBAKChDgi8OL9Le9hwkSAgEDqg0CVUHIDQHqDRMIzo6OwpvbjwMVSss7Ah1cAxNu8A0CiA4J2BMKiBQC0BUBmBYByhYCCgD4FgGAFwGyFw4YASoKNDk3MDIxMjIyMboXAjgBqhgXCQAAAAC4AAZBEgo0OTcwMjEyMjIxGAGyGAkSAvpTGC4iAQDQGAHoGAHCGQIIAQ&ae=1&ase=2&gclid=EAIaIQobChMIvYH4wZvbjwMVSss7Ah1cAxNuEAEYASAAEgIQovD_BwE&num=1&cid=CAQSsgEA2abssz8o9UEbuh8ztPiOr23uz5wYE-zbgNf1Nze26gUF5IOWcO62VcfvtyGjaJsgqNgXwMOFygIdSVA9Lx8GhyqmnROyO-gIZaaix-kHWW2ZENtTcsrNJRDlEZ7cVN_tbAdbXS6sqERFF3o95R3GKOKoj_-lIwRSRqR7WGWFYDCQOjuLUVa4A7t0mSACVi6FHE80SKPPZtVqi6yQ_bNgrN_GWDJMF4wtKBgC5Pq8ku3LGAE&sig=AOD64_1RDM54dLoaLPbGBV5vcE5UL63lhA&client=ca-pub-1056034821646296&rf=1&nb=9&adurl=https://robota.ua/employer%3Futm_source%3Dgoogle%26utm_medium%3Dfreemium-ca-url%26utm_campaign%3Dsmart-banners%26utm_content%3Dbinocular%26gad_source%3D5%26gad_campaignid%3D19711211174%26gclid%3DEAIaIQobChMIvYH4wZvbjwMVSss7Ah1cAxNuEAEYASAAEgIQovD_BwE
-              - img [ref=f1e8] [cursor=pointer]
-            - generic [ref=f1e10]:
-              - generic [ref=f1e13]:
-                - link "Безкоштовна вакансія" [ref=f1e16] [cursor=pointer]:
-                  - /url: https://adclick.g.doubleclick.net/aclk?nis=4&sa=l&ai=CwG7VeELIaL3lCcqW78EP3IbM8Aba7M39gAGEufjxsBHb2R4QASCVlJmjAWCllqSGtCigAZ-piqoByAEJqQLt48W1LQ9aPqgDAcgDywSqBOgBT9BJ2HW9ZTpic4EIuctJOuDPJtLfITy1I5VDZhN8Tu7OGgDXZ9gCQaspyOluSocJ6VD9tYKEzeZ18kG6Bh8gC9jsYW6U7nhlhVhuDjEBeFwHjeSd1ys0v8xg3Zaid0bA9h2Ay36QUKJSQFU3StZQQmBL7iqCmSrZwy9AQFO2BhMYCxvaoLfjmOUKO-2BJkTFTGQeqSwCkOJIh6b88jbEWvPO1JdV1nfAygSQzvMqiQrY43amVNK7F8m4NtgoSrsATdZ6m6KgHsD_8w2YcBUCuYXe0E2phgvBNnN3jHnLOj5apS2ZYdAPW8AEsd3pnK8EiAWm7YS3SaAGLoAHydb11QKoB6fMsQKoB-LYsQKoB6a-G6gHzM6xAqgH89EbqAeW2BuoB6qbsQKoB47OG6gHk9gbqAfw4BuoB-6WsQKoB_6esQKoB6--sQKoB9XJG6gH2baxAqgHmgaoB_-esQKoB9-fsQKoB8qpsQKoB-ulsQKoB-qxsQKoB5m1sQKoB763sQKoB_jCsQKoB_vCsQLYBwDSCCkIgGEQARifATICigI6DYBAgMCAgICAqIACqANIvf3BOliE5fbBm9uPA7EJmEt0do0HKRaACgGYCwHICwGADAGiDAOQAQHaDBAKChDgi8OL9Le9hwkSAgEDqg0CVUHIDQHqDRMIzo6OwpvbjwMVSss7Ah1cAxNu8A0CiA4J2BMKiBQC0BUBmBYByhYCCgD4FgGAFwGyFw4YASoKNDk3MDIxMjIyMboXAjgBqhgXCQAAAAC4AAZBEgo0OTcwMjEyMjIxGAGyGAkSAvpTGC4iAQDQGAHoGAHCGQIIAQ&ae=1&ase=2&gclid=EAIaIQobChMIvYH4wZvbjwMVSss7Ah1cAxNuEAEYASAAEgIQovD_BwE&num=1&cid=CAQSsgEA2abssz8o9UEbuh8ztPiOr23uz5wYE-zbgNf1Nze26gUF5IOWcO62VcfvtyGjaJsgqNgXwMOFygIdSVA9Lx8GhyqmnROyO-gIZaaix-kHWW2ZENtTcsrNJRDlEZ7cVN_tbAdbXS6sqERFF3o95R3GKOKoj_-lIwRSRqR7WGWFYDCQOjuLUVa4A7t0mSACVi6FHE80SKPPZtVqi6yQ_bNgrN_GWDJMF4wtKBgC5Pq8ku3LGAE&sig=AOD64_1RDM54dLoaLPbGBV5vcE5UL63lhA&client=ca-pub-1056034821646296&rf=1&nb=0&adurl=https://robota.ua/employer%3Futm_source%3Dgoogle%26utm_medium%3Dfreemium-ca-url%26utm_campaign%3Dsmart-banners%26utm_content%3Dbinocular%26gad_source%3D5%26gad_campaignid%3D19711211174%26gclid%3DEAIaIQobChMIvYH4wZvbjwMVSss7Ah1cAxNuEAEYASAAEgIQovD_BwE
-                - link "Тисячі спеціалістів шукають роботу зараз" [ref=f1e19] [cursor=pointer]:
-                  - /url: https://adclick.g.doubleclick.net/aclk?nis=4&sa=l&ai=CwG7VeELIaL3lCcqW78EP3IbM8Aba7M39gAGEufjxsBHb2R4QASCVlJmjAWCllqSGtCigAZ-piqoByAEJqQLt48W1LQ9aPqgDAcgDywSqBOgBT9BJ2HW9ZTpic4EIuctJOuDPJtLfITy1I5VDZhN8Tu7OGgDXZ9gCQaspyOluSocJ6VD9tYKEzeZ18kG6Bh8gC9jsYW6U7nhlhVhuDjEBeFwHjeSd1ys0v8xg3Zaid0bA9h2Ay36QUKJSQFU3StZQQmBL7iqCmSrZwy9AQFO2BhMYCxvaoLfjmOUKO-2BJkTFTGQeqSwCkOJIh6b88jbEWvPO1JdV1nfAygSQzvMqiQrY43amVNK7F8m4NtgoSrsATdZ6m6KgHsD_8w2YcBUCuYXe0E2phgvBNnN3jHnLOj5apS2ZYdAPW8AEsd3pnK8EiAWm7YS3SaAGLoAHydb11QKoB6fMsQKoB-LYsQKoB6a-G6gHzM6xAqgH89EbqAeW2BuoB6qbsQKoB47OG6gHk9gbqAfw4BuoB-6WsQKoB_6esQKoB6--sQKoB9XJG6gH2baxAqgHmgaoB_-esQKoB9-fsQKoB8qpsQKoB-ulsQKoB-qxsQKoB5m1sQKoB763sQKoB_jCsQKoB_vCsQLYBwDSCCkIgGEQARifATICigI6DYBAgMCAgICAqIACqANIvf3BOliE5fbBm9uPA7EJmEt0do0HKRaACgGYCwHICwGADAGiDAOQAQHaDBAKChDgi8OL9Le9hwkSAgEDqg0CVUHIDQHqDRMIzo6OwpvbjwMVSss7Ah1cAxNu8A0CiA4J2BMKiBQC0BUBmBYByhYCCgD4FgGAFwGyFw4YASoKNDk3MDIxMjIyMboXAjgBqhgXCQAAAAC4AAZBEgo0OTcwMjEyMjIxGAGyGAkSAvpTGC4iAQDQGAHoGAHCGQIIAQ&ae=1&ase=2&gclid=EAIaIQobChMIvYH4wZvbjwMVSss7Ah1cAxNuEAEYASAAEgIQovD_BwE&num=1&cid=CAQSsgEA2abssz8o9UEbuh8ztPiOr23uz5wYE-zbgNf1Nze26gUF5IOWcO62VcfvtyGjaJsgqNgXwMOFygIdSVA9Lx8GhyqmnROyO-gIZaaix-kHWW2ZENtTcsrNJRDlEZ7cVN_tbAdbXS6sqERFF3o95R3GKOKoj_-lIwRSRqR7WGWFYDCQOjuLUVa4A7t0mSACVi6FHE80SKPPZtVqi6yQ_bNgrN_GWDJMF4wtKBgC5Pq8ku3LGAE&sig=AOD64_1RDM54dLoaLPbGBV5vcE5UL63lhA&client=ca-pub-1056034821646296&rf=1&nb=7&adurl=https://robota.ua/employer%3Futm_source%3Dgoogle%26utm_medium%3Dfreemium-ca-url%26utm_campaign%3Dsmart-banners%26utm_content%3Dbinocular%26gad_source%3D5%26gad_campaignid%3D19711211174%26gclid%3DEAIaIQobChMIvYH4wZvbjwMVSss7Ah1cAxNuEAEYASAAEgIQovD_BwE
-              - generic [ref=f1e22]:
-                - link:
-                  - /url: https://adclick.g.doubleclick.net/aclk?nis=4&sa=l&ai=CwG7VeELIaL3lCcqW78EP3IbM8Aba7M39gAGEufjxsBHb2R4QASCVlJmjAWCllqSGtCigAZ-piqoByAEJqQLt48W1LQ9aPqgDAcgDywSqBOgBT9BJ2HW9ZTpic4EIuctJOuDPJtLfITy1I5VDZhN8Tu7OGgDXZ9gCQaspyOluSocJ6VD9tYKEzeZ18kG6Bh8gC9jsYW6U7nhlhVhuDjEBeFwHjeSd1ys0v8xg3Zaid0bA9h2Ay36QUKJSQFU3StZQQmBL7iqCmSrZwy9AQFO2BhMYCxvaoLfjmOUKO-2BJkTFTGQeqSwCkOJIh6b88jbEWvPO1JdV1nfAygSQzvMqiQrY43amVNK7F8m4NtgoSrsATdZ6m6KgHsD_8w2YcBUCuYXe0E2phgvBNnN3jHnLOj5apS2ZYdAPW8AEsd3pnK8EiAWm7YS3SaAGLoAHydb11QKoB6fMsQKoB-LYsQKoB6a-G6gHzM6xAqgH89EbqAeW2BuoB6qbsQKoB47OG6gHk9gbqAfw4BuoB-6WsQKoB_6esQKoB6--sQKoB9XJG6gH2baxAqgHmgaoB_-esQKoB9-fsQKoB8qpsQKoB-ulsQKoB-qxsQKoB5m1sQKoB763sQKoB_jCsQKoB_vCsQLYBwDSCCkIgGEQARifATICigI6DYBAgMCAgICAqIACqANIvf3BOliE5fbBm9uPA7EJmEt0do0HKRaACgGYCwHICwGADAGiDAOQAQHaDBAKChDgi8OL9Le9hwkSAgEDqg0CVUHIDQHqDRMIzo6OwpvbjwMVSss7Ah1cAxNu8A0CiA4J2BMKiBQC0BUBmBYByhYCCgD4FgGAFwGyFw4YASoKNDk3MDIxMjIyMboXAjgBqhgXCQAAAAC4AAZBEgo0OTcwMjEyMjIxGAGyGAkSAvpTGC4iAQDQGAHoGAHCGQIIAQ&ae=1&ase=2&gclid=EAIaIQobChMIvYH4wZvbjwMVSss7Ah1cAxNuEAEYASAAEgIQovD_BwE&num=1&cid=CAQSsgEA2abssz8o9UEbuh8ztPiOr23uz5wYE-zbgNf1Nze26gUF5IOWcO62VcfvtyGjaJsgqNgXwMOFygIdSVA9Lx8GhyqmnROyO-gIZaaix-kHWW2ZENtTcsrNJRDlEZ7cVN_tbAdbXS6sqERFF3o95R3GKOKoj_-lIwRSRqR7WGWFYDCQOjuLUVa4A7t0mSACVi6FHE80SKPPZtVqi6yQ_bNgrN_GWDJMF4wtKBgC5Pq8ku3LGAE&sig=AOD64_1RDM54dLoaLPbGBV5vcE5UL63lhA&client=ca-pub-1056034821646296&rf=1&nb=8&adurl=https://robota.ua/employer%3Futm_source%3Dgoogle%26utm_medium%3Dfreemium-ca-url%26utm_campaign%3Dsmart-banners%26utm_content%3Dbinocular%26gad_source%3D5%26gad_campaignid%3D19711211174%26gclid%3DEAIaIQobChMIvYH4wZvbjwMVSss7Ah1cAxNuEAEYASAAEgIQovD_BwE
-                - link "robota.ua" [ref=f1e24] [cursor=pointer]:
-                  - /url: https://adclick.g.doubleclick.net/aclk?nis=4&sa=l&ai=CwG7VeELIaL3lCcqW78EP3IbM8Aba7M39gAGEufjxsBHb2R4QASCVlJmjAWCllqSGtCigAZ-piqoByAEJqQLt48W1LQ9aPqgDAcgDywSqBOgBT9BJ2HW9ZTpic4EIuctJOuDPJtLfITy1I5VDZhN8Tu7OGgDXZ9gCQaspyOluSocJ6VD9tYKEzeZ18kG6Bh8gC9jsYW6U7nhlhVhuDjEBeFwHjeSd1ys0v8xg3Zaid0bA9h2Ay36QUKJSQFU3StZQQmBL7iqCmSrZwy9AQFO2BhMYCxvaoLfjmOUKO-2BJkTFTGQeqSwCkOJIh6b88jbEWvPO1JdV1nfAygSQzvMqiQrY43amVNK7F8m4NtgoSrsATdZ6m6KgHsD_8w2YcBUCuYXe0E2phgvBNnN3jHnLOj5apS2ZYdAPW8AEsd3pnK8EiAWm7YS3SaAGLoAHydb11QKoB6fMsQKoB-LYsQKoB6a-G6gHzM6xAqgH89EbqAeW2BuoB6qbsQKoB47OG6gHk9gbqAfw4BuoB-6WsQKoB_6esQKoB6--sQKoB9XJG6gH2baxAqgHmgaoB_-esQKoB9-fsQKoB8qpsQKoB-ulsQKoB-qxsQKoB5m1sQKoB763sQKoB_jCsQKoB_vCsQLYBwDSCCkIgGEQARifATICigI6DYBAgMCAgICAqIACqANIvf3BOliE5fbBm9uPA7EJmEt0do0HKRaACgGYCwHICwGADAGiDAOQAQHaDBAKChDgi8OL9Le9hwkSAgEDqg0CVUHIDQHqDRMIzo6OwpvbjwMVSss7Ah1cAxNu8A0CiA4J2BMKiBQC0BUBmBYByhYCCgD4FgGAFwGyFw4YASoKNDk3MDIxMjIyMboXAjgBqhgXCQAAAAC4AAZBEgo0OTcwMjEyMjIxGAGyGAkSAvpTGC4iAQDQGAHoGAHCGQIIAQ&ae=1&ase=2&gclid=EAIaIQobChMIvYH4wZvbjwMVSss7Ah1cAxNuEAEYASAAEgIQovD_BwE&num=1&cid=CAQSsgEA2abssz8o9UEbuh8ztPiOr23uz5wYE-zbgNf1Nze26gUF5IOWcO62VcfvtyGjaJsgqNgXwMOFygIdSVA9Lx8GhyqmnROyO-gIZaaix-kHWW2ZENtTcsrNJRDlEZ7cVN_tbAdbXS6sqERFF3o95R3GKOKoj_-lIwRSRqR7WGWFYDCQOjuLUVa4A7t0mSACVi6FHE80SKPPZtVqi6yQ_bNgrN_GWDJMF4wtKBgC5Pq8ku3LGAE&sig=AOD64_1RDM54dLoaLPbGBV5vcE5UL63lhA&client=ca-pub-1056034821646296&rf=1&nb=1&adurl=https://robota.ua/employer%3Futm_source%3Dgoogle%26utm_medium%3Dfreemium-ca-url%26utm_campaign%3Dsmart-banners%26utm_content%3Dbinocular%26gad_source%3D5%26gad_campaignid%3D19711211174%26gclid%3DEAIaIQobChMIvYH4wZvbjwMVSss7Ah1cAxNuEAEYASAAEgIQovD_BwE
-                - link "Відвідайте сайт" [ref=f1e26] [cursor=pointer]:
-                  - /url: https://adclick.g.doubleclick.net/aclk?nis=4&sa=l&ai=CwG7VeELIaL3lCcqW78EP3IbM8Aba7M39gAGEufjxsBHb2R4QASCVlJmjAWCllqSGtCigAZ-piqoByAEJqQLt48W1LQ9aPqgDAcgDywSqBOgBT9BJ2HW9ZTpic4EIuctJOuDPJtLfITy1I5VDZhN8Tu7OGgDXZ9gCQaspyOluSocJ6VD9tYKEzeZ18kG6Bh8gC9jsYW6U7nhlhVhuDjEBeFwHjeSd1ys0v8xg3Zaid0bA9h2Ay36QUKJSQFU3StZQQmBL7iqCmSrZwy9AQFO2BhMYCxvaoLfjmOUKO-2BJkTFTGQeqSwCkOJIh6b88jbEWvPO1JdV1nfAygSQzvMqiQrY43amVNK7F8m4NtgoSrsATdZ6m6KgHsD_8w2YcBUCuYXe0E2phgvBNnN3jHnLOj5apS2ZYdAPW8AEsd3pnK8EiAWm7YS3SaAGLoAHydb11QKoB6fMsQKoB-LYsQKoB6a-G6gHzM6xAqgH89EbqAeW2BuoB6qbsQKoB47OG6gHk9gbqAfw4BuoB-6WsQKoB_6esQKoB6--sQKoB9XJG6gH2baxAqgHmgaoB_-esQKoB9-fsQKoB8qpsQKoB-ulsQKoB-qxsQKoB5m1sQKoB763sQKoB_jCsQKoB_vCsQLYBwDSCCkIgGEQARifATICigI6DYBAgMCAgICAqIACqANIvf3BOliE5fbBm9uPA7EJmEt0do0HKRaACgGYCwHICwGADAGiDAOQAQHaDBAKChDgi8OL9Le9hwkSAgEDqg0CVUHIDQHqDRMIzo6OwpvbjwMVSss7Ah1cAxNu8A0CiA4J2BMKiBQC0BUBmBYByhYCCgD4FgGAFwGyFw4YASoKNDk3MDIxMjIyMboXAjgBqhgXCQAAAAC4AAZBEgo0OTcwMjEyMjIxGAGyGAkSAvpTGC4iAQDQGAHoGAHCGQIIAQ&ae=1&ase=2&gclid=EAIaIQobChMIvYH4wZvbjwMVSss7Ah1cAxNuEAEYASAAEgIQovD_BwE&num=1&cid=CAQSsgEA2abssz8o9UEbuh8ztPiOr23uz5wYE-zbgNf1Nze26gUF5IOWcO62VcfvtyGjaJsgqNgXwMOFygIdSVA9Lx8GhyqmnROyO-gIZaaix-kHWW2ZENtTcsrNJRDlEZ7cVN_tbAdbXS6sqERFF3o95R3GKOKoj_-lIwRSRqR7WGWFYDCQOjuLUVa4A7t0mSACVi6FHE80SKPPZtVqi6yQ_bNgrN_GWDJMF4wtKBgC5Pq8ku3LGAE&sig=AOD64_1RDM54dLoaLPbGBV5vcE5UL63lhA&client=ca-pub-1056034821646296&rf=1&nb=8&adurl=https://robota.ua/employer%3Futm_source%3Dgoogle%26utm_medium%3Dfreemium-ca-url%26utm_campaign%3Dsmart-banners%26utm_content%3Dbinocular%26gad_source%3D5%26gad_campaignid%3D19711211174%26gclid%3DEAIaIQobChMIvYH4wZvbjwMVSss7Ah1cAxNuEAEYASAAEgIQovD_BwE
-                - link [ref=f1e27] [cursor=pointer]:
-                  - /url: https://adclick.g.doubleclick.net/aclk?nis=4&sa=l&ai=CwG7VeELIaL3lCcqW78EP3IbM8Aba7M39gAGEufjxsBHb2R4QASCVlJmjAWCllqSGtCigAZ-piqoByAEJqQLt48W1LQ9aPqgDAcgDywSqBOgBT9BJ2HW9ZTpic4EIuctJOuDPJtLfITy1I5VDZhN8Tu7OGgDXZ9gCQaspyOluSocJ6VD9tYKEzeZ18kG6Bh8gC9jsYW6U7nhlhVhuDjEBeFwHjeSd1ys0v8xg3Zaid0bA9h2Ay36QUKJSQFU3StZQQmBL7iqCmSrZwy9AQFO2BhMYCxvaoLfjmOUKO-2BJkTFTGQeqSwCkOJIh6b88jbEWvPO1JdV1nfAygSQzvMqiQrY43amVNK7F8m4NtgoSrsATdZ6m6KgHsD_8w2YcBUCuYXe0E2phgvBNnN3jHnLOj5apS2ZYdAPW8AEsd3pnK8EiAWm7YS3SaAGLoAHydb11QKoB6fMsQKoB-LYsQKoB6a-G6gHzM6xAqgH89EbqAeW2BuoB6qbsQKoB47OG6gHk9gbqAfw4BuoB-6WsQKoB_6esQKoB6--sQKoB9XJG6gH2baxAqgHmgaoB_-esQKoB9-fsQKoB8qpsQKoB-ulsQKoB-qxsQKoB5m1sQKoB763sQKoB_jCsQKoB_vCsQLYBwDSCCkIgGEQARifATICigI6DYBAgMCAgICAqIACqANIvf3BOliE5fbBm9uPA7EJmEt0do0HKRaACgGYCwHICwGADAGiDAOQAQHaDBAKChDgi8OL9Le9hwkSAgEDqg0CVUHIDQHqDRMIzo6OwpvbjwMVSss7Ah1cAxNu8A0CiA4J2BMKiBQC0BUBmBYByhYCCgD4FgGAFwGyFw4YASoKNDk3MDIxMjIyMboXAjgBqhgXCQAAAAC4AAZBEgo0OTcwMjEyMjIxGAGyGAkSAvpTGC4iAQDQGAHoGAHCGQIIAQ&ae=1&ase=2&gclid=EAIaIQobChMIvYH4wZvbjwMVSss7Ah1cAxNuEAEYASAAEgIQovD_BwE&num=1&cid=CAQSsgEA2abssz8o9UEbuh8ztPiOr23uz5wYE-zbgNf1Nze26gUF5IOWcO62VcfvtyGjaJsgqNgXwMOFygIdSVA9Lx8GhyqmnROyO-gIZaaix-kHWW2ZENtTcsrNJRDlEZ7cVN_tbAdbXS6sqERFF3o95R3GKOKoj_-lIwRSRqR7WGWFYDCQOjuLUVa4A7t0mSACVi6FHE80SKPPZtVqi6yQ_bNgrN_GWDJMF4wtKBgC5Pq8ku3LGAE&sig=AOD64_1RDM54dLoaLPbGBV5vcE5UL63lhA&client=ca-pub-1056034821646296&rf=1&nb=8&adurl=https://robota.ua/employer%3Futm_source%3Dgoogle%26utm_medium%3Dfreemium-ca-url%26utm_campaign%3Dsmart-banners%26utm_content%3Dbinocular%26gad_source%3D5%26gad_campaignid%3D19711211174%26gclid%3DEAIaIQobChMIvYH4wZvbjwMVSss7Ah1cAxNuEAEYASAAEgIQovD_BwE
-                  - generic [ref=f1e28] [cursor=pointer]:
-                    - img [ref=f1e29] [cursor=pointer]
-                    - img [ref=f1e31] [cursor=pointer]
-          - img [ref=f1e39] [cursor=pointer]
-          - button [ref=f1e41] [cursor=pointer]:
-            - img [ref=f1e42] [cursor=pointer]
-          - iframe
-    - paragraph [ref=e43]:
-      - text: Do you enjoy this platform? ❤️
-      - link "Buy us a coffee" [ref=e44] [cursor=pointer]:
-        - /url: https://www.buymeacoffee.com/expandtesting
-    - generic [ref=e48]:
-      - navigation "breadcrumb mb-2" [ref=e49]:
-        - list [ref=e50]:
-          - listitem [ref=e51]:
-            - link "Home" [ref=e52] [cursor=pointer]:
-              - /url: /
-          - listitem [ref=e53]: / Register Page
-      - heading "Test Register page for Automation Testing Practice" [level=1] [ref=e54]
-      - generic [ref=e56]:
-        - paragraph [ref=e57]:
-          - text: This
-          - generic [ref=e58]: Test Register page
-          - text: is designed for automation testing practice. Test various positive and negative register scenarios in a testing environment.
-        - paragraph [ref=e59]: You can use this register page for practicing with Selenium or other tools like Playwright, Cypress, etc.
-      - generic [ref=e63]:
+- generic [active] [ref=e1]:
+  - link "Skip to content" [ref=e2] [cursor=pointer]:
+    - /url: "#main"
+  - generic [ref=e3]:
+    - banner [ref=e4]:
+      - generic [ref=e5]:
+        - generic [ref=e7]:
+          - generic:
+            - list
+          - generic:
+            - list
+          - list [ref=e9]:
+            - listitem [ref=e10]:
+              - menuitem "Switch to Türkçe" [ref=e11] [cursor=pointer]:
+                - generic [ref=e12] [cursor=pointer]: Türkçe
+            - listitem [ref=e13]:
+              - menuitem "Switch to English" [ref=e14] [cursor=pointer]:
+                - generic [ref=e15] [cursor=pointer]: English
+            - listitem [ref=e16]:
+              - menuitem "Switch to Français" [ref=e17] [cursor=pointer]:
+                - generic [ref=e18] [cursor=pointer]: Français
+            - listitem [ref=e19]:
+              - menuitem "Switch to العربية" [ref=e20] [cursor=pointer]:
+                - generic [ref=e21] [cursor=pointer]: العربية
+            - listitem [ref=e22]:
+              - link "Blog" [ref=e23] [cursor=pointer]:
+                - /url: https://www.deltamarble.com/blog/
+            - listitem [ref=e24]:
+              - link " Bayi Sipariş Formu" [ref=e25] [cursor=pointer]:
+                - /url: https://www.deltamarble.com/tr/bayi-siparis-formu/
+                - generic [ref=e26] [cursor=pointer]: 
+                - generic [ref=e27] [cursor=pointer]: Bayi Sipariş Formu
+            - link "" [ref=e28] [cursor=pointer]:
+              - /url: https://www.instagram.com/deltamarble/
+              - generic [ref=e29] [cursor=pointer]: 
+            - link "" [ref=e30] [cursor=pointer]:
+              - /url: mailto:info@deltamarble.com
+              - generic [ref=e31] [cursor=pointer]: 
+          - text:   
+        - navigation [ref=e33]:
+          - link "Delta Marble" [ref=e35] [cursor=pointer]:
+            - /url: https://www.deltamarble.com/
+            - img "Delta Marble" [ref=e36] [cursor=pointer]
+          - text: 
+          - generic:
+            - list
+          - list [ref=e38]:
+            - listitem [ref=e39]:
+              - link "About" [ref=e40] [cursor=pointer]:
+                - /url: https://www.deltamarble.com/the-headquarter-and-factories/
+                - text: About
+                - generic [ref=e41] [cursor=pointer]: 
+            - listitem [ref=e42]:
+              - link "PRODUCTS" [ref=e43] [cursor=pointer]:
+                - /url: https://www.deltamarble.com/products/
+            - listitem [ref=e44]:
+              - link "SLABS" [ref=e45] [cursor=pointer]:
+                - /url: https://www.deltamarble.com/categories/marble-slabs/
+            - listitem [ref=e46]:
+              - link "PROJETS" [ref=e47] [cursor=pointer]:
+                - /url: https://www.deltamarble.com/inspiration-gallery/
+            - listitem [ref=e48]:
+              - link "CATALOG" [ref=e49] [cursor=pointer]:
+                - /url: https://www.deltamarble.com/catalog/
+            - listitem [ref=e50]:
+              - link "CONTACT" [ref=e51] [cursor=pointer]:
+                - /url: https://www.deltamarble.com/contact/
+            - listitem [ref=e52]:
+              - button "Search" [ref=e54] [cursor=pointer]:
+                - generic [ref=e55] [cursor=pointer]: 
+              - text: 
+    - main [ref=e60]:
+      - main [ref=e61]:
         - generic [ref=e64]:
-          - generic [ref=e65]:
-            - generic [ref=e66]:
-              - generic [ref=e67]: Username
-              - textbox "Username" [ref=e68]
-            - generic [ref=e69]:
-              - generic [ref=e70]: Password
-              - textbox "Password" [ref=e71]: Qual1ty!!!
-            - generic [ref=e72]:
-              - generic [ref=e73]: Confirm Password
-              - textbox "Confirm Password" [ref=e74]: Qual1ty!!!
-          - button "Register" [ref=e75] [cursor=pointer]
-        - link "REST API testing tools" [ref=e76] [cursor=pointer]:
-          - img [ref=e78] [cursor=pointer]
-          - generic [ref=e80] [cursor=pointer]: REST API testing tools
-        - link "Email verification service" [ref=e81] [cursor=pointer]:
-          - img [ref=e83] [cursor=pointer]
-          - generic [ref=e85] [cursor=pointer]: Email verification service
-  - contentinfo [ref=e86]:
-    - generic [ref=e91]:
-      - heading "Practice Test Automation WebSite for Web UI and Rest API" [level=4] [ref=e92]
-      - paragraph [ref=e93]:
-        - text: "Version: 935c019b | Copyright"
-        - link "Expand Testing" [ref=e94] [cursor=pointer]:
-          - /url: https://expandtesting.com/
-        - text: "2025"
-  - img [ref=e96] [cursor=pointer]
-  - insertion [ref=e98]:
-    - iframe [ref=e101]:
-      - iframe [ref=f2e1]:
-        - generic [active] [ref=f3e1]:
-          - link "Advertisement" [ref=f3e6] [cursor=pointer]:
-            - /url: https://adclick.g.doubleclick.net/aclk?nis=4&sa=l&ai=CxxqYeELIaP62BoaW78EPz7eViAfzwM7SgQG5ru7etxTb2R4QASCVlJmjAWCllqSGtCigAYCR57wByAEJqQLt48W1LQ9aPqgDAcgDSKoE6wFP0IJgCHb0KX9I3LuACBot3596lLOZgDADkJPivIQLGZG0qR9aeyDQVKY3JFOJ2dqcGU4rXQaqmcC2gWv-R_Cd5SMO9Cmy9R1KvwAftizg8bbQap9QFxOw33IcYG_eBvRe1GxyOIbz9eKNiueCmS58J1MyvU2-vX43Rmp7lueZ0kw8AeZwwsxzvV69l2djlYvF4wLE5_pLtxkKexNsISp6l0q5FH3lSneniW433Ifsw0rIe0eShPfyP_WXFbMZW6UH999WmbrNkeHKmgxhdW1Pt3NSvxQcGymJ6fDt7qrp41ZTI-jGtOzZoJilwATXmcTboAWIBaH15t5UoAYugAfo7pjDAqgH4tixAqgHpr4bqAfMzrECqAfz0RuoB5bYG6gHqpuxAqgHjs4bqAeT2BuoB_DgG6gH7paxAqgH_p6xAqgHr76xAqgH1ckbqAfZtrECqAeaBqgH_56xAqgH35-xAqgHyqmxAqgH66WxAqgH6rGxAqgHmbWxAqgHvrexAqgH-MKxAqgH-8KxAqgHwsixAtgHANIIKQiAYRABGJ8BMgKKAjoNgECAwICAgICogAKoA0i9_cE6WO6988Gb248Dmgk3aHR0cHM6Ly90YWJsZXRraS51YS91ay8lRDAlOUQlRDAlQkUtJUQxJTg4JUQwJUJGJUQwJUIwL7EJ2nKxODME6kSACgHICwHgCwGADAGiDAOQAQHaDBEKCxCQq-a8guPboaQBEgIBA6oNAlVByA0B6g0TCJfVlMKb248DFQbLOwIdz1sFcYgOCdgTCtAVAZgWAcoWAgoA-BYBgBcBshcCGAGyGAkSAv1bGC4iAQDoGAGyGQEvwhkCCAE&ase=2&gclid=EAIaIQobChMI_tL0wZvbjwMVBss7Ah3PWwVxEAEYASAAEgLsavD_BwE&num=1&cid=CAQSswEA2abss4UMamUE1cqy7S4C-RkE9AHpg7KrOMDEUfv24dG_BNyKAM6csUMMYdyHHMd0mSCr98IkciIcdDyaR7ct_qI6DcRDQ-IDwLagBU7LIKa7K6ryJ4ayuclGcmqyyMVDdAE0j_zDJ5uzcxD02icGEoLaKsu9m1rEgnSeHmPx5VKisX45l9G1emGo1G57T4wxx3pXAXIGq7xz3VlIyx-I0ydIc1C3bEf-alLNNH-NzyIB-BgB&sig=AOD64_0iIZcuKgRx7h0DwKWyk5_53BWYVQ&client=ca-pub-1056034821646296&rf=1&nb=25&adurl=https://ad.doubleclick.net/ddm/trackclk/N503804.3490709GDN-UA/B33750971.425032152%3Bdc_trk_aid%3D617538877%3Bdc_trk_cid%3D237729520%3Bdc_lat%3D%3Bdc_rdid%3D%3Btag_for_child_directed_treatment%3D%3Btfua%3D%3Bgdpr%3D%24%7BGDPR%7D%3Bgdpr_consent%3D%24%7BGDPR_CONSENT_755%7D%3Bltd%3D%3Bdc_tdv%3D1%3Fgad_campaignid%3D22747396769
-            - iframe [ref=f3e9] [cursor=pointer]:
-              
-          - img [ref=f3e13] [cursor=pointer]
-          - button [ref=f3e15] [cursor=pointer]:
-            - img [ref=f3e16] [cursor=pointer]
-          - iframe
+          - generic [ref=e66]:
+            - generic [ref=e67] [cursor=pointer]: 
+            - generic [ref=e68] [cursor=pointer]: 
+            - generic [ref=e70]:
+              - heading "Tundra Light" [level=1] [ref=e72]
+              - heading "Modern look for your commercial and residential projects. Suitable for flooring and cladding systems can be combined with dark grey colors and other forms of Delta Stone Collection products such as mosaics, mouldings etc." [level=2] [ref=e74]
+              - generic [ref=e76] [cursor=pointer]: View Product
+          - generic [ref=e77]:
+            - generic [ref=e80]:
+              - link "Marble Factory Photo 14" [ref=e82] [cursor=pointer]:
+                - /url: "#"
+                - img "Marble Factory Photo 14" [ref=e84] [cursor=pointer]
+              - generic [ref=e86]:
+                - heading "Head office | Turkish marble works" [level=3] [ref=e87]
+                - paragraph [ref=e88]:
+                  - text: DELTA is one of leading
+                  - strong [ref=e89]: Turkish marble companies
+                  - text: in Turkey having operations on
+                  - strong [ref=e90]:
+                    - emphasis [ref=e91]: marbles
+                  - text: ", travertines and natural stones. Delta is"
+                  - strong [ref=e92]: marble
+                  - text: quarrier, fabricator, installer and exporter especially for beige marbles, grey marbles,
+                  - strong [ref=e93]: white marbles
+                  - text: ", black marbles, colorful marbles, travertines, limestone and onyx. DELTA has started its journey in natural stone sector as an exporter company in 1997 considering customer.[…]"
+                - paragraph [ref=e94]:
+                  - link "Read More…" [ref=e95] [cursor=pointer]:
+                    - /url: /the-headquarter-and-factories/
+            - generic [ref=e98]:
+              - link "Delta Showroom Istanbul" [ref=e100] [cursor=pointer]:
+                - /url: "#"
+                - img "Delta Showroom Istanbul" [ref=e102] [cursor=pointer]
+              - generic [ref=e104]:
+                - heading "Showroom | Warehouses" [level=3] [ref=e105]
+                - paragraph [ref=e106]:
+                  - text: DELTA ’s wide range of products are slabs,
+                  - strong [ref=e107]:
+                    - emphasis [ref=e108]: travertine
+                  - text: and
+                  - strong [ref=e109]:
+                    - emphasis [ref=e110]: marble tiles
+                  - text: ", steps, flooring, skirtings, tumbled products. Delta has collections of grey marbles, white marbles,"
+                  - strong [ref=e111]:
+                    - emphasis [ref=e112]: black marbles
+                  - text: ", colorful marbles, travertines, limestone and onyx. Delta special collections also has borders, mosaics, natural stone bowls, shower trays, thresholds, column, garden ornaments and special architectural project products."
+                - paragraph [ref=e113]:
+                  - link "Read More…" [ref=e114] [cursor=pointer]:
+                    - /url: /showroom-and-warehouse/
+            - generic [ref=e117]:
+              - link "Beige Marble Quarry" [ref=e119] [cursor=pointer]:
+                - /url: "#"
+                - img "Beige Marble Quarry" [ref=e121] [cursor=pointer]
+              - generic [ref=e123]:
+                - heading "Marble quarries | Blocks" [level=3] [ref=e124]
+                - paragraph [ref=e125]:
+                  - text: DELTA’ is operating Bilecik Beige Marble Quarry with 25 experts since the year 2003. Marble blocks that have been manufactured in that quarry have been converted into distinguished products of DELTA
+                  - strong [ref=e126]: Natural Stone
+                  - text: Collection. Such as Classic, Perlato, Novana, Novana Antique, Crema Nova, Rosalia, Coctail, Regal, Regal Sapphire Beige and Delta Daino Beige.[…]
+                - paragraph [ref=e127]:
+                  - link "Read More…" [ref=e128] [cursor=pointer]:
+                    - /url: /quarries-and-blocks/
+    - contentinfo [ref=e129]:
+      - generic [ref=e131]:
+        - generic [ref=e132]:
+          - generic [ref=e133]: Products
+          - list [ref=e135]:
+            - listitem [ref=e136]:
+              - link "Tiles" [ref=e137] [cursor=pointer]:
+                - /url: https://www.deltamarble.com/categories/tiles/
+            - listitem [ref=e138]:
+              - link "Mosaics" [ref=e139] [cursor=pointer]:
+                - /url: https://www.deltamarble.com/categories/mosaics/
+            - listitem [ref=e140]:
+              - link "Mouldings" [ref=e141] [cursor=pointer]:
+                - /url: https://www.deltamarble.com/categories/mouldings/
+            - listitem [ref=e142]:
+              - link "Sinks & Bowls & Shower Tray" [ref=e143] [cursor=pointer]:
+                - /url: https://www.deltamarble.com/categories/sinks-bowls/
+            - listitem [ref=e144]:
+              - link "Pool Copings" [ref=e145] [cursor=pointer]:
+                - /url: https://www.deltamarble.com/categories/pool-copings/
+            - listitem [ref=e146]:
+              - link "Waterjets" [ref=e147] [cursor=pointer]:
+                - /url: https://www.deltamarble.com/categories/waterjets/
+            - listitem [ref=e148]:
+              - link "Slabs" [ref=e149] [cursor=pointer]:
+                - /url: https://www.deltamarble.com/categories/marble-slabs/
+            - listitem [ref=e150]:
+              - link "Tables" [ref=e151] [cursor=pointer]:
+                - /url: https://www.deltamarble.com/categories/tables/
+        - generic [ref=e152]:
+          - generic [ref=e153]: Blog
+          - generic [ref=e154]:
+            - generic [ref=e157]:
+              - generic [ref=e159]:
+                - 'link "Tendances de la décoration en marbre 2025 : Avantages et exemples"':
+                  - /url: https://www.deltamarble.com/dances-de-la-decoration-en-marbre-2025-avantages-et-exemples/
+                  - img "Tiger Onyx Photo 2" [ref=e160] [cursor=pointer]
+              - 'heading "Tendances de la décoration en marbre 2025 : Avantages et exemples" [level=5] [ref=e163]':
+                - 'link "Tendances de la décoration en marbre 2025 : Avantages et exemples" [ref=e164] [cursor=pointer]':
+                  - /url: https://www.deltamarble.com/dances-de-la-decoration-en-marbre-2025-avantages-et-exemples/
+            - generic [ref=e167]:
+              - generic [ref=e169]:
+                - 'link "2025 Marble Decor Trends: Advantages and Examples"':
+                  - /url: https://www.deltamarble.com/en/2025-marble-decor-trends-advantages-and-examples/
+                  - img "Turkish Marble Photo 2" [ref=e170] [cursor=pointer]
+              - 'heading "2025 Marble Decor Trends: Advantages and Examples" [level=5] [ref=e173]':
+                - 'link "2025 Marble Decor Trends: Advantages and Examples" [ref=e174] [cursor=pointer]':
+                  - /url: https://www.deltamarble.com/en/2025-marble-decor-trends-advantages-and-examples/
+            - generic [ref=e177]:
+              - generic [ref=e179]:
+                - link "Aesthetic and Value-Adding Interior Designs with Travertine Coating":
+                  - /url: https://www.deltamarble.com/aesthetic-and-value-adding-interior-designs-with-travertine-coating/
+                  - img "Ivory Vein Cut Travertine Photo 2" [ref=e180] [cursor=pointer]
+              - heading "Aesthetic and Value-Adding Interior Designs with Travertine Coating" [level=5] [ref=e183]:
+                - link "Aesthetic and Value-Adding Interior Designs with Travertine Coating" [ref=e184] [cursor=pointer]:
+                  - /url: https://www.deltamarble.com/aesthetic-and-value-adding-interior-designs-with-travertine-coating/
+        - generic [ref=e185]:
+          - generic [ref=e186]: CONTACT US
+          - generic [ref=e187]:
+            - heading "Head Office & Factory" [level=5] [ref=e188]
+            - paragraph [ref=e189]:
+              - text: Organize Sanayi Bölgesi 1. Cadde 11. Sk. No:5 03090 AfyonKarahisar – Türkiye
+              - generic [ref=e190]: FOR EXPORT DEPARTMANT / İHRACAT İÇİN
+              - link "+90 272 221 1440" [ref=e191] [cursor=pointer]:
+                - /url: tel://+902722211440
+                - generic [ref=e192] [cursor=pointer]: 
+                - text: +90 272 221 1440
+              - text: "|"
+              - link "+90 532 325 1315" [ref=e193] [cursor=pointer]:
+                - /url: tel://+905323251315
+                - generic [ref=e194] [cursor=pointer]: 
+                - text: +90 532 325 1315
+              - link "info@deltamarble.com" [ref=e195] [cursor=pointer]:
+                - /url: mailto:info@deltamarble.com
+                - generic [ref=e196] [cursor=pointer]: 
+                - text: info@deltamarble.com
+              - link "hamitalp@deltamarble.com" [ref=e197] [cursor=pointer]:
+                - /url: mailto:hamitalp@deltamarble.com
+                - generic [ref=e198] [cursor=pointer]: 
+                - text: hamitalp@deltamarble.com
+            - heading "İSTANBUL SHOWROOM" [level=5] [ref=e199]
+            - paragraph [ref=e200]:
+              - text: Esenşehir Mah. Necip Fazıl Bulv. Başarı Sk. No:2 Ümraniye - İstanbul – Türkiye
+              - generic [ref=e201]: FOR DOMESTIC / İÇ PİYASA İÇİN
+              - link "+90 444 43 58" [ref=e202] [cursor=pointer]:
+                - /url: tel://+904444358
+                - generic [ref=e203] [cursor=pointer]: 
+                - text: +90 444 43 58
+              - link "+90 532 325 1315" [ref=e204] [cursor=pointer]:
+                - /url: tel://+905323251315
+                - generic [ref=e205] [cursor=pointer]: 
+                - text: +90 532 325 1315
+              - text: "|"
+              - link "+90 532 130 93 46" [ref=e206] [cursor=pointer]:
+                - /url: tel://+905321309346
+                - generic [ref=e207] [cursor=pointer]: 
+                - text: +90 532 130 93 46
+              - link "dudullu@deltamermer.com" [ref=e208] [cursor=pointer]:
+                - /url: mailto:dudullu@deltamermer.com
+                - generic [ref=e209] [cursor=pointer]: 
+                - text: dudullu@deltamermer.com
+      - generic [ref=e212]:
+        - link " Bize Ulaşın" [ref=e213] [cursor=pointer]:
+          - /url: https://wa.me/905321309346
+          - generic [ref=e214] [cursor=pointer]: 
+          - text: Bize Ulaşın
+        - link " Teklif İste" [ref=e215] [cursor=pointer]:
+          - /url: "#"
+          - generic "Teklif İste Form" [ref=e216] [cursor=pointer]: 
+          - text: Teklif İste
+        - link " Şimdi Ara" [ref=e217] [cursor=pointer]:
+          - /url: tel://+905321309346
+          - generic [ref=e218] [cursor=pointer]: 
+          - text: Şimdi Ara
+      - generic [ref=e220]:
+        - generic [ref=e222]:
+          - link "" [ref=e223] [cursor=pointer]:
+            - /url: https://www.instagram.com/deltamarble/
+            - generic [ref=e224] [cursor=pointer]: 
+          - link "" [ref=e225] [cursor=pointer]:
+            - /url: mailto:info@deltamarble.com
+            - generic [ref=e226] [cursor=pointer]: 
+        - generic [ref=e228]: © 2020 -2025 Delta Marble. All Rights Reserved.
+      - button "Go to top":
+        - generic: 
+  - text:   
+  - dialog "Cookie Notice" [ref=e229]:
+    - generic [ref=e230]:
+      - generic [ref=e231]: We use cookies to ensure that we give you the best experience on our website. If you continue to use this site, it will mean that you have activated all cookies. For detailed information about cookies, please review the Cookie Clarification Text.
+      - generic [ref=e232]:
+        - button "Ok" [ref=e233] [cursor=pointer]
+        - button "Cookie Clarification Text" [ref=e234] [cursor=pointer]
 ```

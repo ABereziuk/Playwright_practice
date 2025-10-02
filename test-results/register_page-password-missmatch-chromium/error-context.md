@@ -1,0 +1,469 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - generic [ref=e3]:
+    - banner [ref=e4]:
+      - generic [ref=e6]:
+        - generic [ref=e10]:
+          - link "Вхід" [ref=e12] [cursor=pointer]:
+            - /url: javascript:void(0);
+          - link "Реєстрація" [ref=e14] [cursor=pointer]:
+            - /url: javascript:void(0);
+        - generic [ref=e17]:
+          - generic [ref=e18]:
+            - link "https://www.youtube.com/channel/UCJT9YIEzCoTMjGF72xuxufw" [ref=e22] [cursor=pointer]:
+              - /url: https://www.youtube.com/channel/UCJT9YIEzCoTMjGF72xuxufw
+            - link "https://www.facebook.com/ukravtonomgaz" [ref=e26] [cursor=pointer]:
+              - /url: https://www.facebook.com/ukravtonomgaz
+          - generic [ref=e27]:
+            - text: 
+            - link "info@ukravtonomgaz.ua" [ref=e28] [cursor=pointer]:
+              - /url: mailto:info@ukravtonomgaz.ua
+        - generic [ref=e32]:
+          - textbox "Пошук" [ref=e34]
+          - button "" [ref=e35] [cursor=pointer]
+        - generic [ref=e40] [cursor=pointer]:  ₴ грн
+        - navigation [ref=e41]:
+          - generic [ref=e45] [cursor=pointer]:  UA
+      - generic [ref=e47]:
+        - generic [ref=e50]:
+          - link [ref=e52] [cursor=pointer]:
+            - /url: https://ukravtonomgaz.ua/
+          - generic [ref=e56]: УКРАВТОНОМГАЗ – ЦЕ ВАША ЕНЕРГОНЕЗАЛЕЖНІСТЬ. KEEP CALM AND USE LPG
+          - generic [ref=e57]:
+            - text: 
+            - generic [ref=e59]:
+              - text: 
+              - link "+38 (067) 433 88 70" [ref=e60] [cursor=pointer]:
+                - /url: tel:+380674338870
+            - link "Замовити дзвінок" [ref=e62] [cursor=pointer]:
+              - /url: javascript:void(0);
+          - generic [ref=e63]:
+            - text: 
+            - paragraph [ref=e64]:
+              - text: вул. Капушанська, 189
+              - text: (1 поверх), Ужгород, 88016
+        - generic [ref=e68]:
+          - link " 0" [ref=e69] [cursor=pointer]:
+            - /url: /compare
+            - text: 
+            - generic [ref=e70] [cursor=pointer]: "0"
+          - link " 0" [ref=e71] [cursor=pointer]:
+            - /url: /user/favorite
+            - text: 
+            - generic [ref=e72] [cursor=pointer]: "0"
+          - link " 0 Оформити замовлення" [ref=e73] [cursor=pointer]:
+            - /url: /basket
+            - text: 
+            - generic [ref=e74] [cursor=pointer]: "0"
+            - generic [ref=e75] [cursor=pointer]: Оформити замовлення
+      - navigation "Основна навіґація" [ref=e79]:
+        - list [ref=e80]:
+          - listitem [ref=e81]:
+            - link "Про компанію Про компанію " [ref=e82] [cursor=pointer]:
+              - /url: /pro-kompaniyu-0
+              - img "Про компанію" [ref=e84] [cursor=pointer]
+              - text: Про компанію 
+          - listitem [ref=e85]:
+            - link "Послуги Послуги " [ref=e86] [cursor=pointer]:
+              - /url: /services
+              - img "Послуги" [ref=e88] [cursor=pointer]
+              - text: Послуги 
+          - listitem [ref=e89]:
+            - link "Товари Товари" [ref=e90] [cursor=pointer]:
+              - /url: /catalog/all
+              - img "Товари" [ref=e92] [cursor=pointer]
+              - text: Товари
+          - listitem [ref=e93]:
+            - link "Калькулятори Калькулятори " [ref=e94] [cursor=pointer]:
+              - /url: /kalkulyatori
+              - img "Калькулятори" [ref=e96] [cursor=pointer]
+              - text: Калькулятори 
+          - listitem [ref=e97]:
+            - link "Новини Новини" [ref=e98] [cursor=pointer]:
+              - /url: /news
+              - img "Новини" [ref=e100] [cursor=pointer]
+              - text: Новини
+          - listitem [ref=e101]:
+            - link "Блог Блог" [ref=e102] [cursor=pointer]:
+              - /url: /blog
+              - img "Блог" [ref=e104] [cursor=pointer]
+              - text: Блог
+          - listitem [ref=e105]:
+            - link "Схеми газопостачання Схеми газопостачання " [ref=e106] [cursor=pointer]:
+              - /url: /scheme
+              - img "Схеми газопостачання" [ref=e108] [cursor=pointer]
+              - text: Схеми газопостачання 
+    - link "Ціна на газ сьогодні52 000грн/тонна (27.98 грн/літр)" [ref=e115] [cursor=pointer]:
+      - /url: javascript:void(0);
+      - generic [ref=e116] [cursor=pointer]: Ціна на газ сьогодні
+      - generic [ref=e117] [cursor=pointer]: 52 000
+      - generic [ref=e118] [cursor=pointer]: грн/тонна (27.98 грн/літр)
+    - generic [ref=e119]:
+      - generic [ref=e121]:
+        - navigation "Рядок навіґації" [ref=e125]:
+          - list [ref=e126]:
+            - listitem [ref=e127]:
+              - link "Автономне газопостачання" [ref=e128] [cursor=pointer]:
+                - /url: /
+            - listitem [ref=e129]:
+              - text: »
+              - link "Новини" [ref=e130] [cursor=pointer]:
+                - /url: /news
+            - listitem [ref=e131]: » ТОВ «Укравтономгаз» провела вебінар «ГАЗ ПРОПАН-БУТАН ЯК ІНСТРУМЕНТ ЕНЕРГЕТИЧНОЇ БЕЗПЕКИ В УМОВАХ ВОЄННИХ РИЗИКІВ»
+        - heading "ТОВ «Укравтономгаз» провела вебінар «ГАЗ ПРОПАН-БУТАН ЯК ІНСТРУМЕНТ ЕНЕРГЕТИЧНОЇ БЕЗПЕКИ В УМОВАХ ВОЄННИХ РИЗИКІВ»" [level=1] [ref=e135]
+      - main [ref=e138]:
+        - generic [ref=e139]:
+          - article [ref=e143]:
+            - generic [ref=e144]:
+              - generic [ref=e145]:
+                - generic [ref=e146]: 07 травня, 15:01
+                - list [ref=e149]:
+                  - listitem [ref=e150]: 3835
+              - generic [ref=e152]:
+                - paragraph [ref=e153]:
+                  - generic [ref=e156]:
+                    - text: Компанія Укравтономгаз провела
+                    - link "вебінар" [ref=e158] [cursor=pointer]:
+                      - /url: https://youtu.be/ayxr2REAbBQ?si=BYKF1u2dH53uPBic
+                    - text: присвячений автономному та резервному газопостачанню
+                    - text: пропан-бутаном (LPG), для забезпечення енергетичної безпеки підприємств.
+                - link "Графік" [ref=e159] [cursor=pointer]:
+                  - /url: https://youtu.be/ayxr2REAbBQ?si=BYKF1u2dH53uPBic
+                  - img "Графік" [ref=e160] [cursor=pointer]
+                - paragraph [ref=e161]:
+                  - generic [ref=e164]:
+                    - text: Директор ТОВ «Укравтономгаз» і по сумісництву спікер вебінару Віктор Черненко, висвітлив розширену інформацію
+                    - text: на дану тематику, повідомив актуальну інформацію на паливно-енергетичному ринку України
+                    - text: та надав розгорнуті відповіді на задані питання.
+                - paragraph [ref=e165]:
+                  - img "Характеристики" [ref=e167]
+                - paragraph [ref=e168]:
+                  - generic [ref=e171]:
+                    - text: Даний вебінар відвідало більше
+                    - generic [ref=e172]: 160 учасників
+                    - text: ", також були запрошені гості, які мали нагоду виступити та надати найактуальнішу інформацію, щодо енергонезалежності та енергобезпеки в Україні."
+                - paragraph [ref=e173]:
+                  - generic [ref=e177]: "На Вебінарі були підняті зокрема наступні теми:"
+                  - generic [ref=e180]:
+                    - text: "- Актуальні питання сьогодення паливно-енергетичному ринку, гості вебінару та зміст презентації."
+                    - text: "- ТОВ \"Укравтономгаз\" - чим займається компанія, та яку веде діяльність!?"
+                    - text: "- Співвідношення цін природнього та скрапленого газу у 2021 - 2023 роках, роль та цінова політика скрапленого газу як резервного автономного газопостачання в період енергетичної кризи та нестабільності."
+                    - text: "- Мотивація та передумови для встановлення резервного газопостачання."
+                    - text: "- Світові загрози дестабілізації ринку природнього газу"
+                    - text: "- Сфери та напрямки застосування пропан-бутану в Україні, об'єкти газопостачання пропан-бутаном."
+                    - text: "-"
+                    - generic [ref=e181]: Виступ партнерів з журналу "НафтоРинок"
+                    - text: "- цінові тренди на ринку LPG та природного газу."
+                    - text: "-"
+                    - generic [ref=e182]: Виступ Олександра Сіренка, директора журналу "НафтоРинок"
+                    - text: про динаміку цін та збільшення акцизів на пальне
+                    - text: "- Про підняття цін на природний газ у 2021 році"
+                    - text: "- 3D схема газопостачання пропан-бутаном"
+                    - text: "- Газопостачання пропан-бутаном, приватних будинків, котеджів, промислових підприємств, зерносушарок та елеваторів."
+                    - text: "- Моделі випаровувачів пропан-бутану, їх характеристики,особливості та дозвільні документи на обладнання Укравтономгаз"
+                    - text: "- Резервуари від Укравтономгаз Нові та Реставровані"
+                    - text: "- Системи змішування пропан-бутану з Повітрям LPG-AIR (Синтетичний природний газ SNG) та схеми їх встановлення."
+                    - text: "- Газопоршневі генератори електроенергії, системи газопостачання для генераторів та дозвільні документи на газопоршневі установки."
+                    - text: "- Переналаштування газопоршневих генераторів з природного газу на пропан-бутан, вартість генерації 1 квт електроенергії на різних видах палива."
+                    - text: "- Газові котли зовнішнього встановлення на lpg та природний газ"
+                    - text: "- Розвиток Біо-LPG як шлях декарбонізації."
+                    - text: "-"
+                    - generic [ref=e183]: Виступ Станіслава Батраченка, президенка Української асоціації скрапленого газу
+                    - text: ": розвиток балонного газу, скасування акцизів на LPG для власних потреб."
+                    - text: "- Акцизний податок на пальне та шляхи його зменшення."
+                    - text: "- Гранти, та кредитні програми на системи газопостачання Укравтономгаз"
+                    - text: "- Підсумок вебінару, розгляд питань"
+                    - img "Графік" [ref=e184]
+                  - generic [ref=e188]:
+                    - link "Посилання на повне ютуб відео ВЕБІНАРУ від ТОВ «Укравтономгаз» тут" [ref=e189] [cursor=pointer]:
+                      - /url: https://youtu.be/ayxr2REAbBQ?si=MzCnKoqPznavqNel
+                    - text: .
+                  - link "https://youtu.be/ayxr2REAbBQ?si=MzCnKoqPznavqNel" [ref=e193] [cursor=pointer]:
+                    - /url: https://youtu.be/ayxr2REAbBQ?si=MzCnKoqPznavqNel
+                  - iframe [ref=e194]:
+                    - generic "YouTube Video Player" [ref=f1e3]:
+                      - generic [ref=f1e5]:
+                        - link "Photo image of УКРАВТОНОМГАЗ - ЕНЕРГОБЕЗПЕКА УКРАЇНИ. Газ LPG." [ref=f1e8] [cursor=pointer]:
+                          - /url: https://www.youtube.com/channel/UCJT9YIEzCoTMjGF72xuxufw?embeds_referring_euri=https%3A%2F%2Fukravtonomgaz.ua%2F
+                        - link "Вебінар - Газ пропан-бутан як інструмент енергетичної безпеки в умовах воєнних ризиків Укравтономгаз" [ref=f1e11] [cursor=pointer]:
+                          - /url: https://www.youtube.com/watch?v=ayxr2REAbBQ
+                        - button "Share" [ref=f1e13] [cursor=pointer]:
+                          - generic [ref=f1e14] [cursor=pointer]:
+                            - img
+                          - generic [ref=f1e15] [cursor=pointer]: Share
+                      - button "Play" [ref=f1e18] [cursor=pointer]:
+                        - img
+                      - link "Watch on YouTube" [ref=f1e19] [cursor=pointer]:
+                        - /url: https://www.youtube.com/watch?v=ayxr2REAbBQ&embeds_referring_euri=https%3A%2F%2Fukravtonomgaz.ua%2F
+                        - generic [ref=f1e20] [cursor=pointer]: Watch on
+                        - generic [ref=f1e21] [cursor=pointer]:
+                          - img
+                - paragraph [ref=e195]:
+                  - generic [ref=e198]: "Укравтономгаз проектує та реалізовує велику кількість проекті направлених на заміщення природного газу у випадках його відключення та зростання ціни на природний газ, а також резервне електропостачання за рахунок використання газопоршневих генераторів, що використовують пропан-бутан. Укравтономгаз надає повний комплекс послуг :"
+                - list [ref=e199]:
+                  - listitem [ref=e200]:
+                    - generic [ref=e203]: Проектвання та супроводження об'єктів будівництва до введення в експлуатацію,
+                  - listitem [ref=e204]:
+                    - generic [ref=e207]: Постачання обладнання для газопостачання,
+                  - listitem [ref=e208]:
+                    - generic [ref=e211]: Проводення будівельних та пуско-налагоджувальних робіт.
+                - paragraph [ref=e212]:
+                  - generic [ref=e215]:
+                    - text: Наші фахівці здійснюють технічне обслуговування систем газифікації, що забезпечує їх надійну і ефективну роботу. Всі проекти розробляються індивідуально, з урахуванням особливостей об'єкта.
+                    - img "Характеристики" [ref=e216]
+          - generic [ref=e220]:
+            - link "https://www.youtube.com/channel/UCJT9YIEzCoTMjGF72xuxufw" [ref=e224] [cursor=pointer]:
+              - /url: https://www.youtube.com/channel/UCJT9YIEzCoTMjGF72xuxufw
+            - link "https://www.facebook.com/ukravtonomgaz" [ref=e228] [cursor=pointer]:
+              - /url: https://www.facebook.com/ukravtonomgaz
+      - generic [ref=e230]:
+        - generic [ref=e235]:
+          - paragraph [ref=e236]:
+            - text: До вашої уваги актуальна новина від
+            - generic [ref=e237]: 17.07.2025
+            - text: року про те, як команда ТОВ “УКРАВТОНОМГАЗ” відвідала навчальний семінар, організований компанією
+            - generic [ref=e238]: GAZUNO - лідером
+            - text: інсталяцій газових абсорційних насосів в Польщі.
+          - paragraph [ref=e239]:
+            - text: "Посилання на інтерв’ю:"
+            - link "https://ukravtonomgaz.ua/news/absorciyni-gazovi-teplovi-nasosi-peredoviy-dosvid-vid-gazuno" [ref=e240] [cursor=pointer]:
+              - /url: https://ukravtonomgaz.ua/news/absorciyni-gazovi-teplovi-nasosi-peredoviy-dosvid-vid-gazuno
+          - img "Абсорційні газові теплові насоси - передовий досвід від GAZUNO" [ref=e242]
+          - generic [ref=e243]:
+            - img "Команда ТОВ “УКРАВТОНОМГАЗ” відвідали навчальний семінар організований компанією GAZUNO" [ref=e245]
+            - generic [ref=e246]:
+              - generic [ref=e247]: Абсорційні газові теплові насоси - передовий досвід від GAZUNO
+              - generic [ref=e248]: 17 травня 2025 року
+              - generic [ref=e249]:
+                - generic [ref=e250]: ТОВ «Укравтономгаз»
+                - text: на навчальному семінарі організований від GAZUNO - лідером інсталяцій газових абсорційних насосів в Польщі
+              - link "Читати більше" [ref=e252] [cursor=pointer]:
+                - /url: https://ukravtonomgaz.ua/news/absorciyni-gazovi-teplovi-nasosi-peredoviy-dosvid-vid-gazuno
+        - generic [ref=e257]:
+          - paragraph [ref=e258]: "До вашої уваги актуальне інтерв’ю від 09.04.2025 року директора ТОВ «Укравтономгаз», надане журналу «НафтоРинок» про те, чи здатен LPG замінити природній газ: попит, логістика й перспектива автономного газопостачання. Чи є шанс у LPG замінити природний газ в Україні?"
+          - paragraph [ref=e259]:
+            - text: "Посилання на інтерв’ю:"
+            - link "https://www.nefterynok.info/stati/shans-lpg-zaminiti-prirodniy-gaz-v-ukraini" [ref=e260] [cursor=pointer]:
+              - /url: https://www.nefterynok.info/stati/shans-lpg-zaminiti-prirodniy-gaz-v-ukraini
+          - img "Чи є шанс у LPG замінити природний газ в Україні?" [ref=e262]
+          - generic [ref=e263]:
+            - img "Віктор Черненко, директор компанії «Укравтономгаз»" [ref=e265]
+            - generic [ref=e266]:
+              - generic [ref=e267]: Чи є шанс у LPG замінити природний газ в Україні?
+              - generic [ref=e268]: 12:19 / 09 квітня, 2025
+              - generic [ref=e269]:
+                - generic [ref=e270]: Віктор Черненко
+                - text: ", директор компанії «Укравтономгаз»"
+              - link "Читати більше" [ref=e272] [cursor=pointer]:
+                - /url: https://www.nefterynok.info/stati/shans-lpg-zaminiti-prirodniy-gaz-v-ukraini
+        - generic [ref=e276]:
+          - paragraph [ref=e277]:
+            - text: Сьогодні дуже актуальним є
+            - link "інтерв'ю від 29.09.2021 року директора стратегічного розвитку ТОВ \"УКРАВТОНОМГАЗ\" Дорофеєва Андрія Сергійовича" [ref=e279] [cursor=pointer]:
+              - /url: https://enkorr.ua/uk/columns/_otoplenie_na_lpg_shans_zadumatsya_snova/248026
+            - text: "надане паливному інтернет-ресурсу ENKORR про вартість 1 Гкал та окупність об‘єктів автономного газопостачання. \"Опалення на LPG: шанс замислитися знову\" На 2022 рік цифри дещо відрізняються, а от термін окупності систем автономного газопостачання зменшується."
+          - paragraph [ref=e280]:
+            - text: "Посилання на інтерв’ю:"
+            - link "https://enkorr.ua/uk/columns/_otoplenie_na_lpg_shans_zadumatsya_snova/248026" [ref=e281] [cursor=pointer]:
+              - /url: https://enkorr.ua/uk/columns/_otoplenie_na_lpg_shans_zadumatsya_snova/248026
+          - generic [ref=e283]:
+            - link "інтерв'ю від 29.09.2021 року директором стратегічного розвитку ТОВ \"УКРАВТОНОМГАЗ\" Дорофеєва Андрія Сергійовича надане паливному інтернет-ресурсу ENKORR про вартість 1 Гкал та окупність обєктів автономного газопостачання" [ref=e285] [cursor=pointer]:
+              - /url: https://enkorr.ua/uk/columns/_otoplenie_na_lpg_shans_zadumatsya_snova/248026
+              - img "інтерв'ю від 29.09.2021 року директором стратегічного розвитку ТОВ \"УКРАВТОНОМГАЗ\" Дорофеєва Андрія Сергійовича надане паливному інтернет-ресурсу ENKORR про вартість 1 Гкал та окупність обєктів автономного газопостачання" [ref=e286] [cursor=pointer]
+            - link "Читати більше" [ref=e288] [cursor=pointer]:
+              - /url: https://enkorr.ua/uk/columns/_otoplenie_na_lpg_shans_zadumatsya_snova/248026
+        - iframe [ref=e294]:
+          - generic "YouTube Video Player" [ref=f2e3]:
+            - generic [ref=f2e5]:
+              - link "Photo image of УКРАВТОНОМГАЗ - ЕНЕРГОБЕЗПЕКА УКРАЇНИ. Газ LPG." [ref=f2e8] [cursor=pointer]:
+                - /url: https://www.youtube.com/channel/UCJT9YIEzCoTMjGF72xuxufw?embeds_referring_euri=https%3A%2F%2Fukravtonomgaz.ua%2F
+              - link "ТОВ \"УКРАВТОНОМГАЗ\" ЛІДЕР АВТОНОМНОГО ГАЗОПОСТАЧАННЯ ПРОПАН-БУТАНОМ В УКРАЇНІ" [ref=f2e11] [cursor=pointer]:
+                - /url: https://www.youtube.com/watch?v=Pr44c9khxDQ
+              - button "Share" [ref=f2e13] [cursor=pointer]:
+                - generic [ref=f2e14] [cursor=pointer]:
+                  - img
+                - generic [ref=f2e15] [cursor=pointer]: Share
+            - button "Play" [ref=f2e18] [cursor=pointer]:
+              - img
+            - link "Watch on YouTube" [ref=f2e19] [cursor=pointer]:
+              - /url: https://www.youtube.com/watch?v=Pr44c9khxDQ&embeds_referring_euri=https%3A%2F%2Fukravtonomgaz.ua%2F
+              - generic [ref=f2e20] [cursor=pointer]: Watch on
+              - generic [ref=f2e21] [cursor=pointer]:
+                - img
+        - generic:
+          - generic:
+            - link:
+              - /url: /news/7-prichin-vidmovitisya-vid-prirodnogo-gazu-0
+            - link "Читати більше" [ref=e296] [cursor=pointer]:
+              - /url: /news/7-prichin-vidmovitisya-vid-prirodnogo-gazu-0
+        - generic [ref=e299]:
+          - generic [ref=e300]: УКРАВТОНОМГАЗ В ЦИФРАХ
+          - generic [ref=e301]:
+            - generic [ref=e303]:
+              - generic [ref=e304]:
+                - generic [ref=e305]: "12"
+                - generic [ref=e306]: років
+              - generic [ref=e307]: Успішної роботи
+            - generic [ref=e309]:
+              - generic [ref=e310]:
+                - generic [ref=e311]: "650"
+                - generic [ref=e312]: об’єктів
+              - generic [ref=e313]: Змонтованих під ключ
+            - generic [ref=e315]:
+              - generic [ref=e316]:
+                - generic [ref=e317]: 80 000
+                - generic [ref=e318]: куб.м
+              - generic [ref=e319]: Сумарний об’єм газгольдерів
+            - generic [ref=e321]:
+              - generic [ref=e322]:
+                - generic [ref=e323]: 190 000
+                - generic [ref=e324]: тонн
+              - generic [ref=e325]: Створений ринок LPG в рік
+        - generic [ref=e329]: НАМ ДОВІРЯЮТЬ
+      - generic [ref=e340]:
+        - generic [ref=e341]: "-"
+        - generic [ref=e342]:
+          - generic [ref=e343]: БЕЗКОШТОВНА ГАЗИФІКАЦІЯ
+          - generic [ref=e344]: Обмеженій кількості клієнтів наша компанія надає обладнання і монтаж автономного газопостачання безкоштовно на умовах наших поставок газу. Якщо Ви хочете отримати комерційну пропозицію на монтаж автономного газопостачання, заповніть форму нижче.
+          - generic [ref=e346]:
+            - generic [ref=e347]:
+              - generic [ref=e348]:
+                - text: "*"
+                - textbox "Iм’я *" [ref=e349]
+              - generic [ref=e350]:
+                - text: "*"
+                - textbox "Телефону *" [ref=e351]
+              - textbox "Email" [ref=e353]
+            - textbox "Повідомлення" [ref=e357]
+            - button "Надіслати" [ref=e359] [cursor=pointer]
+    - contentinfo [ref=e361]:
+      - generic [ref=e363]:
+        - generic [ref=e366]:
+          - generic [ref=e367]:
+            - link:
+              - /url: https://ukravtonomgaz.ua/
+          - generic [ref=e368]: УКРАВТОНОМГАЗ – ВАША ЕНЕРГОНЕЗАЛЕЖНІСТЬ. KEEP CALM AND USE LPG
+          - generic [ref=e369]: © 2007-2020 Укравтономгаз всі права захищені
+        - navigation "Меню нижнього колонтитулу" [ref=e370]:
+          - list [ref=e371]:
+            - listitem [ref=e372]:
+              - text: —
+              - link "Про компанію" [ref=e373] [cursor=pointer]:
+                - /url: https://ukravtonomgaz.ua/pro-kompaniyu-0
+            - listitem [ref=e374]:
+              - text: —
+              - link "Послуги" [ref=e375] [cursor=pointer]:
+                - /url: /services
+            - listitem [ref=e376]:
+              - text: —
+              - link "Калькулятори" [ref=e377] [cursor=pointer]:
+                - /url: /calc/home-heating
+            - listitem [ref=e378]:
+              - text: —
+              - link "Товари" [ref=e379] [cursor=pointer]:
+                - /url: /catalog/all
+            - listitem [ref=e380]:
+              - text: —
+              - link "Новини" [ref=e381] [cursor=pointer]:
+                - /url: /news
+            - listitem [ref=e382]:
+              - text: —
+              - link "Sitemap full" [ref=e383] [cursor=pointer]:
+                - /url: https://ukravtonomgaz.ua/ru/sitemap-full
+            - listitem [ref=e384]:
+              - text: —
+              - link "Карта сайту" [ref=e385] [cursor=pointer]:
+                - /url: /sitemap
+            - listitem [ref=e386]:
+              - text: —
+              - link "Тарифи на газ" [ref=e387] [cursor=pointer]:
+                - /url: https://ukravtonomgaz.ua/ru/tarify-na-gaz
+        - navigation "Додаткове меню" [ref=e388]:
+          - list [ref=e389]:
+            - listitem [ref=e390]:
+              - text: —
+              - link "Політика конфіденційності" [ref=e391] [cursor=pointer]:
+                - /url: /politika-konfidenciynosti
+            - listitem [ref=e392]:
+              - text: —
+              - link "Юридичні аспекти" [ref=e393] [cursor=pointer]:
+                - /url: /yuridichni-aspekti
+            - listitem [ref=e394]:
+              - text: —
+              - link "Ініціативи УКРАВТОНОМГАЗ" [ref=e395] [cursor=pointer]:
+                - /url: https://ukravtonomgaz.ua/iniciativi-ukravtonomgaz
+            - listitem [ref=e396]:
+              - text: —
+              - link "Відео" [ref=e397] [cursor=pointer]:
+                - /url: /video
+            - listitem [ref=e398]:
+              - text: —
+              - link "Галерея" [ref=e399] [cursor=pointer]:
+                - /url: https://ukravtonomgaz.ua/gallery
+            - listitem [ref=e400]:
+              - text: —
+              - link "Доставка і оплата" [ref=e401] [cursor=pointer]:
+                - /url: /dostavka-i-oplata-0
+            - listitem [ref=e402]:
+              - text: —
+              - link "Обмін і повернення" [ref=e403] [cursor=pointer]:
+                - /url: /obmin-ta-povernennya
+            - listitem [ref=e404]:
+              - text: —
+              - link "Презентації" [ref=e405] [cursor=pointer]:
+                - /url: /prezentacii
+        - generic [ref=e408]:
+          - generic:
+            - generic:
+              - generic:
+                - generic:
+                  - link "https://www.youtube.com/channel/UCJT9YIEzCoTMjGF72xuxufw":
+                    - /url: https://www.youtube.com/channel/UCJT9YIEzCoTMjGF72xuxufw
+            - generic:
+              - generic:
+                - generic:
+                  - link "https://www.facebook.com/ukravtonomgaz":
+                    - /url: https://www.facebook.com/ukravtonomgaz
+          - generic [ref=e409]:
+            - generic [ref=e410]:
+              - text: 
+              - link "+38 (067) 433 88 70" [ref=e413] [cursor=pointer]:
+                - /url: tel:+380674338870
+              - link "Замовити дзвінок" [ref=e415] [cursor=pointer]:
+                - /url: javascript:void(0);
+            - generic [ref=e416]:
+              - text: 
+              - link "info@ukravtonomgaz.ua" [ref=e417] [cursor=pointer]:
+                - /url: mailto:info@ukravtonomgaz.ua
+            - generic [ref=e418]:
+              - text: 
+              - paragraph [ref=e419]:
+                - text: вул. Капушанська, 189
+                - text: (1 поверх), Ужгород, 88016
+  - status [ref=e420]
+  - generic [ref=e422] [cursor=pointer]:
+    - img "Callback" [ref=e424] [cursor=pointer]
+    - generic [ref=e425] [cursor=pointer]: НАПИШІТЬ НАМ
+    - generic [ref=e426] [cursor=pointer]: Онлайн чат
+  - iframe [ref=e429]:
+    - generic [ref=f3e2]:
+      - generic [ref=f3e5]:
+        - link "Privacy" [ref=f3e6] [cursor=pointer]:
+          - /url: https://www.google.com/intl/en/policies/privacy/
+        - generic [ref=f3e7]: "-"
+        - link "Terms" [ref=f3e8] [cursor=pointer]:
+          - /url: https://www.google.com/intl/en/policies/terms/
+      - generic [ref=f3e9]:
+        - generic [ref=f3e10]:
+          - text: protected by
+          - strong [ref=f3e11]: reCAPTCHA
+        - generic [ref=f3e13]: "-"
+  - generic [ref=e430] [cursor=pointer]:
+    - img [ref=e431] [cursor=pointer]
+    - generic [ref=e435] [cursor=pointer]:
+      - text: КНОПКА
+      - text: СВЯЗИ
+    - img [ref=e436] [cursor=pointer]
+```

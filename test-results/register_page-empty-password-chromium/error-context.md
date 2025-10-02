@@ -1,0 +1,175 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e1]:
+  - paragraph [ref=e3]:
+    - link "TestifyStack" [ref=e4] [cursor=pointer]:
+      - /url: https://testifystack.com/
+    - text: "| Email, SMS, OTP and Webhooks Testing Stack for QA & Dev"
+    - link "Software testing courses" [ref=e5] [cursor=pointer]:
+      - img [ref=e7] [cursor=pointer]
+      - generic [ref=e9] [cursor=pointer]: Software testing courses
+    - link "QA testing services" [ref=e10] [cursor=pointer]:
+      - img [ref=e12] [cursor=pointer]
+      - generic [ref=e14] [cursor=pointer]: QA testing services
+  - banner [ref=e16]:
+    - navigation "Main navigation" [ref=e17]:
+      - link "SUT" [ref=e18] [cursor=pointer]:
+        - /url: /
+        - 'img "Best Website for Practice Automation Testing: Free UI and REST API Examples and Apps. Using Cypress, Playwright, Selenium, WebdriverIO and Postman." [ref=e19] [cursor=pointer]'
+        - text: Practice
+      - generic [ref=e20]:
+        - list [ref=e21]:
+          - listitem [ref=e22]:
+            - button "Demos" [ref=e23] [cursor=pointer]
+          - listitem [ref=e24]:
+            - link "Tools" [ref=e25] [cursor=pointer]:
+              - /url: /#tools
+          - listitem [ref=e26]:
+            - link "Tips" [ref=e27] [cursor=pointer]:
+              - /url: /tips
+          - listitem [ref=e28]:
+            - link "Test Cases" [ref=e29] [cursor=pointer]:
+              - /url: /test-cases
+          - listitem [ref=e30]:
+            - link "API Testing" [ref=e31] [cursor=pointer]:
+              - /url: /notes/api/api-docs/
+          - listitem [ref=e32]:
+            - link "About" [ref=e33] [cursor=pointer]:
+              - /url: /about
+        - list
+        - link "Free ISTQB Mock Exams" [ref=e34] [cursor=pointer]:
+          - /url: https://istqb.expandtesting.com/
+  - main [ref=e35]:
+    - insertion [ref=e39]:
+      - iframe [active] [ref=e41]:
+        - generic [active] [ref=f1e1]:
+          - generic [ref=f1e7]:
+            - generic [ref=f1e8]:
+              - link "Купуй у BROCARD та вигравай" [ref=f1e11] [cursor=pointer]:
+                - /url: https://googleads.g.doubleclick.net/aclk?nis=4&sa=l&ai=CDCYScyzeaO-SIJ6SjuwP-82BmQXvx5GeggGb97GA3RTb2R4QASCVlJmjAWCllqSGtCigAZLw0osDyAEBqQIB8Ya-CgpaPqgDAcgDywSqBO0BT9A8KPW0hQIGAKia3qMVizw6Mg13jEI1hQu4Lp3eZokdG0tKeYeBiR_zpZEsSMQb7uhQmhyiwrerTo3mdRTwtLHSsYOMLY0Q-jp4yoHWbdhJUaC8zfFexBe5PQguwTPXPmmOGtKB7BDwvzo8f9A22yip7SuEXL-_T6XGM485LR4qlQ63zuLm9RdizapD8iaVi0HKKyZop2NiD10f-tQLsnoD6BYaoC1E6Y-rE2asoSFU0nWL7e7uSvTkbstTIiXTgaa8W43p0GDEi3vgaKcR9YQCrIn0Ple2U6Vj7LQDhzLEkB609QBoReM_zwddwASp8rj3wgWIBby0y_pVgAfBno3DAqgH4tixAqgHpr4bqAfMzrECqAfz0RuoB5bYG6gHqpuxAqgHjs4bqAeT2BuoB_DgG6gH7paxAqgH_p6xAqgHr76xAqgH1ckbqAfZtrECqAeaBqgH_56xAqgH35-xAqgHyqmxAqgH66WxAqgH6rGxAqgHmbWxAqgHvrexAqgH-MKxAqgH-8KxAtgHAdIIKQiAYRABGJ8BMgKKAjoNgECAwICAgICogAKoA0i9_cE6WJP9ls6BhZADsQkWHpZAvHnI8oAKAZgLAcgLAaIMA5ABAdoMEAoKEPD7nOjV4M_7GBICAQOqDQJVQcgNAeoNEwi1-KbOgYWQAxUeiYMHHftmIFPwDQKIDgnYEwPQFQGYFgHKFgIKAPgWAYAXAbIXDhgBKgo0OTcwMjEyMjIxuhcCOAGqGBcJAAAAAADs80ASCjQ5NzAyMTIyMjEYAbIYCRICxk4YASIBANAYAegYAcIZAggB&ae=1&ase=2&gclid=EAIaIQobChMIr5iXzoGFkAMVHomDBx37ZiBTEAEYASAAEgJpJvD_BwE&num=1&cid=CAQSsgEAwksa0WWMIocU8oHgyA5fg9TLHd6IZZN5hA9eGXEETvP_1XsJQHjqNz9e9c9Mete-SXdFJoYCRjk6EXaa5vUS4xSJlLxPqvz0Paog5lKZrnf4Ogpm3WnTMFFlmZftanJPkZELb0MZn7v7igCcB6kDvti6bIcumw89kZWJX3WUTZo1SlUA1NLA2Hg61KSw4poe63ZV2tQTH6L8vOwQ71XO8v_r1U2xOI6TvGkHO1Y17XxpGAE&sig=AOD64_3qbpgmKCK5GHoUayzkJSVWJAXhSQ&client=ca-pub-1056034821646296&rf=1&nb=0&adurl=https://www.brocard.ua/ua/osinniy-vayb-z-brocard%3Fgad_source%3D5%26gad_campaignid%3D23074101820%26gclid%3DEAIaIQobChMIr5iXzoGFkAMVHomDBx37ZiBTEAEYASAAEgJpJvD_BwE
+              - link "BROCARD дарує 30 кг косметики! Купуй на суму від 3000 грн та бери участь у розіграші" [ref=f1e14] [cursor=pointer]:
+                - /url: https://googleads.g.doubleclick.net/aclk?nis=4&sa=l&ai=CDCYScyzeaO-SIJ6SjuwP-82BmQXvx5GeggGb97GA3RTb2R4QASCVlJmjAWCllqSGtCigAZLw0osDyAEBqQIB8Ya-CgpaPqgDAcgDywSqBO0BT9A8KPW0hQIGAKia3qMVizw6Mg13jEI1hQu4Lp3eZokdG0tKeYeBiR_zpZEsSMQb7uhQmhyiwrerTo3mdRTwtLHSsYOMLY0Q-jp4yoHWbdhJUaC8zfFexBe5PQguwTPXPmmOGtKB7BDwvzo8f9A22yip7SuEXL-_T6XGM485LR4qlQ63zuLm9RdizapD8iaVi0HKKyZop2NiD10f-tQLsnoD6BYaoC1E6Y-rE2asoSFU0nWL7e7uSvTkbstTIiXTgaa8W43p0GDEi3vgaKcR9YQCrIn0Ple2U6Vj7LQDhzLEkB609QBoReM_zwddwASp8rj3wgWIBby0y_pVgAfBno3DAqgH4tixAqgHpr4bqAfMzrECqAfz0RuoB5bYG6gHqpuxAqgHjs4bqAeT2BuoB_DgG6gH7paxAqgH_p6xAqgHr76xAqgH1ckbqAfZtrECqAeaBqgH_56xAqgH35-xAqgHyqmxAqgH66WxAqgH6rGxAqgHmbWxAqgHvrexAqgH-MKxAqgH-8KxAtgHAdIIKQiAYRABGJ8BMgKKAjoNgECAwICAgICogAKoA0i9_cE6WJP9ls6BhZADsQkWHpZAvHnI8oAKAZgLAcgLAaIMA5ABAdoMEAoKEPD7nOjV4M_7GBICAQOqDQJVQcgNAeoNEwi1-KbOgYWQAxUeiYMHHftmIFPwDQKIDgnYEwPQFQGYFgHKFgIKAPgWAYAXAbIXDhgBKgo0OTcwMjEyMjIxuhcCOAGqGBcJAAAAAADs80ASCjQ5NzAyMTIyMjEYAbIYCRICxk4YASIBANAYAegYAcIZAggB&ae=1&ase=2&gclid=EAIaIQobChMIr5iXzoGFkAMVHomDBx37ZiBTEAEYASAAEgJpJvD_BwE&num=1&cid=CAQSsgEAwksa0WWMIocU8oHgyA5fg9TLHd6IZZN5hA9eGXEETvP_1XsJQHjqNz9e9c9Mete-SXdFJoYCRjk6EXaa5vUS4xSJlLxPqvz0Paog5lKZrnf4Ogpm3WnTMFFlmZftanJPkZELb0MZn7v7igCcB6kDvti6bIcumw89kZWJX3WUTZo1SlUA1NLA2Hg61KSw4poe63ZV2tQTH6L8vOwQ71XO8v_r1U2xOI6TvGkHO1Y17XxpGAE&sig=AOD64_3qbpgmKCK5GHoUayzkJSVWJAXhSQ&client=ca-pub-1056034821646296&rf=1&nb=7&adurl=https://www.brocard.ua/ua/osinniy-vayb-z-brocard%3Fgad_source%3D5%26gad_campaignid%3D23074101820%26gclid%3DEAIaIQobChMIr5iXzoGFkAMVHomDBx37ZiBTEAEYASAAEgJpJvD_BwE
+            - generic [ref=f1e17]:
+              - link "BROCARD" [ref=f1e20] [cursor=pointer]:
+                - /url: https://googleads.g.doubleclick.net/aclk?nis=4&sa=l&ai=CDCYScyzeaO-SIJ6SjuwP-82BmQXvx5GeggGb97GA3RTb2R4QASCVlJmjAWCllqSGtCigAZLw0osDyAEBqQIB8Ya-CgpaPqgDAcgDywSqBO0BT9A8KPW0hQIGAKia3qMVizw6Mg13jEI1hQu4Lp3eZokdG0tKeYeBiR_zpZEsSMQb7uhQmhyiwrerTo3mdRTwtLHSsYOMLY0Q-jp4yoHWbdhJUaC8zfFexBe5PQguwTPXPmmOGtKB7BDwvzo8f9A22yip7SuEXL-_T6XGM485LR4qlQ63zuLm9RdizapD8iaVi0HKKyZop2NiD10f-tQLsnoD6BYaoC1E6Y-rE2asoSFU0nWL7e7uSvTkbstTIiXTgaa8W43p0GDEi3vgaKcR9YQCrIn0Ple2U6Vj7LQDhzLEkB609QBoReM_zwddwASp8rj3wgWIBby0y_pVgAfBno3DAqgH4tixAqgHpr4bqAfMzrECqAfz0RuoB5bYG6gHqpuxAqgHjs4bqAeT2BuoB_DgG6gH7paxAqgH_p6xAqgHr76xAqgH1ckbqAfZtrECqAeaBqgH_56xAqgH35-xAqgHyqmxAqgH66WxAqgH6rGxAqgHmbWxAqgHvrexAqgH-MKxAqgH-8KxAtgHAdIIKQiAYRABGJ8BMgKKAjoNgECAwICAgICogAKoA0i9_cE6WJP9ls6BhZADsQkWHpZAvHnI8oAKAZgLAcgLAaIMA5ABAdoMEAoKEPD7nOjV4M_7GBICAQOqDQJVQcgNAeoNEwi1-KbOgYWQAxUeiYMHHftmIFPwDQKIDgnYEwPQFQGYFgHKFgIKAPgWAYAXAbIXDhgBKgo0OTcwMjEyMjIxuhcCOAGqGBcJAAAAAADs80ASCjQ5NzAyMTIyMjEYAbIYCRICxk4YASIBANAYAegYAcIZAggB&ae=1&ase=2&gclid=EAIaIQobChMIr5iXzoGFkAMVHomDBx37ZiBTEAEYASAAEgJpJvD_BwE&num=1&cid=CAQSsgEAwksa0WWMIocU8oHgyA5fg9TLHd6IZZN5hA9eGXEETvP_1XsJQHjqNz9e9c9Mete-SXdFJoYCRjk6EXaa5vUS4xSJlLxPqvz0Paog5lKZrnf4Ogpm3WnTMFFlmZftanJPkZELb0MZn7v7igCcB6kDvti6bIcumw89kZWJX3WUTZo1SlUA1NLA2Hg61KSw4poe63ZV2tQTH6L8vOwQ71XO8v_r1U2xOI6TvGkHO1Y17XxpGAE&sig=AOD64_3qbpgmKCK5GHoUayzkJSVWJAXhSQ&client=ca-pub-1056034821646296&rf=1&nb=1&adurl=https://www.brocard.ua/ua/osinniy-vayb-z-brocard%3Fgad_source%3D5%26gad_campaignid%3D23074101820%26gclid%3DEAIaIQobChMIr5iXzoGFkAMVHomDBx37ZiBTEAEYASAAEgJpJvD_BwE
+              - link "Купуйте зараз" [ref=f1e24] [cursor=pointer]:
+                - /url: https://googleads.g.doubleclick.net/aclk?nis=4&sa=l&ai=CDCYScyzeaO-SIJ6SjuwP-82BmQXvx5GeggGb97GA3RTb2R4QASCVlJmjAWCllqSGtCigAZLw0osDyAEBqQIB8Ya-CgpaPqgDAcgDywSqBO0BT9A8KPW0hQIGAKia3qMVizw6Mg13jEI1hQu4Lp3eZokdG0tKeYeBiR_zpZEsSMQb7uhQmhyiwrerTo3mdRTwtLHSsYOMLY0Q-jp4yoHWbdhJUaC8zfFexBe5PQguwTPXPmmOGtKB7BDwvzo8f9A22yip7SuEXL-_T6XGM485LR4qlQ63zuLm9RdizapD8iaVi0HKKyZop2NiD10f-tQLsnoD6BYaoC1E6Y-rE2asoSFU0nWL7e7uSvTkbstTIiXTgaa8W43p0GDEi3vgaKcR9YQCrIn0Ple2U6Vj7LQDhzLEkB609QBoReM_zwddwASp8rj3wgWIBby0y_pVgAfBno3DAqgH4tixAqgHpr4bqAfMzrECqAfz0RuoB5bYG6gHqpuxAqgHjs4bqAeT2BuoB_DgG6gH7paxAqgH_p6xAqgHr76xAqgH1ckbqAfZtrECqAeaBqgH_56xAqgH35-xAqgHyqmxAqgH66WxAqgH6rGxAqgHmbWxAqgHvrexAqgH-MKxAqgH-8KxAtgHAdIIKQiAYRABGJ8BMgKKAjoNgECAwICAgICogAKoA0i9_cE6WJP9ls6BhZADsQkWHpZAvHnI8oAKAZgLAcgLAaIMA5ABAdoMEAoKEPD7nOjV4M_7GBICAQOqDQJVQcgNAeoNEwi1-KbOgYWQAxUeiYMHHftmIFPwDQKIDgnYEwPQFQGYFgHKFgIKAPgWAYAXAbIXDhgBKgo0OTcwMjEyMjIxuhcCOAGqGBcJAAAAAADs80ASCjQ5NzAyMTIyMjEYAbIYCRICxk4YASIBANAYAegYAcIZAggB&ae=1&ase=2&gclid=EAIaIQobChMIr5iXzoGFkAMVHomDBx37ZiBTEAEYASAAEgJpJvD_BwE&num=1&cid=CAQSsgEAwksa0WWMIocU8oHgyA5fg9TLHd6IZZN5hA9eGXEETvP_1XsJQHjqNz9e9c9Mete-SXdFJoYCRjk6EXaa5vUS4xSJlLxPqvz0Paog5lKZrnf4Ogpm3WnTMFFlmZftanJPkZELb0MZn7v7igCcB6kDvti6bIcumw89kZWJX3WUTZo1SlUA1NLA2Hg61KSw4poe63ZV2tQTH6L8vOwQ71XO8v_r1U2xOI6TvGkHO1Y17XxpGAE&sig=AOD64_3qbpgmKCK5GHoUayzkJSVWJAXhSQ&client=ca-pub-1056034821646296&rf=1&nb=8&adurl=https://www.brocard.ua/ua/osinniy-vayb-z-brocard%3Fgad_source%3D5%26gad_campaignid%3D23074101820%26gclid%3DEAIaIQobChMIr5iXzoGFkAMVHomDBx37ZiBTEAEYASAAEgJpJvD_BwE
+                - generic [ref=f1e28] [cursor=pointer]:
+                  - generic [ref=f1e30] [cursor=pointer]: Купуйте зараз
+                  - img [ref=f1e31] [cursor=pointer]
+          - img [ref=f1e36] [cursor=pointer]
+          - button [ref=f1e38] [cursor=pointer]:
+            - img [ref=f1e39] [cursor=pointer]
+          - iframe
+    - paragraph [ref=e43]:
+      - text: Do you enjoy this platform? ❤️
+      - link "Buy us a coffee" [ref=e44] [cursor=pointer]:
+        - /url: https://www.buymeacoffee.com/expandtesting
+    - generic [ref=e45]:
+      - insertion [ref=e47]:
+        - iframe [ref=e49]:
+          - generic [active] [ref=f2e1]:
+            - generic [ref=f2e3]:
+              - link:
+                - /url: https://googleads.g.doubleclick.net/aclk?nis=4&sa=l&ai=CDbFscyzeaKmgIvDUjuwPmKeSqQ-Tkf2NggGdu-SP1xTb2R4QASCVlJmjAWCllqSGtCigAYiOi_0CyAECqQIB8Ya-CgpaPqgDAcgDyQSqBOkBT9CrIMNXaSToXT-oEKrVIoFLNg_nzQjimpr-J-kkyGQHPHn876QtGGiOwL7HmnG-WrtcbAPW2Iqzr9SfYCRXbzvFl7DitMNcWhCCweA8auDILFuZ9lqLu0qw-3tAwLpprw6OvIZk-bqZRFsA7EbkrUHntLp3nSUjecQUO23E9BklnJwGqAbH1gYSu8brutR6m-YJ9MSfNwR8IfdW72ftt6FCT7PaJQUElYtueyI2XK_q24GrDW4YHx6vm6g3N4Q6hV3EXcVcp8WNigKz7wad0-0rAoQE93x2b5BNfx4lViDzu9WnfQycNGbABMzdu9KzBYgF5Oi-5lWgBgKAB_PU9ZIBqAfi2LECqAemvhuoB8zOsQKoB_PRG6gHltgbqAeqm7ECqAeOzhuoB5PYG6gH8OAbqAfulrECqAf-nrECqAevvrECqAfVyRuoB9m2sQKoB5oGqAf_nrECqAffn7ECqAfKqbECqAfrpbECqAfqsbECqAeZtbECqAe-t7ECqAf4wrECqAf7wrEC2AcB0ggpCIBhEAEYnwEyAooCOg2AQIDAgICAgKiAAqgDSL39wTpY94eZzoGFkAOxCYEDOehnXnQsgAoBmAsByAsBogwDkAEB2gwQCgoQoIb8sp2AzcYuEgIBA6oNAlVByA0B6g0TCOWSr86BhZADFXCqgwcdmJMk9fANAogOCdgTA9AVAZgWAcoWAgoA-BYBgBcBshcOGAEqCjI0MDYzMzU3NDO6FwI4AaoYFwkAAAAAwPz0QBIKMjQwNjMzNTc0MxgBshgJEgKsURgCIgEA0BgB6BgBwhkCCAE&ae=1&ase=2&gclid=EAIaIQobChMI6aWZzoGFkAMVcKqDBx2YkyT1EAEYASAAEgLSUPD_BwE&num=1&cid=CAQSsgEAwksa0b3IPkUKt22Cvv5g7umdgFdqDYnbqSOVr2zLl2UBgJV_Uf3ZVhLdQ8jiwWDdCj3z_WCPMqNaUyn9jcHU2UMGlRhnoSCHlqWr1YUcDd43Inqnx0jeQPJbveGjhG_zfPZcpHzjjfjybNcePz3aTyPt8Tq2usjB4e2GnsW0lfQO8IaAAbQZYp10jl0kC2BsRkYtL-yPsp6NXIWB8rCu8vcVq9T0ZaOogpkLuU81S7znGAE&sig=AOD64_2v-4f2-bY5AXR_YYIfoOt79YbnYg&client=ca-pub-1056034821646296&rf=2&nb=2&adurl=https://comfy.ua/ua/stiral-naja-mashina-beko-bm3wfu46245wpbb2.html%3Fgad_source%3D5%26gad_campaignid%3D23031952484%26gclid%3DEAIaIQobChMI6aWZzoGFkAMVcKqDBx2YkyT1EAEYASAAEgLSUPD_BwE
+              - img [ref=f2e7] [cursor=pointer]
+              - button [ref=f2e9] [cursor=pointer]:
+                - img [ref=f2e10] [cursor=pointer]
+            - iframe
+      - generic [ref=e52]:
+        - navigation "breadcrumb mb-2" [ref=e53]:
+          - list [ref=e54]:
+            - listitem [ref=e55]:
+              - link "Home" [ref=e56] [cursor=pointer]:
+                - /url: /
+            - listitem [ref=e57]: / Register Page
+        - heading "Test Register page for Automation Testing Practice" [level=1] [ref=e58]
+        - generic [ref=e60]:
+          - paragraph [ref=e61]:
+            - text: This
+            - generic [ref=e62]: Test Register page
+            - text: is designed for automation testing practice. Test various positive and negative register scenarios in a testing environment.
+          - paragraph [ref=e63]: You can use this register page for practicing with Selenium or other tools like Playwright, Cypress, etc.
+        - generic [ref=e67]:
+          - generic [ref=e68]:
+            - generic [ref=e69]:
+              - generic [ref=e70]:
+                - generic [ref=e71]: Username
+                - textbox "Username" [ref=e72]: user1759390834164
+              - generic [ref=e73]:
+                - generic [ref=e74]: Password
+                - textbox "Password" [ref=e75]
+              - generic [ref=e76]:
+                - generic [ref=e77]: Confirm Password
+                - textbox "Confirm Password" [ref=e78]
+            - button "Register" [ref=e79] [cursor=pointer]
+          - link "Software testing courses" [ref=e80] [cursor=pointer]:
+            - img [ref=e82] [cursor=pointer]
+            - generic [ref=e84] [cursor=pointer]: Software testing courses
+          - link "API testing tools" [ref=e85] [cursor=pointer]:
+            - img [ref=e87] [cursor=pointer]
+            - generic [ref=e89] [cursor=pointer]: API testing tools
+    - insertion [ref=e91]:
+      - generic [ref=e93]:
+        - generic "These are topics related to the article that might interest you" [ref=e94]: Discover more
+        - link "Automation testing guide" [ref=e95] [cursor=pointer]:
+          - img [ref=e97] [cursor=pointer]
+          - generic [ref=e99] [cursor=pointer]: Automation testing guide
+        - link "Software Testing" [ref=e100] [cursor=pointer]:
+          - img [ref=e102] [cursor=pointer]
+          - generic [ref=e104] [cursor=pointer]: Software Testing
+        - link "testing" [ref=e105] [cursor=pointer]:
+          - img [ref=e107] [cursor=pointer]
+          - generic [ref=e109] [cursor=pointer]: testing
+        - link "Use case practice" [ref=e110] [cursor=pointer]:
+          - img [ref=e112] [cursor=pointer]
+          - generic [ref=e114] [cursor=pointer]: Use case practice
+        - link "Selenium" [ref=e115] [cursor=pointer]:
+          - img [ref=e117] [cursor=pointer]
+          - generic [ref=e119] [cursor=pointer]: Selenium
+        - link "Automation practice website" [ref=e120] [cursor=pointer]:
+          - img [ref=e122] [cursor=pointer]
+          - generic [ref=e124] [cursor=pointer]: Automation practice website
+        - link "Testing" [ref=e125] [cursor=pointer]:
+          - img [ref=e127] [cursor=pointer]
+          - generic [ref=e129] [cursor=pointer]: Testing
+        - link "Automation testing courses" [ref=e130] [cursor=pointer]:
+          - img [ref=e132] [cursor=pointer]
+          - generic [ref=e134] [cursor=pointer]: Automation testing courses
+        - link "Selenium testing course" [ref=e135] [cursor=pointer]:
+          - img [ref=e137] [cursor=pointer]
+          - generic [ref=e139] [cursor=pointer]: Selenium testing course
+        - link "QA testing resources" [ref=e140] [cursor=pointer]:
+          - img [ref=e142] [cursor=pointer]
+          - generic [ref=e144] [cursor=pointer]: QA testing resources
+  - contentinfo [ref=e145]:
+    - generic [ref=e150]:
+      - heading "Practice Test Automation WebSite for Web UI and Rest API" [level=4] [ref=e151]
+      - paragraph [ref=e152]:
+        - text: "Version: 935c019b | Copyright"
+        - link "Expand Testing" [ref=e153] [cursor=pointer]:
+          - /url: https://expandtesting.com/
+        - text: "2025"
+  - img [ref=e155] [cursor=pointer]
+  - insertion [ref=e157]:
+    - iframe [ref=e160]:
+      - generic [active] [ref=f3e1]:
+        - generic [ref=f3e6]:
+          - generic [ref=f3e7]:
+            - link "Лови шанс виграти приз" [ref=f3e10] [cursor=pointer]:
+              - /url: https://googleads.g.doubleclick.net/aclk?nis=4&sa=l&ai=CEyARcyzeaNKnHoCck-oPtNKy8A_vx5GeggHD97GA3RTb2R4QASCVlJmjAWCllqSGtCigAZLw0osDyAEBqQIB8Ya-CgpaPqgDAcgDywSqBPABT9DL49HaEwL_TfsqJ2us-ExOAjIXRko-HXMUaX7C2ZNGGyk2W04zgSrFumn5btAGsGAq2piyq2bvB9FbOJdO53CpnQ0UHUD3yJfrXZ2Bp7WVq0I_UeQs42s_ocHJKT8fZTKzdnAMD7rY2x9HoAzU53rEMGHJdTcALZ9470c-D4FCRNnjhMeps1DhOlin44DZ3eE5-H-aUyterpynPGpK6fbPEgdD5PLrj8ZEjH8xCRRKcpsjO1Cm2JutaXEMIhx-HtpjPRDQ6L5YoRVxepDxKs6wSiwsNZ8TSa2gZft0tjjf0MsjRNF1jyqWAJJATenmwATJ87j3wgWIBby0y_pVgAfBno3DAqgH4tixAqgHpr4bqAfMzrECqAfz0RuoB5bYG6gHqpuxAqgHjs4bqAeT2BuoB_DgG6gH7paxAqgH_p6xAqgHr76xAqgH1ckbqAfZtrECqAeaBqgH_56xAqgH35-xAqgHyqmxAqgH66WxAqgH6rGxAqgHmbWxAqgHvrexAqgH-MKxAqgH-8KxAtgHAdIIKQiAYRABGJ8BMgKKAjoNgECAwICAgICogAKoA0i9_cE6WPeNlc6BhZADsQkWHpZAvHnI8oAKAZgLAcgLAaIMA5ABAdoMEAoKEID4iqLusdzCGRICAQOqDQJVQcgNAeoNEwj11K3OgYWQAxUAzkQHHTSpDP7wDQKIDgnYEwPQFQGYFgHKFgIKAPgWAYAXAbIXAhgBuhcCOAGyGAkSAsZOGAEiAQDQGAHoGAHCGQIIAQ&ae=1&ase=2&gclid=EAIaIQobChMIkq2VzoGFkAMVAM5EBx00qQz-EAEYASAAEgIABPD_BwE&num=1&cid=CAQSsgEAwksa0XWmEiQZ4fwJHtk0HSMF1hhTZcZ94MsVXLMQB2XRyOhhYG0itkeSQhwjcM729YkqLHXnuOiRT4gPvOz13EjzVW39qtT7HF3h8ryuaw-xqJTE8uCavayZsr2c8wZHC8J2O2Cb5q6SZ-5Ok4wpL5k4ae4qMw0OgrvFTbBe_MRM8GFJxpSoS2pB_KRFNlvbt4kuoOoV4nepYIO1zmUipscehzmoLKYyYYMQO5riGe5TGAE&sig=AOD64_2FeEbZmJEZNjMsohTi9su59LIgng&client=ca-pub-1056034821646296&rf=1&nb=0&adurl=https://www.brocard.ua/ua/osinniy-vayb-z-brocard%3Fgad_source%3D5%26gad_campaignid%3D23074101820%26gclid%3DEAIaIQobChMIkq2VzoGFkAMVAM5EBx00qQz-EAEYASAAEgIABPD_BwE
+            - link "Лови шанс виграти 30 кг косметики за покупку у BROCARD, на BROCARD.UA та у застосунку BROCARD" [ref=f3e12] [cursor=pointer]:
+              - /url: https://googleads.g.doubleclick.net/aclk?nis=4&sa=l&ai=CEyARcyzeaNKnHoCck-oPtNKy8A_vx5GeggHD97GA3RTb2R4QASCVlJmjAWCllqSGtCigAZLw0osDyAEBqQIB8Ya-CgpaPqgDAcgDywSqBPABT9DL49HaEwL_TfsqJ2us-ExOAjIXRko-HXMUaX7C2ZNGGyk2W04zgSrFumn5btAGsGAq2piyq2bvB9FbOJdO53CpnQ0UHUD3yJfrXZ2Bp7WVq0I_UeQs42s_ocHJKT8fZTKzdnAMD7rY2x9HoAzU53rEMGHJdTcALZ9470c-D4FCRNnjhMeps1DhOlin44DZ3eE5-H-aUyterpynPGpK6fbPEgdD5PLrj8ZEjH8xCRRKcpsjO1Cm2JutaXEMIhx-HtpjPRDQ6L5YoRVxepDxKs6wSiwsNZ8TSa2gZft0tjjf0MsjRNF1jyqWAJJATenmwATJ87j3wgWIBby0y_pVgAfBno3DAqgH4tixAqgHpr4bqAfMzrECqAfz0RuoB5bYG6gHqpuxAqgHjs4bqAeT2BuoB_DgG6gH7paxAqgH_p6xAqgHr76xAqgH1ckbqAfZtrECqAeaBqgH_56xAqgH35-xAqgHyqmxAqgH66WxAqgH6rGxAqgHmbWxAqgHvrexAqgH-MKxAqgH-8KxAtgHAdIIKQiAYRABGJ8BMgKKAjoNgECAwICAgICogAKoA0i9_cE6WPeNlc6BhZADsQkWHpZAvHnI8oAKAZgLAcgLAaIMA5ABAdoMEAoKEID4iqLusdzCGRICAQOqDQJVQcgNAeoNEwj11K3OgYWQAxUAzkQHHTSpDP7wDQKIDgnYEwPQFQGYFgHKFgIKAPgWAYAXAbIXAhgBuhcCOAGyGAkSAsZOGAEiAQDQGAHoGAHCGQIIAQ&ae=1&ase=2&gclid=EAIaIQobChMIkq2VzoGFkAMVAM5EBx00qQz-EAEYASAAEgIABPD_BwE&num=1&cid=CAQSsgEAwksa0XWmEiQZ4fwJHtk0HSMF1hhTZcZ94MsVXLMQB2XRyOhhYG0itkeSQhwjcM729YkqLHXnuOiRT4gPvOz13EjzVW39qtT7HF3h8ryuaw-xqJTE8uCavayZsr2c8wZHC8J2O2Cb5q6SZ-5Ok4wpL5k4ae4qMw0OgrvFTbBe_MRM8GFJxpSoS2pB_KRFNlvbt4kuoOoV4nepYIO1zmUipscehzmoLKYyYYMQO5riGe5TGAE&sig=AOD64_2FeEbZmJEZNjMsohTi9su59LIgng&client=ca-pub-1056034821646296&rf=1&nb=7&adurl=https://www.brocard.ua/ua/osinniy-vayb-z-brocard%3Fgad_source%3D5%26gad_campaignid%3D23074101820%26gclid%3DEAIaIQobChMIkq2VzoGFkAMVAM5EBx00qQz-EAEYASAAEgIABPD_BwE
+              - text: Лови шанс виграти 30 кг косметики за покупку у BROCARD, на BROCARD.UA та у
+              - text: застосунку BROCARD
+          - link "Купуйте зараз" [ref=f3e15] [cursor=pointer]:
+            - /url: https://googleads.g.doubleclick.net/aclk?nis=4&sa=l&ai=CEyARcyzeaNKnHoCck-oPtNKy8A_vx5GeggHD97GA3RTb2R4QASCVlJmjAWCllqSGtCigAZLw0osDyAEBqQIB8Ya-CgpaPqgDAcgDywSqBPABT9DL49HaEwL_TfsqJ2us-ExOAjIXRko-HXMUaX7C2ZNGGyk2W04zgSrFumn5btAGsGAq2piyq2bvB9FbOJdO53CpnQ0UHUD3yJfrXZ2Bp7WVq0I_UeQs42s_ocHJKT8fZTKzdnAMD7rY2x9HoAzU53rEMGHJdTcALZ9470c-D4FCRNnjhMeps1DhOlin44DZ3eE5-H-aUyterpynPGpK6fbPEgdD5PLrj8ZEjH8xCRRKcpsjO1Cm2JutaXEMIhx-HtpjPRDQ6L5YoRVxepDxKs6wSiwsNZ8TSa2gZft0tjjf0MsjRNF1jyqWAJJATenmwATJ87j3wgWIBby0y_pVgAfBno3DAqgH4tixAqgHpr4bqAfMzrECqAfz0RuoB5bYG6gHqpuxAqgHjs4bqAeT2BuoB_DgG6gH7paxAqgH_p6xAqgHr76xAqgH1ckbqAfZtrECqAeaBqgH_56xAqgH35-xAqgHyqmxAqgH66WxAqgH6rGxAqgHmbWxAqgHvrexAqgH-MKxAqgH-8KxAtgHAdIIKQiAYRABGJ8BMgKKAjoNgECAwICAgICogAKoA0i9_cE6WPeNlc6BhZADsQkWHpZAvHnI8oAKAZgLAcgLAaIMA5ABAdoMEAoKEID4iqLusdzCGRICAQOqDQJVQcgNAeoNEwj11K3OgYWQAxUAzkQHHTSpDP7wDQKIDgnYEwPQFQGYFgHKFgIKAPgWAYAXAbIXAhgBuhcCOAGyGAkSAsZOGAEiAQDQGAHoGAHCGQIIAQ&ae=1&ase=2&gclid=EAIaIQobChMIkq2VzoGFkAMVAM5EBx00qQz-EAEYASAAEgIABPD_BwE&num=1&cid=CAQSsgEAwksa0XWmEiQZ4fwJHtk0HSMF1hhTZcZ94MsVXLMQB2XRyOhhYG0itkeSQhwjcM729YkqLHXnuOiRT4gPvOz13EjzVW39qtT7HF3h8ryuaw-xqJTE8uCavayZsr2c8wZHC8J2O2Cb5q6SZ-5Ok4wpL5k4ae4qMw0OgrvFTbBe_MRM8GFJxpSoS2pB_KRFNlvbt4kuoOoV4nepYIO1zmUipscehzmoLKYyYYMQO5riGe5TGAE&sig=AOD64_2FeEbZmJEZNjMsohTi9su59LIgng&client=ca-pub-1056034821646296&rf=1&nb=8&adurl=https://www.brocard.ua/ua/osinniy-vayb-z-brocard%3Fgad_source%3D5%26gad_campaignid%3D23074101820%26gclid%3DEAIaIQobChMIkq2VzoGFkAMVAM5EBx00qQz-EAEYASAAEgIABPD_BwE
+            - generic [ref=f3e19] [cursor=pointer]:
+              - generic [ref=f3e21] [cursor=pointer]: Купуйте зараз
+              - img [ref=f3e22] [cursor=pointer]
+        - img [ref=f3e27] [cursor=pointer]
+        - button [ref=f3e29] [cursor=pointer]:
+          - img [ref=f3e30] [cursor=pointer]
+        - iframe
+```

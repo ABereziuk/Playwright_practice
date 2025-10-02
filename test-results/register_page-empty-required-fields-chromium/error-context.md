@@ -1,224 +1,495 @@
 # Page snapshot
 
 ```yaml
-- generic [ref=e2]:
-  - generic [ref=e4]:
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
     - generic [ref=e5]:
-      - generic:
-        - generic [ref=e6]:
-          - img
-        - generic [ref=e7]:
-          - img
-      - generic [ref=e8]:
-        - generic [ref=e9]: Premium support для транзакцій більше $5000
-        - generic [ref=e10]:
-          - img
-        - button "Перейти у Telegram" [ref=e11] [cursor=pointer]
-      - generic [ref=e12]:
-        - img
-    - generic [ref=e13]:
-      - link "Обмінник" [ref=e14] [cursor=pointer]:
-        - /url: https://obmify.com/?utm_source=obmify.co&utm_medium=mirror&utm_campaign=mirror_google_ads&utm_content=;
-        - img [ref=e15] [cursor=pointer]
-      - generic [ref=e23]:
-        - link "Про нас" [ref=e24] [cursor=pointer]:
-          - /url: https://obmify.com/about?utm_source=obmify.co&utm_medium=mirror&utm_campaign=mirror_google_ads&utm_content=;
-        - link "Як здійснити обмін?" [ref=e25] [cursor=pointer]:
-          - /url: https://obmify.com/getting-started?utm_source=obmify.co&utm_medium=mirror&utm_campaign=mirror_google_ads&utm_content=;
-        - link "Обмінники" [ref=e26] [cursor=pointer]:
-          - /url: https://obmify.com/exchanges?utm_source=obmify.co&utm_medium=mirror&utm_campaign=mirror_google_ads&utm_content=;
-        - link "Premium support" [ref=e27] [cursor=pointer]:
-          - /url: /premium-support
-        - link "Партнерська програма" [ref=e28] [cursor=pointer]:
-          - /url: https://obmify.com/affiliate?utm_source=obmify.co&utm_medium=mirror&utm_campaign=mirror_google_ads&utm_content=;
-        - link "Блог" [ref=e29] [cursor=pointer]:
-          - /url: https://blog.obmify.com/
-      - generic [ref=e32] [cursor=pointer]:
-        - text: Укр
-        - img [ref=e33] [cursor=pointer]
-  - generic [ref=e36]:
-    - generic [ref=e39]:
-      - heading "Як вивести великі суми валюти з Premium Support від Obmify" [level=1] [ref=e41]:
-        - text: Як вивести великі суми
-        - img [ref=e42]
-        - text: валюти з
-        - text: Premium Support від Obmify
-      - generic [ref=e44]:
-        - text: Плануєш великий обмін від
-        - generic [ref=e45]: $5000?
-        - text: Дозволь нам зробити це за тебе!
-      - button "Перейти у Telegram" [ref=e46] [cursor=pointer]
-    - generic [ref=e48]:
-      - generic [ref=e49]:
-        - heading "Що на тебе чекає:" [level=2] [ref=e50]
-        - img [ref=e51]
-      - generic [ref=e53]:
-        - generic [ref=e54]:
-          - img
-        - generic [ref=e55]:
-          - img
-      - generic [ref=e56]:
-        - generic [ref=e57]:
-          - img
-        - generic [ref=e58]:
-          - img
-        - generic [ref=e59]:
-          - img
-    - generic [ref=e61]:
-      - generic [ref=e62]:
-        - heading "Як це працює?" [level=2] [ref=e63]
-        - img [ref=e64]
-      - generic [ref=e66]:
-        - generic [ref=e67]:
-          - generic [ref=e68]: "1"
-          - paragraph [ref=e69]:
-            - text: Звернись до нас в Телеграм
-            - generic [ref=e70] [cursor=pointer]: Premium Support Obmify
-            - text: зі своїм запитом
-        - generic [ref=e71]:
-          - generic [ref=e72]: "2"
-          - paragraph [ref=e73]: Персональний менеджер Obmify обере для тебе найкращі умови та партнера
-        - generic [ref=e74]:
-          - generic [ref=e75]: "3"
-          - paragraph [ref=e76]: Оплати заявку після узгодження всіх деталей
-        - generic [ref=e77]:
-          - generic [ref=e78]: "4"
-          - paragraph [ref=e79]: Отримай кошти та підтвердь завершення обміну
-        - img [ref=e80]
-      - button "Перейти у Telegram" [ref=e82] [cursor=pointer]
-    - generic [ref=e84]:
-      - generic [ref=e85]:
-        - img
-      - generic [ref=e86]:
-        - img
-    - generic [ref=e89]:
-      - img [ref=e90]
-      - generic [ref=e101]:
-        - text: Бачиш як все просто з Obmify
-        - img [ref=e102]
-        - text: Premium Support?
-      - button "Перейти у Telegram" [ref=e104] [cursor=pointer]
-  - generic [ref=e106]:
-    - generic [ref=e107]:
-      - generic [ref=e108]:
-        - link "cryptoExchanger" [ref=e109] [cursor=pointer]:
-          - /url: https://obmify.com/?utm_source=obmify.co&utm_medium=mirror&utm_campaign=mirror_google_ads&utm_content=;
-          - img [ref=e110] [cursor=pointer]
-        - generic [ref=e118]:
-          - generic [ref=e119]:
-            - button [ref=e120] [cursor=pointer]:
-              - img [ref=e121] [cursor=pointer]
-            - button [ref=e123] [cursor=pointer]:
-              - img [ref=e124] [cursor=pointer]
-            - button [ref=e126] [cursor=pointer]:
-              - img [ref=e127] [cursor=pointer]
-            - button [ref=e131] [cursor=pointer]:
-              - img [ref=e132] [cursor=pointer]
-            - button [ref=e134] [cursor=pointer]:
-              - img [ref=e135] [cursor=pointer]
-            - button [ref=e137] [cursor=pointer]:
-              - img [ref=e138] [cursor=pointer]
-          - generic [ref=e141]:
-            - generic [ref=e142]:
-              - img
-            - generic [ref=e143]:
-              - img
-          - link [ref=e144] [cursor=pointer]:
-            - /url: https://www.trustpilot.com/review/obmify.com
-            - img [ref=e145] [cursor=pointer]
-      - generic [ref=e150]:
-        - generic [ref=e152]:
-          - generic [ref=e153]: Продукт
-          - link "Про нас" [ref=e154] [cursor=pointer]:
-            - /url: /about
-          - link "Premium Support" [ref=e155] [cursor=pointer]:
-            - /url: https://obmify.com/premium-support?utm_source=obmify.co&utm_medium=mirror&utm_campaign=mirror_google_ads&utm_content=;
-          - link "Зв’язатись з нами" [ref=e156] [cursor=pointer]:
-            - /url: https://obmify.com/contact?utm_source=obmify.co&utm_medium=mirror&utm_campaign=mirror_google_ads&utm_content=;
-          - link "Правила користування сайтом" [ref=e157] [cursor=pointer]:
-            - /url: https://obmify.com/terms?utm_source=obmify.co&utm_medium=mirror&utm_campaign=mirror_google_ads&utm_content=;
-          - link "Блог" [ref=e158] [cursor=pointer]:
-            - /url: https://blog.obmify.com/
-          - link "BestChange vs Obmify" [ref=e159] [cursor=pointer]:
-            - /url: https://obmify.com/bestchange-obmify?utm_source=obmify.co&utm_medium=mirror&utm_campaign=mirror_google_ads&utm_content=;
-          - link "Bestchange заблокований, що робити?" [ref=e160] [cursor=pointer]:
-            - /url: https://blog.obmify.com/bestchange-zablokovanyj-shho-robyty/
-        - generic [ref=e162]:
-          - generic [ref=e163]: Інформація
-          - link "Як здійснити обмін?" [ref=e164] [cursor=pointer]:
-            - /url: https://obmify.com/getting-started?utm_source=obmify.co&utm_medium=mirror&utm_campaign=mirror_google_ads&utm_content=;
-          - link "Поширені запитання" [ref=e165] [cursor=pointer]:
-            - /url: https://obmify.com/faq?utm_source=obmify.co&utm_medium=mirror&utm_campaign=mirror_google_ads&utm_content=;
-          - link "Політика конфіденційності" [ref=e166] [cursor=pointer]:
-            - /url: https://obmify.com/privacy?utm_source=obmify.co&utm_medium=mirror&utm_campaign=mirror_google_ads&utm_content=;
-          - link "Як співпрацювати з Обміфай?" [ref=e167] [cursor=pointer]:
-            - /url: https://obmify.com/how-to-collaborate?utm_source=obmify.co&utm_medium=mirror&utm_campaign=mirror_google_ads&utm_content=;
-          - link "Партнерська програма" [ref=e168] [cursor=pointer]:
-            - /url: https://obmify.com/affiliate?utm_source=obmify.co&utm_medium=mirror&utm_campaign=mirror_google_ads&utm_content=;
-          - link "Правила користування Premium Support Obmify" [ref=e169] [cursor=pointer]:
-            - /url: https://obmify.com/terms-premium-support?utm_source=obmify.co&utm_medium=mirror&utm_campaign=mirror_google_ads&utm_content=;
-        - generic [ref=e171]:
-          - generic [ref=e172]: Популярні країни
-          - generic [ref=e174]:
-            - link "Україна" [ref=e175] [cursor=pointer]:
-              - /url: https://obmify.com/country/ukraine?utm_source=obmify.co&utm_medium=mirror&utm_campaign=mirror_google_ads&utm_content=;
-            - link "Польща" [ref=e176] [cursor=pointer]:
-              - /url: https://obmify.com/country/poland?utm_source=obmify.co&utm_medium=mirror&utm_campaign=mirror_google_ads&utm_content=;
-            - link "Німеччина" [ref=e177] [cursor=pointer]:
-              - /url: https://obmify.com/country/germany?utm_source=obmify.co&utm_medium=mirror&utm_campaign=mirror_google_ads&utm_content=;
-            - link "Чехія" [ref=e178] [cursor=pointer]:
-              - /url: https://obmify.com/country/czech-republic?utm_source=obmify.co&utm_medium=mirror&utm_campaign=mirror_google_ads&utm_content=;
-            - link "Молдова" [ref=e179] [cursor=pointer]:
-              - /url: https://obmify.com/country/moldova?utm_source=obmify.co&utm_medium=mirror&utm_campaign=mirror_google_ads&utm_content=;
-            - link "Переглянути всі" [ref=e180] [cursor=pointer]:
-              - /url: https://obmify.com/countries?utm_source=obmify.co&utm_medium=mirror&utm_campaign=mirror_google_ads&utm_content=;
-        - generic [ref=e182]:
-          - generic [ref=e183]: Популярні міста
-          - generic [ref=e185]:
-            - link "Київ" [ref=e186] [cursor=pointer]:
-              - /url: https://obmify.com/city/kiev?utm_source=obmify.co&utm_medium=mirror&utm_campaign=mirror_google_ads&utm_content=;
-            - link "Львів" [ref=e187] [cursor=pointer]:
-              - /url: https://obmify.com/city/lviv?utm_source=obmify.co&utm_medium=mirror&utm_campaign=mirror_google_ads&utm_content=;
-            - link "Черкаси" [ref=e188] [cursor=pointer]:
-              - /url: https://obmify.com/city/cherkasy?utm_source=obmify.co&utm_medium=mirror&utm_campaign=mirror_google_ads&utm_content=;
-            - link "Одеса" [ref=e189] [cursor=pointer]:
-              - /url: https://obmify.com/city/odessa?utm_source=obmify.co&utm_medium=mirror&utm_campaign=mirror_google_ads&utm_content=;
-            - link "Дніпро" [ref=e190] [cursor=pointer]:
-              - /url: https://obmify.com/city/dnipro?utm_source=obmify.co&utm_medium=mirror&utm_campaign=mirror_google_ads&utm_content=;
-            - link "Варшава" [ref=e191] [cursor=pointer]:
-              - /url: https://obmify.com/city/warsaw?utm_source=obmify.co&utm_medium=mirror&utm_campaign=mirror_google_ads&utm_content=;
-        - generic [ref=e193]:
-          - generic [ref=e194]: Популярні пари
-          - generic [ref=e196]:
-            - link "USDT на MONO" [ref=e197] [cursor=pointer]:
-              - /url: https://obmify.com/usdt-trc20-to-uah-monobank?utm_source=obmify.co&utm_medium=mirror&utm_campaign=mirror_google_ads&utm_content=;
-            - link "USDT на CASH USD" [ref=e198] [cursor=pointer]:
-              - /url: https://obmify.com/usdt-trc20-to-usd-cash?utm_source=obmify.co&utm_medium=mirror&utm_campaign=mirror_google_ads&utm_content=;
-            - link "USDT на PRIVAT" [ref=e199] [cursor=pointer]:
-              - /url: https://obmify.com/usdt-trc20-to-uah-privatbank?utm_source=obmify.co&utm_medium=mirror&utm_campaign=mirror_google_ads&utm_content=;
-            - link "CASH USD на USDT" [ref=e200] [cursor=pointer]:
-              - /url: https://obmify.com/usd-cash-to-usdt-trc20?utm_source=obmify.co&utm_medium=mirror&utm_campaign=mirror_google_ads&utm_content=;
-            - link "MONO на USDT" [ref=e201] [cursor=pointer]:
-              - /url: https://obmify.com/uah-monobank-to-usdt-trc20?utm_source=obmify.co&utm_medium=mirror&utm_campaign=mirror_google_ads&utm_content=;
-            - link "Курси криптовалют" [ref=e202] [cursor=pointer]:
-              - /url: https://obmify.com/cryptocurrencies-rates?utm_source=obmify.co&utm_medium=mirror&utm_campaign=mirror_google_ads&utm_content=;
-        - generic [ref=e204]:
-          - generic [ref=e205]: Популярні криптовалюти
-          - generic [ref=e207]:
-            - link "Bitcoin" [ref=e208] [cursor=pointer]:
-              - /url: https://obmify.com/currency/btc?utm_source=obmify.co&utm_medium=mirror&utm_campaign=mirror_google_ads&utm_content=;
-            - link "TetherTRC20" [ref=e209] [cursor=pointer]:
-              - /url: https://obmify.com/currency/usdt-trc20?utm_source=obmify.co&utm_medium=mirror&utm_campaign=mirror_google_ads&utm_content=;
-            - link "Ethereum" [ref=e210] [cursor=pointer]:
-              - /url: https://obmify.com/currency/eth?utm_source=obmify.co&utm_medium=mirror&utm_campaign=mirror_google_ads&utm_content=;
-            - link "Solana" [ref=e211] [cursor=pointer]:
-              - /url: https://obmify.com/currency/sol?utm_source=obmify.co&utm_medium=mirror&utm_campaign=mirror_google_ads&utm_content=;
-            - link "Tron" [ref=e212] [cursor=pointer]:
-              - /url: https://obmify.com/currency/trx?utm_source=obmify.co&utm_medium=mirror&utm_campaign=mirror_google_ads&utm_content=;
-            - link "Переглянути всі" [ref=e213] [cursor=pointer]:
-              - /url: https://obmify.com/currencies?utm_source=obmify.co&utm_medium=mirror&utm_campaign=mirror_google_ads&utm_content=;
-    - generic [ref=e215]: Copyright © 2025. Copyright © 2025. Obmify.co – це сервіс, який допоможе тобі безпечно та вигідно здійснити обмін. All rights reserved.
-  - generic [ref=e217] [cursor=pointer]:
-    - img [ref=e218] [cursor=pointer]
-    - generic [ref=e222] [cursor=pointer]: Підтримка
+      - link [ref=e7] [cursor=pointer]:
+        - /url: /
+        - img [ref=e8] [cursor=pointer]
+      - generic [ref=e9]:
+        - img [ref=e10]: 
+        - link "м. Київ, вул. Ялтинська, 10/14" [ref=e12] [cursor=pointer]:
+          - /url: /kontakty/
+      - generic [ref=e13]:
+        - img [ref=e14]: 
+        - link "info@batut.net.ua" [ref=e16] [cursor=pointer]:
+          - /url: mailto:info@batut.net.ua
+      - generic [ref=e17]:
+        - img [ref=e18]: 
+        - link "(067) 130 91 73" [ref=e20] [cursor=pointer]:
+          - /url: tel:0671309173
+    - generic [ref=e23]:
+      - navigation [ref=e24]:
+        - list [ref=e26]:
+          - listitem [ref=e27]:
+            - link "Каталог" [ref=e28] [cursor=pointer]:
+              - /url: https://batut.net.ua/shop/
+          - listitem [ref=e29]:
+            - link "Акції" [ref=e30] [cursor=pointer]:
+              - /url: https://batut.net.ua/category/akcii/
+          - listitem [ref=e31]:
+            - link "Кредит" [ref=e32] [cursor=pointer]:
+              - /url: https://batut.net.ua/sredit/
+          - listitem [ref=e33]:
+            - link "Оплата та доставка" [ref=e34] [cursor=pointer]:
+              - /url: https://batut.net.ua/oplata-ta-dostavka/
+          - listitem [ref=e35]:
+            - link "Блог" [ref=e36] [cursor=pointer]:
+              - /url: https://batut.net.ua/category/news/
+          - listitem [ref=e37]:
+            - link "Галерея" [ref=e38] [cursor=pointer]:
+              - /url: https://batut.net.ua/galereya/
+        - text:  
+      - search [ref=e40]:
+        - generic [ref=e41]:
+          - searchbox "Пошук" [ref=e42]
+          - button "Пошук" [ref=e43] [cursor=pointer]: Пошук
+  - main [ref=e44]:
+    - generic [ref=e47]:
+      - generic [ref=e48]:
+        - generic [ref=e49]:
+          - generic [ref=e52]:
+            - generic [ref=e53]:
+              - navigation "Breadcrumb" [ref=e54]:
+                - link "Home" [ref=e55] [cursor=pointer]:
+                  - /url: https://batut.net.ua
+                - text: /
+                - link "Надувні батути" [ref=e56] [cursor=pointer]:
+                  - /url: https://batut.net.ua/catalog/naduvnye-batuty/
+                - text: / Надувний батут “ЖОНГЛЕР”
+              - heading "Надувний батут “ЖОНГЛЕР”" [level=1] [ref=e57]
+            - generic [ref=e60]:
+              - button "←" [ref=e61] [cursor=pointer]
+              - generic [ref=e63]:
+                - link [ref=e67] [cursor=pointer]:
+                  - /url: https://batut.net.ua/wp-content/uploads/2024/07/299c0eb13cb4c89136d9666cd75f4156.jpg
+                - link [ref=e71] [cursor=pointer]:
+                  - /url: https://batut.net.ua/wp-content/uploads/2024/07/d4010ff1f7f05dd95423cc199d81689b.png
+                - link [ref=e75] [cursor=pointer]:
+                  - /url: https://batut.net.ua/wp-content/uploads/2024/07/c162c5397df5ae823e5c0164e7755d82.jpg
+                - link [ref=e79] [cursor=pointer]:
+                  - /url: https://batut.net.ua/wp-content/uploads/2024/07/a0e6b4b8fa89829852cf23ba6d6bd24b.jpg
+                - link [ref=e83] [cursor=pointer]:
+                  - /url: https://batut.net.ua/wp-content/uploads/2024/07/87674f0fce16f373644274a0adf89409.png
+                - link [ref=e87] [cursor=pointer]:
+                  - /url: https://batut.net.ua/wp-content/uploads/2024/07/52a66af16cb5432ad6a85e29592382da.jpg
+              - button "→" [ref=e88] [cursor=pointer]
+            - generic [ref=e140]:
+              - generic [ref=e144]:
+                - text: 13860,00
+                - generic [ref=e145]: ₴
+              - generic [ref=e146]:
+                - button "Купити" [ref=e147] [cursor=pointer]
+                - button "Задати питання" [ref=e148] [cursor=pointer]:
+                  - img [ref=e149] [cursor=pointer]: 
+                  - generic [ref=e151] [cursor=pointer]: Задати питання
+              - generic [ref=e153]:
+                - text: "SKU:"
+                - generic [ref=e154]: 9304Y
+              - generic [ref=e155]:
+                - generic [ref=e156]:
+                  - generic [ref=e157]: "Розмір, см:"
+                  - generic [ref=e158]: 330x230x230
+                - generic [ref=e159]:
+                  - generic [ref=e160]: "Вага батута, кг:"
+                  - generic [ref=e161]: "17"
+                - generic [ref=e162]:
+                  - generic [ref=e163]: "Розмір упаковки, см:"
+                  - generic [ref=e164]: 38x38x58
+                - generic [ref=e165]:
+                  - generic [ref=e166]: "Макс. сумарна вага гравців, кг:"
+                  - generic [ref=e167]: "113"
+                - generic [ref=e168]:
+                  - generic [ref=e169]: "Макс. зріст гравців, см:"
+                  - generic [ref=e170]: "150"
+                - generic [ref=e171]:
+                  - generic [ref=e172]: "Кількість гравців:"
+                  - generic [ref=e173]: "3"
+                - generic [ref=e174]:
+                  - generic [ref=e175]: "Вік гравців:"
+                  - generic [ref=e176]: від 3 до 10 років
+            - generic [ref=e177]:
+              - paragraph [ref=e178]:
+                - text: Яскравий батут Happy Hop “ЖОНГЛЕР” 9304Y оформлений у веселій тематиці. Батут має квадратну форму із чотирма колонами, між якими натягнута прозора сітка. Одна стінка із зображеннями забавного клоуна з дверцятами, з яких можна з’їхати по гірці. На іншій стінці батута розташоване баскетбольне кільце для ігор у м’яч.
+                - text: "Батут розміщується на невеликому газоні, займає невелику площу і легко встановлюється протягом 3 – 5 хвилин. У комплекті є все необхідне приладдя для встановлення та експлуатації надувного комплексу: сумка для транспортування та зберігання батута, компресор та кілочки для кріплення."
+                - text: Надувний батут – це цілий розважальний комплекс для дітей, який принесе із собою радість у Вашу оселю.
+              - paragraph [ref=e179]: "Матеріали виробу:"
+              - paragraph [ref=e180]:
+                - text: "стрибкова поверхня: ПВХ ламінований (laminated PVC);"
+                - text: "матеріал гірки: ламінована тканина Оксфорд;"
+                - text: "інше: ламінована тканина Оксфорд;"
+                - text: "застібки: лавсан;"
+                - text: "кріплення до землі: пластмаса."
+              - paragraph [ref=e181]:
+                - text: "Міцність:"
+                - text: Міцність виробу на розтяг – до 136 кілограмів.
+                - text: Міцність виробу на розрив – до 14 кілограмів.
+                - text: Міцність виробу на з’єднання – до 27 кілограмів.
+                - text: "Виріб (батут) витримує широкий діапазон температур: від мінус 10 до плюс 40°С."
+              - paragraph [ref=e182]:
+                - text: "Характеристики повітронагнітача:"
+                - text: модель W-2E;
+                - text: потужність 320-330 Вт;
+                - text: напруга 220-240;
+                - text: частота коливань струму 50 Гц;
+                - text: ступінь захисту від електричного струму IPX4;
+                - text: рівень шуму компресора 81 Дб;
+                - text: компресор батута високої якості, високоефективний, безпечний при використанні та нешкідливий для довкілля;
+                - text: компресор можна використовувати при температурі від -15 до + 40 градусів за Цельсієм, крім цього він обладнаний пристроєм захисту;
+                - text: при виникненні в компресорі короткого замикання або при інших проблемах при його експлуатації, він негайно вимикається, тим самим забезпечує безпеку користувачеві надувного батута;
+              - paragraph [ref=e183]: "Комплектація:"
+              - paragraph [ref=e184]:
+                - text: Надувний батут.
+                - text: Повітронагнітач (компресор).
+                - text: Сумка для зберігання батута.
+                - text: Пластикові кілочки для фіксації батута.
+                - text: Пластикові кілочки для фіксації повітронагнітача.
+                - text: Ремкомплект (по два шматочки тканини кожного кольору).
+                - text: Інструкція.
+              - paragraph [ref=e185]:
+                - text: "Батути ТМ Happy Hop пройшли наступні тести з оцінкою відмінно та отримали такі сертифікати:"
+                - text: TUV – тест на безпеку для різних частин тіла дитини.
+                - text: EN71 – європейський сертифікат безпеки іграшок SGS.
+                - text: RoHS – стандарт, що гарантує відсутність у виробах шкідливих для людини матеріалів.
+                - text: GS – європейський стандарт електро- та пожежної безпеки виробів.
+                - text: GS – відповідність стандартам якості та безпеки Європейського Союзу.
+                - text: BS – відповідність стандартам якості та безпеки Великобританії.
+                - text: ASTM – відповідність стандартам якості та безпеки США та Канади.
+              - paragraph [ref=e186]: "Досі на батутах Happy Hop веселилися діти та раділи батьки: Англії, Німеччини, Італії, Австралії та Нової Зеландії, а тепер і наші малюки мають можливість приєднатися до команди здорових та активних дітлахів."
+              - paragraph [ref=e187]:
+                - iframe [ref=e188]:
+                  - generic "YouTube Video Player" [ref=f1e3]:
+                    - generic [ref=f1e5]:
+                      - link "Photo image of BatutUa - все про батути" [ref=f1e8] [cursor=pointer]:
+                        - /url: https://www.youtube.com/channel/UC-8GkXqddjrrMlqQhU7Mb0g?embeds_referring_euri=https%3A%2F%2Fbatut.net.ua%2F
+                      - link "Надувний батут \"Жонглер\" для дітей від 3-х до 10 років" [ref=f1e11] [cursor=pointer]:
+                        - /url: https://www.youtube.com/watch?v=QNfHZO-ddvM
+                      - button "Share" [ref=f1e13] [cursor=pointer]:
+                        - generic [ref=f1e14] [cursor=pointer]:
+                          - img
+                        - generic [ref=f1e15] [cursor=pointer]: Share
+                    - button "Play" [ref=f1e18] [cursor=pointer]:
+                      - img
+                    - link "Watch on YouTube" [ref=f1e19] [cursor=pointer]:
+                      - /url: https://www.youtube.com/watch?v=QNfHZO-ddvM&embeds_referring_euri=https%3A%2F%2Fbatut.net.ua%2F
+                      - generic [ref=f1e20] [cursor=pointer]: Watch on
+                      - generic [ref=f1e21] [cursor=pointer]:
+                        - img
+                - iframe [ref=e189]:
+                  - generic "YouTube Video Player" [ref=f2e3]:
+                    - generic [ref=f2e5]:
+                      - link "Photo image of BatutUa - все про батути" [ref=f2e8] [cursor=pointer]:
+                        - /url: https://www.youtube.com/channel/UC-8GkXqddjrrMlqQhU7Mb0g?embeds_referring_euri=https%3A%2F%2Fbatut.net.ua%2F
+                      - 'link "Надувний батут Жонглер: ідеальний вибір для активних дітей!" [ref=f2e11] [cursor=pointer]':
+                        - /url: https://www.youtube.com/watch?v=uZPt79B-opw
+                      - button "Share" [ref=f2e13] [cursor=pointer]:
+                        - generic [ref=f2e14] [cursor=pointer]:
+                          - img
+                        - generic [ref=f2e15] [cursor=pointer]: Share
+                    - button "Play" [ref=f2e18] [cursor=pointer]:
+                      - img
+                    - link "Watch on YouTube" [ref=f2e19] [cursor=pointer]:
+                      - /url: https://www.youtube.com/watch?v=uZPt79B-opw&embeds_referring_euri=https%3A%2F%2Fbatut.net.ua%2F
+                      - generic [ref=f2e20] [cursor=pointer]: Watch on
+                      - generic [ref=f2e21] [cursor=pointer]:
+                        - img
+          - generic [ref=e190]:
+            - heading "Related products" [level=2] [ref=e191]
+            - list [ref=e192]:
+              - button "Previous" [ref=e193] [cursor=pointer]
+              - generic [ref=e195]:
+                - listitem [ref=e198]:
+                  - generic [ref=e199]:
+                    - link [ref=e200] [cursor=pointer]:
+                      - /url: https://batut.net.ua/catalog/naduvnye-batuty/igrovoy-centr-dom-solnca-happy-hop/
+                    - heading [level=2] [ref=e201]:
+                      - link [ref=e202] [cursor=pointer]:
+                        - /url: https://batut.net.ua/catalog/naduvnye-batuty/igrovoy-centr-dom-solnca-happy-hop/
+                        - text: Надувний батут “ДІМ СОНЦЯ”
+                    - link [ref=e204] [cursor=pointer]:
+                      - /url: https://batut.net.ua/catalog/naduvnye-batuty/igrovoy-centr-dom-solnca-happy-hop/
+                      - text: Детальніше
+                - listitem [ref=e207]:
+                  - generic [ref=e208]:
+                    - link [ref=e209] [cursor=pointer]:
+                      - /url: https://batut.net.ua/catalog/naduvnye-batuty/batut-shchasliviy-budinok-happy-hop/
+                    - heading [level=2] [ref=e210]:
+                      - link [ref=e211] [cursor=pointer]:
+                        - /url: https://batut.net.ua/catalog/naduvnye-batuty/batut-shchasliviy-budinok-happy-hop/
+                        - text: Надувний батут “ЩАСЛИВИЙ БУДИНОК”
+                    - generic [ref=e215]:
+                      - text: 16800,00
+                      - generic [ref=e216]: ₴
+                    - link [ref=e217] [cursor=pointer]:
+                      - /url: https://batut.net.ua/catalog/naduvnye-batuty/batut-shchasliviy-budinok-happy-hop/
+                      - text: Детальніше
+                - listitem [ref=e220]:
+                  - generic [ref=e221]:
+                    - link [ref=e222] [cursor=pointer]:
+                      - /url: https://batut.net.ua/catalog/naduvnye-batuty/batut-galaktika-happy-hop/
+                    - heading [level=2] [ref=e223]:
+                      - link [ref=e224] [cursor=pointer]:
+                        - /url: https://batut.net.ua/catalog/naduvnye-batuty/batut-galaktika-happy-hop/
+                        - text: Надувний батут “ГАЛАКТИКА”
+                    - generic [ref=e228]:
+                      - text: 18810,00
+                      - generic [ref=e229]: ₴
+                    - link [ref=e230] [cursor=pointer]:
+                      - /url: https://batut.net.ua/catalog/naduvnye-batuty/batut-galaktika-happy-hop/
+                      - text: Детальніше
+                - tabpanel [ref=e231]:
+                  - listitem [ref=e233]:
+                    - generic [ref=e234]:
+                      - generic [ref=e235]: Топ продажу
+                      - link [ref=e236] [cursor=pointer]:
+                        - /url: https://batut.net.ua/catalog/naduvnye-batuty/batut-monstr-happy-hop/
+                      - heading [level=2] [ref=e237]:
+                        - link [ref=e238] [cursor=pointer]:
+                          - /url: https://batut.net.ua/catalog/naduvnye-batuty/batut-monstr-happy-hop/
+                          - text: Надувний батут “МОНСТР”
+                      - generic [ref=e242]:
+                        - text: 11600,00
+                        - generic [ref=e243]: ₴
+                      - link [ref=e244] [cursor=pointer]:
+                        - /url: https://batut.net.ua/catalog/naduvnye-batuty/batut-monstr-happy-hop/
+                        - text: Детальніше
+                - tabpanel [ref=e245]:
+                  - listitem [ref=e247]:
+                    - generic [ref=e248]:
+                      - link [ref=e249] [cursor=pointer]:
+                        - /url: https://batut.net.ua/catalog/naduvnye-batuty/igrovoy-centr-dom-solnca-happy-hop/
+                      - heading [level=2] [ref=e250]:
+                        - link [ref=e251] [cursor=pointer]:
+                          - /url: https://batut.net.ua/catalog/naduvnye-batuty/igrovoy-centr-dom-solnca-happy-hop/
+                          - text: Надувний батут “ДІМ СОНЦЯ”
+                      - link [ref=e253] [cursor=pointer]:
+                        - /url: https://batut.net.ua/catalog/naduvnye-batuty/igrovoy-centr-dom-solnca-happy-hop/
+                        - text: Детальніше
+                - tabpanel [ref=e254]:
+                  - listitem [ref=e256]:
+                    - generic [ref=e257]:
+                      - link [ref=e258] [cursor=pointer]:
+                        - /url: https://batut.net.ua/catalog/naduvnye-batuty/batut-shchasliviy-budinok-happy-hop/
+                      - heading "Надувний батут “ЩАСЛИВИЙ БУДИНОК”" [level=2] [ref=e259]:
+                        - link "Надувний батут “ЩАСЛИВИЙ БУДИНОК”" [ref=e260] [cursor=pointer]:
+                          - /url: https://batut.net.ua/catalog/naduvnye-batuty/batut-shchasliviy-budinok-happy-hop/
+                      - generic [ref=e264]:
+                        - text: 16800,00
+                        - generic [ref=e265]: ₴
+                      - link "Детальніше" [ref=e266] [cursor=pointer]:
+                        - /url: https://batut.net.ua/catalog/naduvnye-batuty/batut-shchasliviy-budinok-happy-hop/
+                - tabpanel [ref=e267]:
+                  - listitem [ref=e269]:
+                    - generic [ref=e270]:
+                      - link [ref=e271] [cursor=pointer]:
+                        - /url: https://batut.net.ua/catalog/naduvnye-batuty/batut-galaktika-happy-hop/
+                      - heading "Надувний батут “ГАЛАКТИКА”" [level=2] [ref=e272]:
+                        - link "Надувний батут “ГАЛАКТИКА”" [ref=e273] [cursor=pointer]:
+                          - /url: https://batut.net.ua/catalog/naduvnye-batuty/batut-galaktika-happy-hop/
+                      - generic [ref=e277]:
+                        - text: 18810,00
+                        - generic [ref=e278]: ₴
+                      - link "Детальніше" [ref=e279] [cursor=pointer]:
+                        - /url: https://batut.net.ua/catalog/naduvnye-batuty/batut-galaktika-happy-hop/
+                - listitem [ref=e282]:
+                  - generic [ref=e283]:
+                    - generic [ref=e284]: Топ продажу
+                    - link [ref=e285] [cursor=pointer]:
+                      - /url: https://batut.net.ua/catalog/naduvnye-batuty/batut-monstr-happy-hop/
+                    - heading "Надувний батут “МОНСТР”" [level=2] [ref=e286]:
+                      - link "Надувний батут “МОНСТР”" [ref=e287] [cursor=pointer]:
+                        - /url: https://batut.net.ua/catalog/naduvnye-batuty/batut-monstr-happy-hop/
+                    - generic [ref=e291]:
+                      - text: 11600,00
+                      - generic [ref=e292]: ₴
+                    - link "Детальніше" [ref=e293] [cursor=pointer]:
+                      - /url: https://batut.net.ua/catalog/naduvnye-batuty/batut-monstr-happy-hop/
+                - listitem [ref=e296]:
+                  - generic [ref=e297]:
+                    - link [ref=e298] [cursor=pointer]:
+                      - /url: https://batut.net.ua/catalog/naduvnye-batuty/igrovoy-centr-dom-solnca-happy-hop/
+                    - heading [level=2] [ref=e299]:
+                      - link [ref=e300] [cursor=pointer]:
+                        - /url: https://batut.net.ua/catalog/naduvnye-batuty/igrovoy-centr-dom-solnca-happy-hop/
+                        - text: Надувний батут “ДІМ СОНЦЯ”
+                    - link [ref=e302] [cursor=pointer]:
+                      - /url: https://batut.net.ua/catalog/naduvnye-batuty/igrovoy-centr-dom-solnca-happy-hop/
+                      - text: Детальніше
+                - listitem [ref=e305]:
+                  - generic [ref=e306]:
+                    - link [ref=e307] [cursor=pointer]:
+                      - /url: https://batut.net.ua/catalog/naduvnye-batuty/batut-shchasliviy-budinok-happy-hop/
+                    - heading [level=2] [ref=e308]:
+                      - link [ref=e309] [cursor=pointer]:
+                        - /url: https://batut.net.ua/catalog/naduvnye-batuty/batut-shchasliviy-budinok-happy-hop/
+                        - text: Надувний батут “ЩАСЛИВИЙ БУДИНОК”
+                    - generic [ref=e313]:
+                      - text: 16800,00
+                      - generic [ref=e314]: ₴
+                    - link [ref=e315] [cursor=pointer]:
+                      - /url: https://batut.net.ua/catalog/naduvnye-batuty/batut-shchasliviy-budinok-happy-hop/
+                      - text: Детальніше
+                - listitem [ref=e318]:
+                  - generic [ref=e319]:
+                    - link [ref=e320] [cursor=pointer]:
+                      - /url: https://batut.net.ua/catalog/naduvnye-batuty/batut-galaktika-happy-hop/
+                    - heading [level=2] [ref=e321]:
+                      - link [ref=e322] [cursor=pointer]:
+                        - /url: https://batut.net.ua/catalog/naduvnye-batuty/batut-galaktika-happy-hop/
+                        - text: Надувний батут “ГАЛАКТИКА”
+                    - generic [ref=e326]:
+                      - text: 18810,00
+                      - generic [ref=e327]: ₴
+                    - link [ref=e328] [cursor=pointer]:
+                      - /url: https://batut.net.ua/catalog/naduvnye-batuty/batut-galaktika-happy-hop/
+                      - text: Детальніше
+              - button "Next" [ref=e329] [cursor=pointer]
+              - tablist [ref=e330]:
+                - tab "1 of 2" [ref=e331] [cursor=pointer]: • 1
+                - tab "2 of 2" [selected] [ref=e332] [cursor=pointer]: • 2
+                - tab "3 of 2" [ref=e333] [cursor=pointer]: • 3
+                - tab "4 of 2" [ref=e334] [cursor=pointer]: • 4
+        - generic [ref=e335]:
+          - generic [ref=e336]:
+            - heading "Reviews" [level=2] [ref=e337]
+            - paragraph [ref=e338]: There are no reviews yet
+          - generic [ref=e341]:
+            - generic [ref=e342]: Be the first to review “Надувний батут “ЖОНГЛЕР””
+            - generic [ref=e343]:
+              - paragraph [ref=e344]:
+                - generic [ref=e345]: Ваша e-mail адреса не оприлюднюватиметься.
+                - generic [ref=e346]:
+                  - text: Обов’язкові поля позначені
+                  - generic [ref=e347]: "*"
+              - paragraph [ref=e348]:
+                - generic [ref=e349]:
+                  - text: Your review
+                  - generic [ref=e350]: "*"
+                - textbox "Your review *" [ref=e351]
+              - generic [ref=e353]:
+                - img [ref=e354]: 
+                - text: Додайте до 5 зображень чи відео
+              - paragraph [ref=e356]:
+                - generic [ref=e357]: Ваше ім'я
+                - textbox "Ваше ім'я" [ref=e358]
+              - paragraph [ref=e359]:
+                - generic [ref=e360]:
+                  - text: Email
+                  - generic [ref=e361]: "*"
+                - textbox "Email *" [ref=e362]
+              - paragraph [ref=e363]:
+                - checkbox "Зберегти моє ім'я, e-mail, та адресу сайту в цьому браузері для моїх подальших коментарів." [ref=e364]
+                - generic [ref=e365]: Зберегти моє ім'я, e-mail, та адресу сайту в цьому браузері для моїх подальших коментарів.
+              - paragraph [ref=e366]:
+                - button "Submit" [ref=e367] [cursor=pointer]
+      - generic [ref=e368]:
+        - generic [ref=e369]:
+          - heading "Каталог" [level=2] [ref=e370]
+          - list [ref=e372]:
+            - listitem [ref=e373]:
+              - link "Надувні батути" [ref=e374] [cursor=pointer]:
+                - /url: https://batut.net.ua/catalog/naduvnye-batuty/
+            - listitem [ref=e375]:
+              - link "Спортивні батути" [ref=e376] [cursor=pointer]:
+                - /url: https://batut.net.ua/catalog/sportivnye-batuty/
+            - listitem [ref=e377]:
+              - link "Ігровий центр для басейну" [ref=e378] [cursor=pointer]:
+                - /url: https://batut.net.ua/catalog/batutydlyasamykhmalenkikh/
+        - generic [ref=e379]:
+          - heading "Підбір параметрів" [level=3] [ref=e380]
+          - generic [ref=e381]:
+            - generic [ref=e382]:
+              - paragraph [ref=e383]: Вік
+              - generic [ref=e384]:
+                - spinbutton [ref=e385]
+                - text: "-"
+                - spinbutton [ref=e386]
+            - generic [ref=e387]:
+              - paragraph [ref=e388]: Кількість гравців
+              - generic [ref=e389]:
+                - spinbutton [ref=e390]
+                - text: "-"
+                - spinbutton [ref=e391]
+            - generic [ref=e392]:
+              - paragraph [ref=e393]: Ціна
+              - generic [ref=e398]:
+                - generic [ref=e399]: "620"
+                - text: "-"
+                - generic [ref=e400]: "31482"
+            - generic [ref=e401]:
+              - button "Показати" [ref=e402] [cursor=pointer]
+              - link "Скинути" [ref=e403] [cursor=pointer]:
+                - /url: https://batut.net.ua/shop/
+        - link "Завантажити прайс-лист" [ref=e405] [cursor=pointer]:
+          - /url: https://batut.net.ua/wp-content/uploads/2024/07/prajs-1.pdf
+          - img [ref=e406] [cursor=pointer]: 
+          - generic [ref=e408] [cursor=pointer]: Завантажити
+          - generic [ref=e409] [cursor=pointer]: прайс-лист
+    - list [ref=e412]:
+      - listitem [ref=e413]:
+        - link "Про нас" [ref=e414] [cursor=pointer]:
+          - /url: https://batut.net.ua/about-company/
+      - listitem [ref=e415]:
+        - link "Відгуки" [ref=e416] [cursor=pointer]:
+          - /url: https://batut.net.ua/reviews/
+      - listitem [ref=e417]:
+        - link "Сертифікати" [ref=e418] [cursor=pointer]:
+          - /url: https://batut.net.ua/licenses/
+      - listitem [ref=e419]:
+        - link "Партнери" [ref=e420] [cursor=pointer]:
+          - /url: https://batut.net.ua/partners/
+      - listitem [ref=e421]:
+        - link "Контакти" [ref=e422] [cursor=pointer]:
+          - /url: https://batut.net.ua/kontakty/
+  - contentinfo [ref=e423]:
+    - text: 
+    - generic [ref=e425]:
+      - generic [ref=e426]:
+        - paragraph [ref=e427]: © 2024 batut.net.ua
+        - list [ref=e428]:
+          - listitem [ref=e429]:
+            - link [ref=e430] [cursor=pointer]:
+              - /url: https://www.facebook.com/batut.net
+              - img [ref=e431] [cursor=pointer]
+          - listitem [ref=e432]:
+            - link [ref=e433] [cursor=pointer]:
+              - /url: https://www.instagram.com/batut_happy_hop
+              - img [ref=e434] [cursor=pointer]
+          - listitem [ref=e435]:
+            - link [ref=e436] [cursor=pointer]:
+              - /url: https://www.youtube.com/@BatutNetUa
+              - img [ref=e437] [cursor=pointer]
+      - list [ref=e439]:
+        - listitem [ref=e440]:
+          - img [ref=e441]: 
+          - link "м. Київ, вул. Ялтинська, 10/14" [ref=e443] [cursor=pointer]:
+            - /url: /kontakty/
+        - listitem [ref=e444]:
+          - img [ref=e445]: 
+          - link "info@batut.net.ua" [ref=e447] [cursor=pointer]:
+            - /url: mailto:info@batut.net.ua
+      - paragraph [ref=e449]:
+        - img [ref=e450]: 
+        - link "(067) 130 91 73" [ref=e452] [cursor=pointer]:
+          - /url: tel:0671309173
+  - generic [ref=e453] [cursor=pointer]:
+    - img [ref=e454] [cursor=pointer]
+    - generic [ref=e458] [cursor=pointer]:
+      - text: КНОПКА
+      - text: ЗВ'ЯЗКУ
+    - img [ref=e459] [cursor=pointer]
+  - iframe [ref=e463]:
+    - generic [ref=f3e2]:
+      - generic [ref=f3e5]:
+        - link "Privacy" [ref=f3e6] [cursor=pointer]:
+          - /url: https://www.google.com/intl/en/policies/privacy/
+        - generic [ref=f3e7]: "-"
+        - link "Terms" [ref=f3e8] [cursor=pointer]:
+          - /url: https://www.google.com/intl/en/policies/terms/
+      - generic [ref=f3e9]:
+        - generic [ref=f3e10]:
+          - text: protected by
+          - strong [ref=f3e11]: reCAPTCHA
+        - generic [ref=f3e13]: "-"
 ```
