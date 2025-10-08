@@ -9,20 +9,24 @@ const uniqueUser = generateUniqueUsername()
 
 test.beforeEach(async({page}) => {
     await page.goto ('https://practice.expandtesting.com/register')
-    await page.locator('#username').scrollIntoViewIfNeeded
+    await page.locator('#username').scrollIntoViewIfNeeded()    
     
 })
 
 const passwordInput = async ({page,passwordTxt}) => {
     await page.locator('#password').fill(passwordTxt)
     await page.locator('#confirmPassword').fill(passwordTxt)
-    await page.getByRole('button', {name:"Register"}).scrollIntoViewIfNeeded
+    await page.getByRole('button', {name:"Register"}).scrollIntoViewIfNeeded()
     await page.getByRole('button', {name:"Register"}).click()
+}
+
+const userNameInput = async ({page, userNameTxt}) => {
+    await page.locator('#username').fill(userNameTxt)
 }
 
 
 test ('valid registration', async ({page}) => {
-    await page.locator('#username').fill(uniqueUser)
+    await userNameInput({page:page, userNameTxt: uniqueUser})
     await passwordInput({page:page, passwordTxt: "Qual1ty!!!"})
 
     await expect(page).toHaveURL('https://practice.expandtesting.com/login')
@@ -31,7 +35,7 @@ test ('valid registration', async ({page}) => {
 })
 
 test ('empty required fields', async({page}) => {
-    await page.getByRole('button', {name:"Register"}).scrollIntoViewIfNeeded
+    await page.getByRole('button', {name:"Register"}).scrollIntoViewIfNeeded()
     await page.getByRole('button', {name:"Register"}).click()
 
     await expect(page).toHaveURL('https://practice.expandtesting.com/register')
@@ -46,8 +50,8 @@ test ('emty user name', async ({page}) =>{
 })
 
 test ('empty password', async ({page}) => {
-    await page.locator('#username').fill(uniqueUser)
-    await page.getByRole('button', {name:"Register"}).scrollIntoViewIfNeeded
+    await userNameInput({page:page, userNameTxt: uniqueUser})
+    await page.getByRole('button', {name:"Register"}).scrollIntoViewIfNeeded()
     await page.getByRole('button', {name:"Register"}).click()
 
     await expect(page).toHaveURL('https://practice.expandtesting.com/register')
@@ -55,7 +59,7 @@ test ('empty password', async ({page}) => {
 })
 
 test ('use short username', async ({page}) => {
-    await page.locator('#username').fill('Aa')
+    await userNameInput({page:page, userNameTxt: "Aa"})
     await passwordInput({page:page, passwordTxt: "Qual1ty!!!"})
 
     await expect(page).toHaveURL('https://practice.expandtesting.com/register')
@@ -63,7 +67,7 @@ test ('use short username', async ({page}) => {
 })
 
 test ('use too long username', async ({page}) => {
-    await page.locator('#username').fill('0123456789012345678901234567890123456789')
+    await userNameInput({page:page, userNameTxt: "0123456789012345678901234567890123456789"})
     await passwordInput({page:page, passwordTxt: "Qual1ty!!!"})
 
     await expect(page).toHaveURL('https://practice.expandtesting.com/register')
@@ -71,7 +75,7 @@ test ('use too long username', async ({page}) => {
 })
 
 test ('use short password', async ({page}) =>{
-    await page.locator('#username').fill(uniqueUser)
+    await userNameInput({page:page, userNameTxt: uniqueUser})
     await passwordInput({page:page, passwordTxt: "12"})
 
     await expect(page).toHaveURL('https://practice.expandtesting.com/register')
@@ -79,7 +83,7 @@ test ('use short password', async ({page}) =>{
 })
 
 test ('invalid username', async ({page}) =>{
-    await page.locator('#username').fill('Aaaa__@!#$')
+    await userNameInput({page:page, userNameTxt: "Aaaa__@!#$"})
     await passwordInput({page:page, passwordTxt: "Qual1ty!!!"})
 
     await expect(page).toHaveURL('https://practice.expandtesting.com/register')
@@ -87,10 +91,10 @@ test ('invalid username', async ({page}) =>{
 })
 
 test ('password missmatch', async ({page}) => {
-    await page.locator('#username').fill(uniqueUser)
+    await userNameInput({page:page, userNameTxt: uniqueUser})
     await page.locator('#password').fill('Qual1ty!!!')
     await page.locator('#confirmPassword').fill('Qual1ty!!!wrong')
-    await page.getByRole('button', {name:"Register"}).scrollIntoViewIfNeeded
+    await page.getByRole('button', {name:"Register"}).scrollIntoViewIfNeeded()
     await page.getByRole('button', {name:"Register"}).click()
 
     await expect(page).toHaveURL('https://practice.expandtesting.com/register')

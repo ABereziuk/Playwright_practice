@@ -14,5 +14,12 @@ test ('forgot password successful', async ({page}) =>{
 test ('empty email', async ({page}) => {
     await page.getByRole('button', {name:"Retrieve password"}).click()
 
-    await expect(page.locator('.ms-1 invalid-feedback')).toHaveText('Please enter a valid email address.')
+    await expect(page.locator('.invalid-feedback')).toHaveText('Please enter a valid email address.')
+})
+
+test ('invalid email', async ({page}) => {
+    await page.locator('#email').fill('testtest.com')
+    await page.getByRole('button', {name:"Retrieve password"}).click()
+
+    await expect(page.locator('.invalid-feedback')).toHaveText('Please enter a valid email address.')
 })

@@ -10,11 +10,18 @@ test.beforeEach(async({page}) => {
     await page.waitForTimeout(1000)
 })
 
+const userNameInput = async ({page, userNameTxt}) => {
+    await page.locator('#username').fill(userNameTxt)
+}
+
+const passwordInput = async ({page, passwordTxt}) => {
+    await page.locator ('#password').fill(passwordTxt)
+
+}
+
 test ('successful login', async ({page}) => {
-    const username = await page.locator('#username')
-    const password = await page.locator('#password')
-    await username.fill('practice')
-    await password.fill('SuperSecretPassword!')
+    await userNameInput ({page:page, userNameTxt: "practice"})
+    await passwordInput ({page:page, passwordTxt: "SuperSecretPassword!"})
     await clickLogin(page)
 
     await expect(page).toHaveURL('https://practice.expandtesting.com/secure')
@@ -29,8 +36,7 @@ test ('empty credentials', async ({page}) => {
 })
 
 test ('empty username', async ({page}) => {
-    const password = await page.locator('#password')
-    await password.fill('SuperSecretPassword!')
+    await passwordInput ({page:page, passwordTxt: "SuperSecretPassword!"})
     await clickLogin(page)
 
     await expect (page.getByRole('alert')).toHaveText('Your username is invalid!')
@@ -38,8 +44,7 @@ test ('empty username', async ({page}) => {
 })
 
 test ('empty password', async ({page}) => {
-    const username = await page.locator('#username')
-    await username.fill('practice')
+    await userNameInput ({page:page, userNameTxt: "practice"})
     await clickLogin(page)
 
     await expect(page.getByRole('alert')).toHaveText('Your password is invalid!')
@@ -47,10 +52,8 @@ test ('empty password', async ({page}) => {
 })
 
 test ('invalid username', async ({page}) => {
-    const username = await page.locator('#username')
-    const password = await page.locator('#password')
-    await username.fill('wrong-user-name')
-    await password.fill('SuperSecretPassword!')
+    await userNameInput ({page:page, userNameTxt: "ivalidusername"})
+    await passwordInput ({page:page, passwordTxt: "SuperSecretPassword!"})
     await clickLogin(page)
 
     await expect (page.getByRole('alert')).toHaveText('Your username is invalid!')
@@ -58,10 +61,8 @@ test ('invalid username', async ({page}) => {
 })
 
 test ('invalid password', async ({page}) => {
-    const username = await page.locator('#username')
-    const password = await page.locator('#password')
-    await username.fill('practice')
-    await password.fill('Wrongpassword!')
+    await userNameInput ({page:page, userNameTxt: "practice"})
+    await passwordInput ({page:page, passwordTxt: "invalidpassword"})
     await clickLogin(page)
 
     await expect (page.getByRole('alert')).toHaveText('Your password is invalid!')
