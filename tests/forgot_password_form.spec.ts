@@ -1,25 +1,35 @@
-import{test, expect} from '@playwright/test'
+import { test, expect } from '@playwright/test'
+import { LoginPage, Buttons, Alerts, Errors } from './page_objects/objects.js'
+let loginPage
+let button
+let alerts
+let errors
 
-test.beforeEach(async ({page}) => {
-    page.goto('https://practice.expandtesting.com/forgot-password')
-})
+test.beforeEach(async ({ page }) => {
+    await page.goto('https://practice.expandtesting.com/forgot-password')
+    loginPage = new LoginPage(page)
+    button = new Buttons(page)
+    alerts = new Alerts (page)
+    errors = new Errors (page)
+});
 
 test ('forgot password successful', async ({page}) =>{
-    await page.locator('#email').fill('test@test.com')
-    await page.getByRole('button', {name:"Retrieve password"}).click()
+    await loginPage.emailField({email:'test@test.com'})
+    await button.retrievePasswordBtn()
 
-    await expect(page.locator('#confirmation-alert')).toHaveText('An e-mail has been sent to you which explains how to reset your password.')
+    await expect(alerts.retrieveAlert()).toHaveText('An e-mail has been sent to you which explains how to reset your password.')
+
 })
 
 test ('empty email', async ({page}) => {
-    await page.getByRole('button', {name:"Retrieve password"}).click()
+    await button.retrievePasswordBtn()
 
-    await expect(page.locator('.invalid-feedback')).toHaveText('Please enter a valid email address.')
+    await expect(errors.inavalidEmailError()).toHaveText('Please enter a valid email address.')
 })
 
 test ('invalid email', async ({page}) => {
-    await page.locator('#email').fill('testtest.com')
-    await page.getByRole('button', {name:"Retrieve password"}).click()
+    await loginPage.emailField({email:'testtest.com'})
+    await button.retrievePasswordBtn()
 
-    await expect(page.locator('.invalid-feedback')).toHaveText('Please enter a valid email address.')
+    await expect(errors.inavalidEmailError()).toHaveText('Please enter a valid email address.')
 })

@@ -1,102 +1,104 @@
-import{test, expect} from '@playwright/test'
+import { test, expect } from '@playwright/test'
+import { LoginPage, Buttons, Alerts, Errors } from './page_objects/objects.js'
+let loginPage
+let button
+let alerts
+let errors
 //function to generate unique user name
 function generateUniqueUsername(base: string = 'user') {
     const timestamp = Date.now();
     return `${base}${timestamp}`
 }
-const uniqueUser = generateUniqueUsername()
 
+test.beforeEach(async ({ page }) => {
+    await page.goto('https://practice.expandtesting.com/register')
+    loginPage = new LoginPage(page)
+    button = new Buttons(page)
+    alerts = new Alerts (page)
+    errors = new Errors (page)
+});
 
-test.beforeEach(async({page}) => {
-    await page.goto ('https://practice.expandtesting.com/register')
-    await page.locator('#username').scrollIntoViewIfNeeded()    
-    
-})
-
-const passwordInput = async ({page,passwordTxt}) => {
-    await page.locator('#password').fill(passwordTxt)
-    await page.locator('#confirmPassword').fill(passwordTxt)
-    await page.getByRole('button', {name:"Register"}).scrollIntoViewIfNeeded()
-    await page.getByRole('button', {name:"Register"}).click()
-}
-
-const userNameInput = async ({page, userNameTxt}) => {
-    await page.locator('#username').fill(userNameTxt)
-}
-
-
-test ('valid registration', async ({page}) => {
-    await userNameInput({page:page, userNameTxt: uniqueUser})
-    await passwordInput({page:page, passwordTxt: "Qual1ty!!!"})
+test ('Valid registration', async ({page}) => {
+    await loginPage.userNameField ({userName:generateUniqueUsername()})
+    await loginPage.passwordField ({password: 'Qual1ty!!!'})
+    await loginPage.confirmPasswordField ({confirmedPassword: 'Qual1ty!!!'})
+    await button.registerBtn()
 
     await expect(page).toHaveURL('https://practice.expandtesting.com/login')
-    await expect(page.getByRole('alert')).toHaveText('Successfully registered, you can log in now.')
+    await expect(alerts.RegistrationAlert()).toHaveText('Successfully registered, you can log in now.')
 
 })
 
-test ('empty required fields', async({page}) => {
-    await page.getByRole('button', {name:"Register"}).scrollIntoViewIfNeeded()
-    await page.getByRole('button', {name:"Register"}).click()
+test ('Empty required fields', async({page}) => {
+    await button.registerBtn()
 
     await expect(page).toHaveURL('https://practice.expandtesting.com/register')
-    await expect(page.getByRole('alert')).toHaveText('All fields are required.')
+    await expect(alerts.RegistrationAlert()).toHaveText('All fields are required.')
 })
 
-test ('emty user name', async ({page}) =>{
-    await passwordInput({page:page, passwordTxt: "Qual1ty!!!"})
+test ('Empty user name', async ({page}) =>{
+    await loginPage.passwordField ({password: 'Qual1ty!!!'})
+    await loginPage.confirmPasswordField ({confirmedPassword: 'Qual1ty!!!'})
+    await button.registerBtn()
 
     await expect(page).toHaveURL('https://practice.expandtesting.com/register')
-    await expect(page.getByRole('alert')).toHaveText('All fields are required.')
+    await expect(alerts.RegistrationAlert()).toHaveText('All fields are required.')
 })
 
-test ('empty password', async ({page}) => {
-    await userNameInput({page:page, userNameTxt: uniqueUser})
-    await page.getByRole('button', {name:"Register"}).scrollIntoViewIfNeeded()
-    await page.getByRole('button', {name:"Register"}).click()
+test ('Empty password', async ({page}) => {
+    await loginPage.userNameField ({userName:generateUniqueUsername()})
+    await button.registerBtn()
 
     await expect(page).toHaveURL('https://practice.expandtesting.com/register')
-    await expect(page.getByRole('alert')).toHaveText('All fields are required.')
+    await expect(alerts.RegistrationAlert()).toHaveText('All fields are required.')
 })
 
-test ('use short username', async ({page}) => {
-    await userNameInput({page:page, userNameTxt: "Aa"})
-    await passwordInput({page:page, passwordTxt: "Qual1ty!!!"})
+test ('Use short username', async ({page}) => {
+    await loginPage.userNameField ({userName: 'Aa'})
+    await loginPage.passwordField ({password: 'Qual1ty!!!'})
+    await loginPage.confirmPasswordField ({confirmedPassword: 'Qual1ty!!!'})
+    await button.registerBtn()
 
     await expect(page).toHaveURL('https://practice.expandtesting.com/register')
-    await expect(page.getByRole('alert')).toHaveText('Username must be at least 3 characters long.')
+    await expect(alerts.RegistrationAlert()).toHaveText('Username must be at least 3 characters long.')
 })
 
-test ('use too long username', async ({page}) => {
-    await userNameInput({page:page, userNameTxt: "0123456789012345678901234567890123456789"})
-    await passwordInput({page:page, passwordTxt: "Qual1ty!!!"})
+test ('Use too long username', async ({page}) => {
+    await loginPage.userNameField ({userName: '0123456789012345678901234567890123456789'})
+    await loginPage.passwordField ({password: 'Qual1ty!!!'})
+    await loginPage.confirmPasswordField ({confirmedPassword: 'Qual1ty!!!'})
+    await button.registerBtn()
 
     await expect(page).toHaveURL('https://practice.expandtesting.com/register')
-    await expect(page.getByRole('alert')).toHaveText('Invalid username. Usernames can only contain lowercase letters, numbers, and single hyphens, must be between 3 and 39 characters, and cannot start or end with a hyphen.')
+    await expect(alerts.RegistrationAlert()).toHaveText('Invalid username. Usernames can only contain lowercase letters, numbers, and single hyphens, must be between 3 and 39 characters, and cannot start or end with a hyphen.')
 })
 
-test ('use short password', async ({page}) =>{
-    await userNameInput({page:page, userNameTxt: uniqueUser})
-    await passwordInput({page:page, passwordTxt: "12"})
+test ('Use short password', async ({page}) =>{
+    await loginPage.userNameField ({userName:generateUniqueUsername()})
+    await loginPage.passwordField ({password: '12'})
+    await loginPage.confirmPasswordField ({confirmedPassword: '12'})
+    await button.registerBtn()
 
     await expect(page).toHaveURL('https://practice.expandtesting.com/register')
-    await expect(page.getByRole('alert')).toHaveText('Password must be at least 4 characters long.')
+    await expect(alerts.RegistrationAlert()).toHaveText('Password must be at least 4 characters long.')
 })
 
-test ('invalid username', async ({page}) =>{
-    await userNameInput({page:page, userNameTxt: "Aaaa__@!#$"})
-    await passwordInput({page:page, passwordTxt: "Qual1ty!!!"})
+test ('Invalid username', async ({page}) =>{
+    await loginPage.userNameField ({userName: "Aaaa__@!#$"})
+    await loginPage.passwordField ({password: 'Qual1ty!!!'})
+    await loginPage.confirmPasswordField ({confirmedPassword: 'Qual1ty!!!'})
+    await button.registerBtn()
 
     await expect(page).toHaveURL('https://practice.expandtesting.com/register')
-    await expect(page.getByRole('alert')).toHaveText('Invalid username. Usernames can only contain lowercase letters, numbers, and single hyphens, must be between 3 and 39 characters, and cannot start or end with a hyphen.')
+    await expect(alerts.RegistrationAlert()).toHaveText('Invalid username. Usernames can only contain lowercase letters, numbers, and single hyphens, must be between 3 and 39 characters, and cannot start or end with a hyphen.')
 })
 
-test ('password missmatch', async ({page}) => {
-    await userNameInput({page:page, userNameTxt: uniqueUser})
-    await page.locator('#password').fill('Qual1ty!!!')
-    await page.locator('#confirmPassword').fill('Qual1ty!!!wrong')
-    await page.getByRole('button', {name:"Register"}).scrollIntoViewIfNeeded()
-    await page.getByRole('button', {name:"Register"}).click()
+test ('Password missmatch', async ({page}) => {
+    await loginPage.userNameField ({userName:generateUniqueUsername()})
+    await loginPage.passwordField ({password: 'Qual1ty!!!'})
+    await loginPage.confirmPasswordField ({confirmedPassword: 'Qual1ty!!!wrong'})
+    await button.registerBtn()
 
     await expect(page).toHaveURL('https://practice.expandtesting.com/register')
-    await expect(page.getByRole('alert')).toHaveText('Passwords do not match.')
+    await expect(alerts.RegistrationAlert()).toHaveText('Passwords do not match.')
 })
