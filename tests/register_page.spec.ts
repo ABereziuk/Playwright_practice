@@ -1,9 +1,10 @@
 import { test, expect } from '@playwright/test'
 import { LoginPage, Buttons, Alerts, Errors } from './page_objects/objects.js'
-let loginPage
-let button
-let alerts
-let errors
+import { testUser } from './test_data.js'
+let loginPage: LoginPage
+let button: Buttons
+let alerts: Alerts
+let errors: Errors
 //function to generate unique user name
 function generateUniqueUsername(base: string = 'user') {
     const timestamp = Date.now();
@@ -20,8 +21,8 @@ test.beforeEach(async ({ page }) => {
 
 test ('Valid registration', async ({page}) => {
     await loginPage.userNameField ({userName:generateUniqueUsername()})
-    await loginPage.passwordField ({password: 'Qual1ty!!!'})
-    await loginPage.confirmPasswordField ({confirmedPassword: 'Qual1ty!!!'})
+    await loginPage.passwordField ({password: testUser.password})
+    await loginPage.confirmPasswordField ({confirmedPassword: testUser.password})
     await button.registerBtn()
 
     await expect(page).toHaveURL('https://practice.expandtesting.com/login')
@@ -37,8 +38,8 @@ test ('Empty required fields', async({page}) => {
 })
 
 test ('Empty user name', async ({page}) =>{
-    await loginPage.passwordField ({password: 'Qual1ty!!!'})
-    await loginPage.confirmPasswordField ({confirmedPassword: 'Qual1ty!!!'})
+    await loginPage.passwordField ({password: testUser.password})
+    await loginPage.confirmPasswordField ({confirmedPassword: testUser.password})
     await button.registerBtn()
 
     await expect(page).toHaveURL('https://practice.expandtesting.com/register')
@@ -54,9 +55,9 @@ test ('Empty password', async ({page}) => {
 })
 
 test ('Use short username', async ({page}) => {
-    await loginPage.userNameField ({userName: 'Aa'})
-    await loginPage.passwordField ({password: 'Qual1ty!!!'})
-    await loginPage.confirmPasswordField ({confirmedPassword: 'Qual1ty!!!'})
+    await loginPage.userNameField ({userName: testUser.shortName})
+    await loginPage.passwordField ({password: testUser.password})
+    await loginPage.confirmPasswordField ({confirmedPassword: testUser.password})
     await button.registerBtn()
 
     await expect(page).toHaveURL('https://practice.expandtesting.com/register')
@@ -64,9 +65,9 @@ test ('Use short username', async ({page}) => {
 })
 
 test ('Use too long username', async ({page}) => {
-    await loginPage.userNameField ({userName: '0123456789012345678901234567890123456789'})
-    await loginPage.passwordField ({password: 'Qual1ty!!!'})
-    await loginPage.confirmPasswordField ({confirmedPassword: 'Qual1ty!!!'})
+    await loginPage.userNameField ({userName: testUser.longName})
+    await loginPage.passwordField ({password: testUser.password})
+    await loginPage.confirmPasswordField ({confirmedPassword: testUser.password})
     await button.registerBtn()
 
     await expect(page).toHaveURL('https://practice.expandtesting.com/register')
@@ -75,8 +76,8 @@ test ('Use too long username', async ({page}) => {
 
 test ('Use short password', async ({page}) =>{
     await loginPage.userNameField ({userName:generateUniqueUsername()})
-    await loginPage.passwordField ({password: '12'})
-    await loginPage.confirmPasswordField ({confirmedPassword: '12'})
+    await loginPage.passwordField ({password: testUser.shortPassword})
+    await loginPage.confirmPasswordField ({confirmedPassword: testUser.shortPassword})
     await button.registerBtn()
 
     await expect(page).toHaveURL('https://practice.expandtesting.com/register')
@@ -84,9 +85,9 @@ test ('Use short password', async ({page}) =>{
 })
 
 test ('Invalid username', async ({page}) =>{
-    await loginPage.userNameField ({userName: "Aaaa__@!#$"})
-    await loginPage.passwordField ({password: 'Qual1ty!!!'})
-    await loginPage.confirmPasswordField ({confirmedPassword: 'Qual1ty!!!'})
+    await loginPage.userNameField ({userName: testUser.invalidName})
+    await loginPage.passwordField ({password: testUser.password})
+    await loginPage.confirmPasswordField ({confirmedPassword: testUser.password})
     await button.registerBtn()
 
     await expect(page).toHaveURL('https://practice.expandtesting.com/register')
@@ -95,8 +96,8 @@ test ('Invalid username', async ({page}) =>{
 
 test ('Password missmatch', async ({page}) => {
     await loginPage.userNameField ({userName:generateUniqueUsername()})
-    await loginPage.passwordField ({password: 'Qual1ty!!!'})
-    await loginPage.confirmPasswordField ({confirmedPassword: 'Qual1ty!!!wrong'})
+    await loginPage.passwordField ({password: testUser.password})
+    await loginPage.confirmPasswordField ({confirmedPassword: testUser.missmatchedPassword})
     await button.registerBtn()
 
     await expect(page).toHaveURL('https://practice.expandtesting.com/register')

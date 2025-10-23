@@ -1,7 +1,8 @@
 import { test, expect } from '@playwright/test'
 import { LoginPage, Buttons } from './page_objects/objects.js'
-let loginPage
-let button
+import { testUser } from './test_data.js'
+let loginPage: LoginPage
+let button: Buttons
 
 test.beforeEach(async ({ page }) => {
     await page.goto('https://practice.expandtesting.com/login')
@@ -10,8 +11,8 @@ test.beforeEach(async ({ page }) => {
 });
 
 test('Successful login', async ({ page }) => {
-    await loginPage.userNameField({ userName: 'practice' })
-    await loginPage.passwordField({ password: 'SuperSecretPassword!' })
+    await loginPage.userNameField({ userName: testUser.name })
+    await loginPage.passwordField({ password: testUser.password })
     await button.loginBtn()
   
     await expect(page).toHaveURL('https://practice.expandtesting.com/secure')
@@ -26,7 +27,7 @@ test ('Empty credentials login', async ({page}) => {
 })
 
 test ('Empty username login', async ({page}) => {
-    await loginPage.passwordField({ password: 'SuperSecretPassword!' })
+    await loginPage.passwordField({ password: testUser.password})
     await button.loginBtn()
 
     await expect (page.getByRole('alert')).toHaveText('Your username is invalid!')
@@ -34,7 +35,7 @@ test ('Empty username login', async ({page}) => {
 })
 
 test ('Empty password login', async ({page}) => {
-    await loginPage.userNameField({ userName: 'practice' })
+    await loginPage.userNameField({ userName: testUser.name })
     await button.loginBtn()
 
     await expect(page.getByRole('alert')).toHaveText('Your password is invalid!')
@@ -42,7 +43,7 @@ test ('Empty password login', async ({page}) => {
 })
 
 test ('Invalid username login', async ({page}) => {
-    await loginPage.userNameField({ userName: 'invalidusername123' })
+    await loginPage.userNameField({ userName: testUser.invalidName })
     await loginPage.passwordField({ password: 'SuperSecretPassword!' })
     await button.loginBtn()
 
@@ -51,8 +52,8 @@ test ('Invalid username login', async ({page}) => {
 })
 
 test ('Invalid password', async ({page}) => {
-    await loginPage.userNameField({ userName: 'practice' })
-    await loginPage.passwordField({ password: 'invalidpassword!' })
+    await loginPage.userNameField({ userName: testUser.name })
+    await loginPage.passwordField({ password: testUser.invalidPassword })
     await button.loginBtn()
 
     await expect (page.getByRole('alert')).toHaveText('Your password is invalid!')

@@ -5,23 +5,22 @@ export class Buttons {
     this.page=page
     }
 //login button
-loginBtn = async() =>{
+async loginBtn() {
     await this.page.getByRole('button', {name:"Login"}).scrollIntoViewIfNeeded()
-    await this.page.getByRole('button', {name:"Login"}).click()
-    
+    await this.page.getByRole('button', {name:"Login"}).click()    
 };
 //logout button
-logoutBtn = async () => {
+async logoutBtn() {
     await this.page.getByRole('button', {name:"Logout"}).scrollIntoViewIfNeeded()
 };
 //register button
-registerBtn = async () =>{
+async registerBtn() {
     await this.page.getByRole('button', {name:"Register"}).scrollIntoViewIfNeeded()
     await this.page.getByRole('button', {name:"Register"}).waitFor({state:'visible'})
     await this.page.getByRole('button', {name:"Register"}).click()
 };
 //retrive password button
-retrievePasswordBtn = async () =>{
+async retrievePasswordBtn() {
     await this.page.getByRole('button', {name:"Retrieve password"}).scrollIntoViewIfNeeded()
     await this.page.getByRole('button', {name:"Retrieve password"}).click()
 }
@@ -33,11 +32,11 @@ export class LoginPage {
         }
 //user name field
 userNameField = async({userName}) =>{
-    await this.page.getByRole('textbox', {name: "Username"}).fill(userName)
+    await this.page.getByRole('textbox', {name: "Username"}).fill(userName)   
 };
 //password field
 passwordField = async({password}) =>{
-    await this.page.getByRole('textbox', {name:"Password"}).nth(0).scrollIntoViewIfNeeded
+    await this.page.getByRole('textbox', {name:"Password"}).nth(0).scrollIntoViewIfNeeded()
     //await this.page.getByRole('textbox', {name:"Password"}).waitFor({state:'visible'})
     await this.page.getByRole('textbox', {name:"Password"}).nth(0).fill(password)
 };

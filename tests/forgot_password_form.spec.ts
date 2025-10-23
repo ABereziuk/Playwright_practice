@@ -1,9 +1,10 @@
 import { test, expect } from '@playwright/test'
 import { LoginPage, Buttons, Alerts, Errors } from './page_objects/objects.js'
-let loginPage
-let button
-let alerts
-let errors
+import { testUser } from './test_data.js'
+let loginPage: LoginPage
+let button: Buttons
+let alerts: Alerts
+let errors: Errors
 
 test.beforeEach(async ({ page }) => {
     await page.goto('https://practice.expandtesting.com/forgot-password')
@@ -14,7 +15,7 @@ test.beforeEach(async ({ page }) => {
 });
 
 test ('forgot password successful', async ({page}) =>{
-    await loginPage.emailField({email:'test@test.com'})
+    await loginPage.emailField({email: testUser.email})
     await button.retrievePasswordBtn()
 
     await expect(alerts.retrieveAlert()).toHaveText('An e-mail has been sent to you which explains how to reset your password.')
@@ -28,7 +29,7 @@ test ('empty email', async ({page}) => {
 })
 
 test ('invalid email', async ({page}) => {
-    await loginPage.emailField({email:'testtest.com'})
+    await loginPage.emailField({email: testUser.email})
     await button.retrievePasswordBtn()
 
     await expect(errors.inavalidEmailError()).toHaveText('Please enter a valid email address.')
