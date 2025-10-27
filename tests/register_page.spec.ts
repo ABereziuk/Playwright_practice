@@ -26,7 +26,7 @@ test ('Valid registration', async ({page}) => {
     await button.registerBtn()
 
     await expect(page).toHaveURL('https://practice.expandtesting.com/login')
-    await expect(alerts.RegistrationAlert()).toHaveText('Successfully registered, you can log in now.')
+    await expect(alerts.registrationAlert()).toHaveText('Successfully registered, you can log in now.')
 
 })
 
@@ -34,7 +34,7 @@ test ('Empty required fields', async({page}) => {
     await button.registerBtn()
 
     await expect(page).toHaveURL('https://practice.expandtesting.com/register')
-    await expect(alerts.RegistrationAlert()).toHaveText('All fields are required.')
+    await expect(alerts.registrationAlert()).toHaveText('All fields are required.')
 })
 
 test ('Empty user name', async ({page}) =>{
@@ -43,7 +43,7 @@ test ('Empty user name', async ({page}) =>{
     await button.registerBtn()
 
     await expect(page).toHaveURL('https://practice.expandtesting.com/register')
-    await expect(alerts.RegistrationAlert()).toHaveText('All fields are required.')
+    await expect(alerts.registrationAlert()).toHaveText('All fields are required.')
 })
 
 test ('Empty password', async ({page}) => {
@@ -51,7 +51,7 @@ test ('Empty password', async ({page}) => {
     await button.registerBtn()
 
     await expect(page).toHaveURL('https://practice.expandtesting.com/register')
-    await expect(alerts.RegistrationAlert()).toHaveText('All fields are required.')
+    await expect(alerts.registrationAlert()).toHaveText('All fields are required.')
 })
 
 test ('Use short username', async ({page}) => {
@@ -61,7 +61,7 @@ test ('Use short username', async ({page}) => {
     await button.registerBtn()
 
     await expect(page).toHaveURL('https://practice.expandtesting.com/register')
-    await expect(alerts.RegistrationAlert()).toHaveText('Username must be at least 3 characters long.')
+    await expect(alerts.registrationAlert()).toHaveText('Username must be at least 3 characters long.')
 })
 
 test ('Use too long username', async ({page}) => {
@@ -71,7 +71,7 @@ test ('Use too long username', async ({page}) => {
     await button.registerBtn()
 
     await expect(page).toHaveURL('https://practice.expandtesting.com/register')
-    await expect(alerts.RegistrationAlert()).toHaveText('Invalid username. Usernames can only contain lowercase letters, numbers, and single hyphens, must be between 3 and 39 characters, and cannot start or end with a hyphen.')
+    await expect(alerts.registrationAlert()).toHaveText('Invalid username. Usernames can only contain lowercase letters, numbers, and single hyphens, must be between 3 and 39 characters, and cannot start or end with a hyphen.')
 })
 
 test ('Use short password', async ({page}) =>{
@@ -81,7 +81,7 @@ test ('Use short password', async ({page}) =>{
     await button.registerBtn()
 
     await expect(page).toHaveURL('https://practice.expandtesting.com/register')
-    await expect(alerts.RegistrationAlert()).toHaveText('Password must be at least 4 characters long.')
+    await expect(alerts.registrationAlert()).toHaveText('Password must be at least 4 characters long.')
 })
 
 test ('Invalid username', async ({page}) =>{
@@ -91,7 +91,7 @@ test ('Invalid username', async ({page}) =>{
     await button.registerBtn()
 
     await expect(page).toHaveURL('https://practice.expandtesting.com/register')
-    await expect(alerts.RegistrationAlert()).toHaveText('Invalid username. Usernames can only contain lowercase letters, numbers, and single hyphens, must be between 3 and 39 characters, and cannot start or end with a hyphen.')
+    await expect(alerts.registrationAlert()).toHaveText('Invalid username. Usernames can only contain lowercase letters, numbers, and single hyphens, must be between 3 and 39 characters, and cannot start or end with a hyphen.')
 })
 
 test ('Password missmatch', async ({page}) => {
@@ -101,5 +101,5 @@ test ('Password missmatch', async ({page}) => {
     await button.registerBtn()
 
     await expect(page).toHaveURL('https://practice.expandtesting.com/register')
-    await expect(alerts.RegistrationAlert()).toHaveText('Passwords do not match.')
+    await expect(alerts.registrationAlert()).toHaveText('Passwords do not match.')
 })

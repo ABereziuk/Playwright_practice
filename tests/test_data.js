@@ -1,6 +1,4 @@
-export{testUser}
-
-const testUser = {
+export const testUser = {
 email: 'test@test.com',
 name: 'practice',
 password: 'SuperSecretPassword!',
